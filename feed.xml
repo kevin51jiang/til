@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2023-10-29T05:48:39.000+00:00</updated>
+  <updated>2023-10-29T06:02:48.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -15,6 +15,27 @@
   </author>
   <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>https://kevinjiang.ca/til/i-made-a-til/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/i-made-a-til/"/>
+    <published>2023-10-29T01:59:51.000-04:00</published>
+    <updated>2023-10-29T06:02:48.000+00:00</updated>
+    <title>I made a TIL</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  After months of lusting after my own microblogging site for posting random TILs, now I have one! I hope that this will be a way to make the constant rabbit holes I go down at least somewhat productive, even if only for other people.
+</p>
+<p>
+  I’m taking <a href="https://github.com/leebyron/til" target="_blank">Lee Byron’s template</a>, which is great for me because it’s not overly complex, and relies upon JS rather than Python.
+</p>
+<p>
+  I hope to actually post at last a few sentences daily from now on. Cheers!
+</p>]]></content>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>https://kevinjiang.ca/til/what-the/</id>
     <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/what-the/"/>
