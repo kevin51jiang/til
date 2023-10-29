@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-  <id>https://leebyron.com/til/feed.xml</id>
-  <link rel="self" type="application/atom+xml" href="https://leebyron.com/til/feed.xml"/>
-  <link rel="alternate" type="text/html" href="https://leebyron.com/til/"/>
+  <id>https://kevinjiang.ca/til/feed.xml</id>
+  <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
   <updated>2023-10-10T19:20:45.000+00:00</updated>
-  <title>Lee Byron / til</title>
+  <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
   </subtitle>
-  <icon>https://leebyron.com/til/assets/favicon.png</icon>
+  <icon>https://kevinjiang.ca/til/assets/favicon.png</icon>
   <author>
-    <name>Lee Byron</name>
-    <uri>https://leebyron.com</uri>
+    <name>Kevin Jiang</name>
+    <uri>https://kevinjiang.ca</uri>
   </author>
-  <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
-  <generator uri="https://github.com/leebyron/til">til</generator>
+  <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  <generator uri="https://github.com/kevin51jiang/til">til</generator>
   <entry>
-    <id>https://leebyron.com/til/pace-layers/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/pace-layers/"/>
+    <id>https://kevinjiang.ca/til/pace-layers/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/pace-layers/"/>
     <published>2023-10-10T11:51:58.000-07:00</published>
     <updated>2023-10-10T19:20:45.000+00:00</updated>
     <title>pace layers</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="design"/>
     <content type="html"><![CDATA[<p>
@@ -60,17 +60,17 @@
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/intent/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/intent/"/>
+    <id>https://kevinjiang.ca/til/intent/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/intent/"/>
     <published>2023-07-24T12:02:27.000-07:00</published>
     <updated>2023-07-31T18:18:17.000+00:00</updated>
     <title>radiate intent</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="leadership"/>
     <content type="html"><![CDATA[<blockquote>
@@ -172,17 +172,17 @@
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/inverse-conway/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/inverse-conway/"/>
+    <id>https://kevinjiang.ca/til/inverse-conway/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/inverse-conway/"/>
     <published>2023-07-19T14:36:51.000-07:00</published>
     <updated>2023-07-19T22:38:05.000+00:00</updated>
     <title>inverse conway</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="engineering"/>
     <category term="management"/>
@@ -213,17 +213,17 @@
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/torus/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/torus/"/>
+    <id>https://kevinjiang.ca/til/torus/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/torus/"/>
     <published>2023-05-17T11:30:27.000-07:00</published>
     <updated>2023-05-17T19:04:56.000+00:00</updated>
     <title>torus</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="math"/>
     <content type="html"><![CDATA[<p>
@@ -263,17 +263,17 @@
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/contrails/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/contrails/"/>
+    <id>https://kevinjiang.ca/til/contrails/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/contrails/"/>
     <published>2023-02-27T11:40:15.000-08:00</published>
     <updated>2023-02-27T21:44:10.000+00:00</updated>
     <title>contrails</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="climate"/>
     <content type="html"><![CDATA[<p>
@@ -301,17 +301,17 @@
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/four-thousand-weeks/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/four-thousand-weeks/"/>
+    <id>https://kevinjiang.ca/til/four-thousand-weeks/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/four-thousand-weeks/"/>
     <published>2023-01-14T16:27:26.000-08:00</published>
     <updated>2023-01-15T19:34:52.000+00:00</updated>
     <title>four thousand weeks</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="philosophy"/>
     <content type="html"><![CDATA[<p>
@@ -333,17 +333,19 @@
     </p>
   </figure>
 </a>]]></content>
-    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/dont-escape-full-screen/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/dont-escape-full-screen/"/>
+    <id>
+      https://kevinjiang.ca/til/dont-escape-full-screen/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/dont-escape-full-screen/"/>
     <published>2022-11-28T11:51:17.000-08:00</published>
     <updated>2022-11-28T20:02:31.000+00:00</updated>
     <title>don't escape full screen</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <content type="html"><![CDATA[<p>
   I prefer small laptops and tidy screens, so keep most of my apps in full screen mode on my Mac. Lots of these apps, especially browsers, may have modals, forms, or other elements I need my Esc key to control. If I overzealously hit Esc one times too many, my window leaves full screen.
@@ -367,17 +369,17 @@
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/notunes/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/notunes/"/>
+    <id>https://kevinjiang.ca/til/notunes/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/notunes/"/>
     <published>2022-09-14T13:48:45.000-07:00</published>
     <updated>2022-09-14T20:57:26.000+00:00</updated>
     <title>noTunes</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -391,17 +393,17 @@
 </p>
 <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">brew install --cask notunes</span>
 </span></code></pre>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/brewfile/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/brewfile/"/>
+    <id>https://kevinjiang.ca/til/brewfile/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/brewfile/"/>
     <published>2022-09-13T15:47:21.000-07:00</published>
     <updated>2022-09-13T23:04:23.000+00:00</updated>
     <title>Brewfile</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -431,17 +433,17 @@
 <p>
   For personal machines, this has been much more simple and useable than Vagrant, Ansible, or other more professional environment management tool.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/autosetupremote/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/autosetupremote/"/>
+    <id>https://kevinjiang.ca/til/autosetupremote/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/autosetupremote/"/>
     <published>2022-08-20T20:53:16.000-07:00</published>
     <updated>2022-08-21T04:53:45.000+00:00</updated>
     <title>autoSetupRemote</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="git"/>
     <content type="html"><![CDATA[<p>
@@ -461,17 +463,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   This allows a simple <code>git push</code> to automatically create remote branches to match.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/time-impact-of-kids/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/time-impact-of-kids/"/>
+    <id>https://kevinjiang.ca/til/time-impact-of-kids/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/time-impact-of-kids/"/>
     <published>2022-08-12T09:39:04.000-07:00</published>
     <updated>2022-08-12T18:25:56.000+00:00</updated>
     <title>time impact of kids</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="parenthood"/>
     <content type="html"><![CDATA[<p>
@@ -588,17 +590,17 @@ To push the current branch and set the remote as upstream, use
     </tbody>
   </table>
 </div>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/meetingbar/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/meetingbar/"/>
+    <id>https://kevinjiang.ca/til/meetingbar/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/meetingbar/"/>
     <published>2022-02-11T23:08:10.000-08:00</published>
     <updated>2022-02-12T07:24:31.000+00:00</updated>
     <title>meetingbar</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -615,17 +617,17 @@ To push the current branch and set the remote as upstream, use
 </p>
 <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">brew install meetingbar</span>
 </span></code></pre>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/smooth-scrolling/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/smooth-scrolling/"/>
+    <id>https://kevinjiang.ca/til/smooth-scrolling/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/smooth-scrolling/"/>
     <published>2022-01-30T21:27:10.000-08:00</published>
     <updated>2022-01-31T05:37:08.000+00:00</updated>
     <title>smooth scrolling</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="css"/>
     <content type="html"><![CDATA[<p>
@@ -647,17 +649,17 @@ To push the current branch and set the remote as upstream, use
 </span><span data-line="4"><span style="color:#C2C3C5;">// Smooth way</span>
 </span><span data-line="5"><span style="color:#1976D2;">window</span><span style="color:#6F42C1;">.scrollTo</span><span style="color:#24292EFF;">({ top</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">100</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> behavior</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">'smooth'</span><span style="color:#24292EFF;"> })</span>
 </span></code></pre>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/community-git-aliases/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/community-git-aliases/"/>
+    <id>https://kevinjiang.ca/til/community-git-aliases/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/community-git-aliases/"/>
     <published>2022-01-28T22:18:48.000-08:00</published>
     <updated>2022-01-29T07:11:01.000+00:00</updated>
     <title>community git aliases</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="git"/>
     <content type="html"><![CDATA[<p>
@@ -749,17 +751,17 @@ To push the current branch and set the remote as upstream, use
 </span><span data-line="81"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fzrs</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!git diff --name-only --staged | fzf --print0 -m --preview 'git diff {}' --preview-window=top:10:wrap | xargs -0 -t -o git restore --staged&quot;</span>
 </span><span data-line="82"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">ffix</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !</span><span style="color:#D32F2F;">HASH=</span><span style="color:#24292EFF;">`git log --</span><span style="color:#D32F2F;">pretty=</span><span style="color:#24292EFF;">oneline | head -n 100 | fzf` &amp;&amp; git fixit `echo ${HASH} | awk </span><span style="color:#22863A;">'{ print $1 }'</span><span style="color:#24292EFF;">`</span>
 </span></code></pre>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/git-alias/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/git-alias/"/>
+    <id>https://kevinjiang.ca/til/git-alias/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/git-alias/"/>
     <published>2022-01-27T22:54:58.000-08:00</published>
     <updated>2022-01-28T07:21:21.000+00:00</updated>
     <title>git alias</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="git"/>
     <content type="html"><![CDATA[<p>
@@ -794,17 +796,17 @@ To push the current branch and set the remote as upstream, use
 </p>
 <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">git config --global alias.fixup </span><span style="color:#22863A;">'!f() { TARGET=$(git rev-parse &quot;$1&quot;); git commit --fixup=$TARGET ${@:2} &amp;&amp; EDITOR=true git rebase -i --autostash --autosquash $TARGET^; }; f'</span>
 </span></code></pre>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/vim-time-travel/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/vim-time-travel/"/>
+    <id>https://kevinjiang.ca/til/vim-time-travel/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/vim-time-travel/"/>
     <published>2022-01-26T22:35:11.000-08:00</published>
     <updated>2022-01-27T06:54:25.000+00:00</updated>
     <title>vim time travel</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="vim"/>
     <content type="html"><![CDATA[<p>
@@ -841,17 +843,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/numeric-string-type/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/numeric-string-type/"/>
+    <id>https://kevinjiang.ca/til/numeric-string-type/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/numeric-string-type/"/>
     <published>2022-01-26T22:23:26.000-08:00</published>
     <updated>2022-01-27T06:34:45.000+00:00</updated>
     <title>numeric string type</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="typescript"/>
     <content type="html"><![CDATA[<p>
@@ -868,17 +870,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   This is particularly helpful in describing API payloads which include numeric strings instead of numbers to represent numeric values which need to be exact or support high precision (and avoid floating point rounding errors) such as currencies.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/opaque-types/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/opaque-types/"/>
+    <id>https://kevinjiang.ca/til/opaque-types/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/opaque-types/"/>
     <published>2022-01-25T22:09:05.000-08:00</published>
     <updated>2022-08-21T04:52:11.000+00:00</updated>
     <title>opaque types</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="typescript"/>
     <content type="html"><![CDATA[<p>
@@ -992,17 +994,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/staff-eng-archetypes/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/staff-eng-archetypes/"/>
+    <id>https://kevinjiang.ca/til/staff-eng-archetypes/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/staff-eng-archetypes/"/>
     <published>2022-01-24T21:35:13.000-08:00</published>
     <updated>2022-01-26T07:13:12.000+00:00</updated>
     <title>staff eng archetypes</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="management"/>
     <content type="html"><![CDATA[<p>
@@ -1132,17 +1134,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/ikigai/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/ikigai/"/>
+    <id>https://kevinjiang.ca/til/ikigai/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/ikigai/"/>
     <published>2022-01-23T11:31:22.000-08:00</published>
     <updated>2023-07-24T16:57:58.000+00:00</updated>
     <title>ikigai</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="career"/>
     <content type="html"><![CDATA[<p>
@@ -1211,19 +1213,19 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
     <id>
-      https://leebyron.com/til/multi-purpose-modifier-keys/
+      https://kevinjiang.ca/til/multi-purpose-modifier-keys/
     </id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/multi-purpose-modifier-keys/"/>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/multi-purpose-modifier-keys/"/>
     <published>2022-01-22T22:19:43.000-08:00</published>
     <updated>2022-01-23T06:48:43.000+00:00</updated>
     <title>multi-purpose modifier keys</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="keyboards"/>
     <content type="html"><![CDATA[<p>
@@ -1259,17 +1261,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   Also, this works both ways! Not only can you provide a behavior for pressing modifier keys on their own, but also consider making a typical key a modifier when held. As an example, I map the return key to behave as “right control” when held.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/ripgrep/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/ripgrep/"/>
+    <id>https://kevinjiang.ca/til/ripgrep/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/ripgrep/"/>
     <published>2022-01-21T22:24:50.000-08:00</published>
     <updated>2022-01-22T06:47:44.000+00:00</updated>
     <title>r.i.p. grep</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="terminal"/>
     <content type="html"><![CDATA[<p>
@@ -1302,17 +1304,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/bat-a-cat-with-wings/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/bat-a-cat-with-wings/"/>
+    <id>https://kevinjiang.ca/til/bat-a-cat-with-wings/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/bat-a-cat-with-wings/"/>
     <published>2022-01-20T23:42:20.000-08:00</published>
     <updated>2022-01-21T08:53:04.000+00:00</updated>
     <title>bat, a cat with wings</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="terminal"/>
     <content type="html"><![CDATA[<p>
@@ -1341,17 +1343,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   One more thing. Combine <code>bat</code> with <code>prettier</code> as <a href="https://github.com/eth-p/bat-extras/blob/master/doc/prettybat.md" target="_blank"><code>prettybat</code></a>, or with <code>man</code> as <a href="https://github.com/eth-p/bat-extras/blob/master/doc/batman.md" target="_blank"><code>batman</code></a>, a few of many bonus tools that comes with <a href="https://github.com/eth-p/bat-extras/blob/master/README.md#installation" target="_blank"><code>bat-extras</code></a>.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/launch-control/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/launch-control/"/>
+    <id>https://kevinjiang.ca/til/launch-control/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/launch-control/"/>
     <published>2022-01-19T23:07:38.000-08:00</published>
     <updated>2022-01-20T08:00:22.000+00:00</updated>
     <title>launch control</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -1398,19 +1400,19 @@ To push the current branch and set the remote as upstream, use
 </p>
 <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">launchctl bootout gui/500/ </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/Library/LaunchAgents/com.leebyron.website-agent.plist</span>
 </span></code></pre>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
     <id>
-      https://leebyron.com/til/type-unicode-from-the-keyboard/
+      https://kevinjiang.ca/til/type-unicode-from-the-keyboard/
     </id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/type-unicode-from-the-keyboard/"/>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/type-unicode-from-the-keyboard/"/>
     <published>2022-01-18T23:14:26.000-08:00</published>
     <updated>2022-01-19T08:31:54.000+00:00</updated>
     <title>type unicode from the keyboard</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <category term="keyboard"/>
@@ -1432,17 +1434,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   For example holding ⌥ and typing <code>d83ddcbe</code>: 💾
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/command-z-in-vim/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/command-z-in-vim/"/>
+    <id>https://kevinjiang.ca/til/command-z-in-vim/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/command-z-in-vim/"/>
     <published>2022-01-17T22:46:57.000-08:00</published>
     <updated>2022-01-19T08:32:44.000+00:00</updated>
     <title>command-z in vim</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="vim"/>
     <content type="html"><![CDATA[<p>
@@ -1471,17 +1473,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   Now within the terminal, hitting Command-Z (Undo) will map to Meta-U, which will perform Undo in Vim.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/enable-key-repeat/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/enable-key-repeat/"/>
+    <id>https://kevinjiang.ca/til/enable-key-repeat/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/enable-key-repeat/"/>
     <published>2022-01-16T23:09:29.000-08:00</published>
     <updated>2022-01-17T08:00:46.000+00:00</updated>
     <title>enable key repeat</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -1503,17 +1505,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   <em>I learned this TIL recently from <a href="https://twitter.com/rsms" target="_blank">@rsms</a> care of his excellent <a href="https://gist.github.com/rsms/fb463396c95ad8d9efa338a8050a01dc" target="_blank">macOS Fixes</a> doc.</em>
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/remap-caps-lock/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/remap-caps-lock/"/>
+    <id>https://kevinjiang.ca/til/remap-caps-lock/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/remap-caps-lock/"/>
     <published>2022-01-15T20:41:11.000-08:00</published>
     <updated>2022-01-16T04:49:14.000+00:00</updated>
     <title>remap caps lock</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -1535,17 +1537,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/mac-find-buffer/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/mac-find-buffer/"/>
+    <id>https://kevinjiang.ca/til/mac-find-buffer/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/mac-find-buffer/"/>
     <published>2022-01-14T22:25:32.000-08:00</published>
     <updated>2022-01-15T06:36:45.000+00:00</updated>
     <title>mac find buffer</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -1563,17 +1565,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   This works in Safari, Chrome, TextEdit, Notes, VSCode, Terminal (but not iTerm), and most other places you work with text in macOS.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/remove-mac-desktop/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/remove-mac-desktop/"/>
+    <id>https://kevinjiang.ca/til/remove-mac-desktop/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/remove-mac-desktop/"/>
     <published>2022-01-13T21:32:26.000-08:00</published>
     <updated>2022-01-14T07:31:43.000+00:00</updated>
     <title>how to remove the mac desktop</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -1627,17 +1629,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/mac-screenshot/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/mac-screenshot/"/>
+    <id>https://kevinjiang.ca/til/mac-screenshot/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/mac-screenshot/"/>
     <published>2022-01-13T17:39:49.000-08:00</published>
     <updated>2022-01-14T18:12:04.000+00:00</updated>
     <title>mac screenshot</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="mac"/>
     <content type="html"><![CDATA[<p>
@@ -1704,17 +1706,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/leap/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/leap/"/>
+    <id>https://kevinjiang.ca/til/leap/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/leap/"/>
     <published>2022-01-12T20:01:10.000-08:00</published>
     <updated>2023-07-24T16:57:58.000+00:00</updated>
     <title>leap®</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="keyboards"/>
     <content type="html"><![CDATA[<p>
@@ -1858,19 +1860,19 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
     <id>
-      https://leebyron.com/til/meta-tags-and-the-semantic-web/
+      https://kevinjiang.ca/til/meta-tags-and-the-semantic-web/
     </id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/meta-tags-and-the-semantic-web/"/>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/meta-tags-and-the-semantic-web/"/>
     <published>2022-01-11T22:53:30.000-08:00</published>
     <updated>2023-07-24T16:57:58.000+00:00</updated>
     <title>meta tags &amp; the semantic web</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="web"/>
     <content type="html"><![CDATA[<p>
@@ -1963,17 +1965,17 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/by-rss-you-mean-atom/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/by-rss-you-mean-atom/"/>
+    <id>https://kevinjiang.ca/til/by-rss-you-mean-atom/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/by-rss-you-mean-atom/"/>
     <published>2022-01-10T21:50:17.000-08:00</published>
     <updated>2022-01-12T08:47:25.000+00:00</updated>
     <title>by RSS you mean Atom</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="til"/>
     <content type="html"><![CDATA[<p>
@@ -1991,17 +1993,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   In fact, even this site <a href="https://leebyron.com/til/feed.xml" target="_blank">has one</a>! Consider subscribing with <a href="https://netnewswire.com/" target="_blank">NetNewsWire</a>, an open source feed reader.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/ascii-table/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/ascii-table/"/>
+    <id>https://kevinjiang.ca/til/ascii-table/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/ascii-table/"/>
     <published>2022-01-09T23:49:50.000-08:00</published>
     <updated>2023-07-24T16:57:58.000+00:00</updated>
     <title>ascii table</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <content type="html"><![CDATA[<p>
   The <a href="https://en.wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> 7-bit character encoding is ubiquitous<a href="#fn:actually-utf8" id="fn:actually-utf8.ref" data-footnote-ref aria-label="note"><sup>1</sup></a> and foundational to how computers talk to each other. It has an absolutely fascinating history that dates surprisingly far back. The ASCII standard started in 1963, and was iterated until 1986. ASCII was based on ITA2, a telegraph standard from 1924, which itself derived from <a href="https://en.wikipedia.org/wiki/Baudot_code" target="_blank">Baudot code</a> from 1870—literally the beginning of digital communication (the namesake for “baud” speed).
@@ -2048,19 +2050,19 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
     <id>
-      https://leebyron.com/til/setup-a-simple-screencast/
+      https://kevinjiang.ca/til/setup-a-simple-screencast/
     </id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/setup-a-simple-screencast/"/>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/setup-a-simple-screencast/"/>
     <published>2022-01-07T22:35:43.000-08:00</published>
     <updated>2022-01-12T08:47:25.000+00:00</updated>
     <title>setup a simple screencast</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <content type="html"><![CDATA[<p>
   There’s plenty of good software out there for screencasting, but if you’re in a pinch Quicktime Player does a solid job with a bit of prep.
@@ -2124,17 +2126,17 @@ To push the current branch and set the remote as upstream, use
 <div class="yt-player" style="--aspectRatio:1.7777777777777777;">
   <iframe src="https://www.youtube.com/embed/iJn9kZw-hw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/markdown-footnotes/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/markdown-footnotes/"/>
+    <id>https://kevinjiang.ca/til/markdown-footnotes/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/markdown-footnotes/"/>
     <published>2022-01-06T22:58:33.000-08:00</published>
     <updated>2023-07-24T16:57:58.000+00:00</updated>
     <title>markdown footnotes</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="markdown"/>
     <content type="html"><![CDATA[<p>
@@ -2168,19 +2170,19 @@ To push the current branch and set the remote as upstream, use
     </li>
   </ol>
 </section>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
     <id>
-      https://leebyron.com/til/markdown-link-references/
+      https://kevinjiang.ca/til/markdown-link-references/
     </id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/markdown-link-references/"/>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/markdown-link-references/"/>
     <published>2022-01-05T10:40:18.000-08:00</published>
     <updated>2022-01-07T21:34:42.000+00:00</updated>
     <title>markdown link references</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="markdown"/>
     <content type="html"><![CDATA[<p>
@@ -2215,17 +2217,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   <img src="https://uploads4.wikiart.org/images/m-c-escher/bond-of-union.jpg" title="Bond of Union, M.C. Escher 1956" alt="moebius">
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/how-to-rearrange-bits/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/how-to-rearrange-bits/"/>
+    <id>https://kevinjiang.ca/til/how-to-rearrange-bits/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/how-to-rearrange-bits/"/>
     <published>2022-01-04T00:58:22.000-08:00</published>
     <updated>2022-01-12T08:47:25.000+00:00</updated>
     <title>how to rearrange bits</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <content type="html"><![CDATA[<p>
   If you have a bit-powered display where the elements don’t align to the bits in the byte, you may want to remap bits from the source byte to the destination byte. Manually writing a bunch of shifts is frustrating, and I found a great tool which writes this code for you!
@@ -2236,17 +2238,17 @@ To push the current branch and set the remote as upstream, use
 <p>
   I just used this to map sprite binary data to Unicode <a href="https://www.fileformat.info/info/unicode/block/braille_patterns/list.htm" target="_blank">braille patterns</a>. The 8 dots in a braille pattern can map to a byte, but perhaps not in the order you expect.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
   <entry>
-    <id>https://leebyron.com/til/changing-a-word-in-vim/</id>
-    <link rel="alternate" type="text/html" href="https://leebyron.com/til/changing-a-word-in-vim/"/>
+    <id>https://kevinjiang.ca/til/changing-a-word-in-vim/</id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/changing-a-word-in-vim/"/>
     <published>2022-01-03T16:34:57.000-08:00</published>
     <updated>2022-01-12T08:47:25.000+00:00</updated>
     <title>changing a word in vim</title>
     <author>
-      <name>Lee Byron</name>
-      <uri>https://leebyron.com</uri>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
     </author>
     <category term="vim"/>
     <content type="html"><![CDATA[<p>
@@ -2262,6 +2264,6 @@ To push the current branch and set the remote as upstream, use
 <p>
   Changing the whole line (but keeping the indentation) is simply <code>cc</code>.
 </p>]]></content>
-    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+    <rights>© 2022 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   </entry>
 </feed>
