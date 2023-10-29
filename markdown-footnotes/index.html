@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>til / markdown footnotes — Lee Byron</title>
+    <meta property="og:url" content="https://leebyron.com/til/markdown-footnotes/">
+    <meta property="og:title" content="til / markdown footnotes — Lee Byron">
+    <meta property="og:description" content="Much like markdown link references, footnotes are defined in one place and referenced in another, but it doesn’t matter where the footnote is defined, they’ll always be collected at the end of the document in the order in which they are referenced.">
+    <meta property="og:type" content="article">
+    <meta property="article:author:first_name" content="Lee">
+    <meta property="article:author:last_name" content="Byron">
+    <meta property="article:published_time" content="2022-01-06T22:58:33.000-08:00">
+    <meta property="article:modified_time" content="2023-07-24T16:57:58.000+00:00">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@leeb">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "name": "markdown footnotes",
+  "description": "Much like markdown link references, footnotes are defined in one place and referenced in another, but it doesn’t matter where the footnote is defined, they’ll always be collected at the end of the document in the order in which they are referenced.",
+  "author": {
+    "@type": "Person",
+    "name": "Lee Byron",
+    "url": "https://leebyron.com"
+  },
+  "url": "https://leebyron.com/til/markdown-footnotes/",
+  "datePublished": "2022-01-06T22:58:33.000-08:00",
+  "dateModified": "2023-07-24T16:57:58.000+00:00",
+  "keywords": "markdown",
+  "isPartOf": "https://leebyron.com/til/",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://leebyron.com/til/markdown-footnotes/">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Reader Feed" href="https://leebyron.com/til/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61714711-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-61714711-1');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="https://leebyron.com"><img src="../assets/logo.svg" alt="Lee Byron"></a>
+    </header>
+    <article>
+      <h1>
+        <a href="../">til</a><span>markdown footnotes</span>
+      </h1>
+      <p>
+        Much like <a href="../markdown-link-references">markdown link references</a>, footnotes are defined in one place and referenced in another, but it doesn’t matter where the footnote is defined, they’ll always be collected at the end of the document in the order in which they are referenced<a href="#fn:a-note" id="fn:a-note.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+      </p>
+      <p>
+        Footnotes are created similar to shortcut reference links, but the identifier starts with a <code>^</code>.
+      </p>
+      <pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">order in which they are referenced[</span><span style="color:#D32F2F;">^a-note</span><span style="color:#24292EFF;">].</span>
+</span></code></pre>
+      <p>
+        A footnote definition is formatted exactly like link reference definitions<a href="#fn:needs-cr" id="fn:needs-cr.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>: in a box followed by a comma.
+      </p>
+      <pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">[</span><span style="color:#D32F2F;">^a-note</span><span style="color:#24292EFF;">]: Despite footnotes appearing numbered, the identifier can be any text.</span>
+</span><span data-line="2"><span style="color:#24292EFF;">This is helpful if you may add more notes later and don't want to be bothered to</span>
+</span><span data-line="3"><span style="color:#24292EFF;">reorder them.</span>
+</span></code></pre>
+      <section data-footnotes aria-label="footnotes">
+        <ol>
+          <li id="fn:a-note">
+            <p>
+              Despite footnotes appearing numbered, the identifier can be any text. This is helpful if you may add more notes later and don’t want to be bothered to reorder them.
+            </p>
+            <a href="#fn:a-note.ref" data-footnote-backref aria-label="return">↩</a>
+          </li>
+          <li id="fn:needs-cr">
+            <p>
+              Unlike a link reference definition, a footnote definition needs an empty line immediately after it, otherwise content from multiple lines is joined into a single paragraph.
+            </p>
+            <a href="#fn:needs-cr.ref" data-footnote-backref aria-label="return">↩</a>
+          </li>
+        </ol>
+      </section>
+    </article>
+    <footer>
+      <div class="linkedlist">
+        <a href="../markdown-link-references/" class="prev">markdown link references</a><a href="../setup-a-simple-screencast/" class="next">setup a simple screencast</a>
+      </div>
+      <div class="license" xmlns:cc="http://creativecommons.org/ns" xmlns:dct="http://purl.org/dc/terms/">
+        This <a property="dct:title" rel="cc:attributionURL" href="https://leebyron.com/til/markdown-footnotes/">til</a> was created <span property="dct:created" content="2022-01-06T22:58:33.000-08:00">Thu, Jan 6, 2022, 10:58 PM</span> ⸱ <a href="https://raw.githubusercontent.com/leebyron/til/main/entries/markdown%20footnotes.md" target="_blank">raw</a> ⸱ <a href="https://github.com/leebyron/til/edit/main/entries/markdown%20footnotes.md#L8" target="_blank">edit</a><br>© <span rel="dct:dateCopyrighted">2022</span> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://leebyron.com">Lee Byron</a> ⸱ licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="cc:license license noopener noreferrer">CC BY 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true"></a> ⸱ <a href="https://leebyron.com/til/feed.xml" rel="alternate feed" type="application/atom+xml">feed</a>
+      </div>
+    </footer>
+  </body>
+</html>

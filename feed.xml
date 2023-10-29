@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
+  <id>https://leebyron.com/til/feed.xml</id>
+  <link rel="self" type="application/atom+xml" href="https://leebyron.com/til/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://leebyron.com/til/"/>
+  <updated>2023-10-10T19:20:45.000+00:00</updated>
+  <title>Lee Byron / til</title>
+  <subtitle>
+    Things I've Learned: brief blurbs on miscellaneous matter.
+  </subtitle>
+  <icon>https://leebyron.com/til/assets/favicon.png</icon>
+  <author>
+    <name>Lee Byron</name>
+    <uri>https://leebyron.com</uri>
+  </author>
+  <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  <generator uri="https://github.com/leebyron/til">til</generator>
+  <entry>
+    <id>https://leebyron.com/til/pace-layers/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/pace-layers/"/>
+    <published>2023-10-10T11:51:58.000-07:00</published>
+    <updated>2023-10-10T19:20:45.000+00:00</updated>
+    <title>pace layers</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="design"/>
+    <content type="html"><![CDATA[<p>
+  Stewart Brand<a href="#fn:1" id="fn:1.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>, in his book The Clock of Long Now, described the concept of pace layers: that within a society different groups move at different speeds. The relationship between layers creates both internal tension and desirable systemic effects, allowing for society to innovate and disrupt while simultaneously providing consistency and stability.
+</p>
+<p>
+  <img src="../media/76b976f9e5a85ece.jpg" alt="pace_layering">
+</p>
+<p>
+  This is a mental model and framework for understanding society at large, but applies equally well for many large dynamic systems of people, software, architecture, and nature. Faster layers tend to be at the visible surface and change discontinuously, innovating when faced with new input. Slower layers are more powerful, integrating and codifying lessons from faster layers while providing inertial continuity that constrains them.
+</p>
+<p>
+  <img src="../media/9cd64fbfb36b5e1f.jpg" alt="pace_layers-slide2">
+</p>
+<p>
+  When struggling to weigh fast with slow, balancing allowing change with providing continuity, consider how Pace Layers can help you think about the system you’re working within.
+</p>
+<p>
+  To change is to lose identity; yet to change is to be alive<a href="#fn:2" id="fn:2.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>
+        <a href="https://en.wikipedia.org/wiki/Stewart_Brand" target="_blank">Stewart Brand</a> is an overall fascinating and polarizing person. 1960s San Francisco counter-culture leader, editor of the Whole Earth Catalog, president of the Long Now Foundation, and friend of Douglas Engelbart, Steve Jobs, Buckminster Fuller, and Brian Eno.
+      </p>
+      <a href="#fn:1.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:2">
+      <p>
+        This and many other great moments from Brand’s <a href="https://longnow.org/ideas/pace-layers-stewart-brand-paul-saffos-conversations-at-the-interval/" target="_blank">lecture</a> at The Long Now’s Interval.
+      </p>
+      <a href="#fn:2.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/intent/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/intent/"/>
+    <published>2023-07-24T12:02:27.000-07:00</published>
+    <updated>2023-07-31T18:18:17.000+00:00</updated>
+    <title>radiate intent</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="leadership"/>
+    <content type="html"><![CDATA[<blockquote>
+  <p>
+    It’s easier to ask forgiveness than it is to get permission.<br>— Grace Hopper<a href="#fn:1" id="fn:1.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>
+  </p>
+</blockquote>
+<p>
+  This is classic advice when operating in a large organization. There’s a problem to be solved, you have a bold solution in mind and everything necessary to take action, but there will be very real costs felt broadly. You think the tradeoff is worth it, but will your team or higher-ups agree?
+</p>
+<p>
+  You might assume you need permission to incur the costs, but you likely have the best information on the decision. If it’s a good idea, <em>go ahead and do it</em>. Grace Hopper encouraged doing the right thing whether or not your higher-ups know it to be. If you’re wrong or get flak for the costs: ask forgiveness; you acted in good faith.
+</p>
+<p>
+  This good advice is missing one critical thing: <em>radiating intent</em><a href="#fn:2" id="fn:2.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>.
+</p>
+<p>
+  <img src="../media/222f597868763d3e.svg" alt="intention is telling not asking">
+</p>
+<p>
+  Rather than shifting from permission before to forgiveness after, shift from asking permission to telling as many as you can about your intention. Radiate it loudly and clearly before you act so that no one will be surprised.
+</p>
+<p>
+  Elizabeth Ayer, in her <a href="https://medium.com/@ElizAyer/dont-ask-forgiveness-radiate-intent-d36fd22393a3" target="_blank">excellent article</a> on radiating intent explains why it’s superior to asking forgiveness (which I’ve editorialized):
+</p>
+<ol start="1">
+  <li>
+    <p>
+      Invites participation from those with critical info or a desire to help.
+    </p>
+  </li>
+  <li>
+    <p>
+      If wrong it gives a chance for someone to stop you without leaving you waiting to begin. You control the timeline.
+    </p>
+  </li>
+  <li>
+    <p>
+      Leaves evidence of good faith. Better to be known as predictable than underhanded.
+    </p>
+  </li>
+  <li>
+    <p>
+      Keep responsibility and own the outcome, good or bad. Doesn’t transfer blame (or credit) as asking permission does.
+    </p>
+  </li>
+  <li>
+    <p>
+      Sets the example that bold action is encouraged from everyone, not just higher-ups.
+    </p>
+  </li>
+</ol>
+<p>
+  If it’s a good idea, go ahead and do it. Say loudly what you are doing along the way. <em>Radiate intent!</em>
+</p>
+<h2 id="how-to-radiate-intent">
+  <a href="#how-to-radiate-intent" data-anchor>How to radiate intent</a>
+</h2>
+<ul>
+  <li>
+    <p>
+      <strong>Write it down.</strong> Start with a short description of what you intend to do, and why. Don’t bury the lede. Expand your thinking from there: document assumptions, options and trade-offs. This will help you communicate clearly, create a single source of truth, and avoid repeating yourself.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Make timelines clear.</strong> When do you plan to begin? Are there significant milestones worth noting? If others want to participate they need to know when. If there is urgency, make it known.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Share visibly and broadly.</strong> Start in whatever channel your team uses most. Share in the channels your stakeholders use. If you’re in a smaller organization, just send it to everyone. As you share ask “who else should know about this?”
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Share often.</strong> Share when you decide on your intention. Share a reminder. Share when you begin. Share when you reach milestones. Share when you complete. Share outcomes and lessons learned (and only then might you ask forgiveness!)
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Scale volume with impact.</strong> Radiating intent matters most when those around you will be impacted most. Share broader and more frequently in situations that demand it, and narrower otherwise.
+    </p>
+  </li>
+</ul>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>
+        This advice as quoted was popularized by all around badass Grace Hopper. However various forms <a href="https://quoteinvestigator.com/2018/06/19/forgive/" target="_blank">have been cited</a>, back as far as St. Benedict in 500 AD. Likely some form of it has existed as long as there has been organized human society.
+      </p>
+      <a href="#fn:1.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:2">
+      <p>
+        This idea of clearly stating intent was popularized by L. David Marquet who in his book <a href="https://www.amazon.com/Turn-Ship-Around-Turning-Followers/dp/1591846404/" target="_blank">“Turn the Ship Around!”</a> suggests that giving intent, not instructions, gives control and creates leaders.
+      </p>
+      <a href="#fn:2.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/inverse-conway/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/inverse-conway/"/>
+    <published>2023-07-19T14:36:51.000-07:00</published>
+    <updated>2023-07-19T22:38:05.000+00:00</updated>
+    <title>inverse conway</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="engineering"/>
+    <category term="management"/>
+    <content type="html"><![CDATA[<p>
+  <a href="http://www.melconway.com/Home/Conways_Law.html" target="_blank">Conway’s law</a> is an expression coined by computer scientist Melvin Conway as an observation that companies tend to design software in a way which directly mirrors their organization and communication structures.
+</p>
+<blockquote>
+  <p>
+    Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization’s communication structure.
+  </p>
+  <p>
+    — Melvin Conway (1967)
+  </p>
+</blockquote>
+<p>
+  This is often used as an observation of poor software quality. Overly complex and disconnected software corresponds with similarly dysfunctional organizations.
+</p>
+<p>
+  However the <em>inverse</em> can be a useful tool when building organizations when you can do so downwind of a desired saliently designed system, and thus use the resulting org structure to accelerate towards the desired architecture. In doing so, you ensure your organization best serves the users of the system (presumably, your customers) rather than being self-serving<a href="#fn:1" id="fn:1.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>
+        It might seem reasonable to want your org design to serve yourself, but this is a form of <a href="https://en.wikipedia.org/wiki/Muda_(Japanese_term)" target="_blank">Muda</a>, or a way to define “waste” as inefficiencies in serving customer value.
+      </p>
+      <a href="#fn:1.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/torus/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/torus/"/>
+    <published>2023-05-17T11:30:27.000-07:00</published>
+    <updated>2023-05-17T19:04:56.000+00:00</updated>
+    <title>torus</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="math"/>
+    <content type="html"><![CDATA[<p>
+  One of my favorite mathematical shapes is the torus. Not only does it remind me of a doughnut (mmm), but it’s the first step into topology with the introduction of a hole. Not only is a doughnut topologically a torus, but so is your accompanying coffee mug<a href="#fn:1" id="fn:1.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>!
+</p>
+<p>
+  <img src="../media/855427377f7b5a4f.webp" alt="torus-mug-donut">
+</p>
+<p>
+  But where does this word <em>“torus”</em> come from? It happens to be the Latin word for… a pillow. The classic round poof with a pin through the middle to keep it flat<a href="#fn:2" id="fn:2.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>.
+</p>
+<p>
+  <img src="../media/a1084b7c72c13d71.png" alt="torus">
+</p>
+<p>
+  Later used to describe architectural decoration that reminded them of that shape, in particular the rounded molding at the base of some Doric columns.
+</p>
+<p>
+  <img src="../media/611e56ceb553030d.jpg" alt="torus-column">
+</p>
+<p>
+  I find it fascinating how words we consider academic and sterile have roots in everyday things. “That column base looks like a fluffy pillow, let’s call it so” led to a defined term as mathematics provided architectural rigor.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>
+        This homeomorphism famously leads dedicated topologists to confuse their mug for their doughnut. Classic messy situation.
+      </p>
+      <a href="#fn:1.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:2">
+      <p>
+        Pillows lack a hole and are decidedly a non-toroidal “torus”.
+      </p>
+      <a href="#fn:2.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/contrails/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/contrails/"/>
+    <published>2023-02-27T11:40:15.000-08:00</published>
+    <updated>2023-02-27T21:44:10.000+00:00</updated>
+    <title>contrails</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="climate"/>
+    <content type="html"><![CDATA[<p>
+  <a href="https://map.contrails.org/" target="_blank"><img src="../media/b9131a06528b711b.png" alt="Flights with warming and cooling contrails on a map"></a>
+</p>
+<p>
+  Air flights have a surprisingly complex impact on climate warming. In addition to burning jet fuel emitting CO₂ and other greenhouse gasses, the contrails left behind linger as artificial clouds. These contrails act as a blanket both trapping thermal heat as well as reflecting away solar radiation. The net effect of which could be warming <em>or cooling</em><a href="#fn:1" id="fn:1.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+</p>
+<p>
+  Many factors impact this net effect including the duration, path of flight, changes in altitude, wind speed, and most significantly time of day. The physics involved mean the sunlight reflective effects of a contrail can only occur in the daytime; without this a contrail can only have a warming effect. To maximize a net-cooling effect, contrails need to be formed early in the day so they can reflect sunlight for their duration.
+</p>
+<p>
+  Factoring the effects of contrails into the overall climate impact of air travel means that not all flights are equal offenders. The top 5% of flights contribute roughly a third of overall climate warming effects. Modest routing and timing adjustments could have an outsized impact on the overall climate impact of air travel.
+</p>
+<p>
+  And yes, this is just one more reason why red eye flights are awful.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>
+        For a far more nuanced understanding of the effect of contrails, see the incredible resource at <a href="https://map.contrails.org/" target="_blank">contrails.org</a>.
+      </p>
+      <a href="#fn:1.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/four-thousand-weeks/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/four-thousand-weeks/"/>
+    <published>2023-01-14T16:27:26.000-08:00</published>
+    <updated>2023-01-15T19:34:52.000+00:00</updated>
+    <title>four thousand weeks</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="philosophy"/>
+    <content type="html"><![CDATA[<p>
+  We live our lives week by week. A week feels frustratingly limited and there are alarmingly few of them. Assuming you live to eighty, you’ll have had about four thousand weeks.
+</p>
+<p>
+  Reflecting on the books I read last year, <a href="https://amzn.to/3GnJlR9" target="_blank">four thousand weeks</a> by Oliver Burkeman stuck with me the most. While pitched as yet another productivity management book, it’s something of a bait-and-switch tricking you into reading about philosophy. In particular directly acknowledging our own mortality and in fact pushing back on the idea of optimizing yourself to accomplish more.
+</p>
+<p>
+  I liked this book so much that I decided to build something of a <a href="https://leebyron.com/4000/" target="_blank">digital book report</a>. It contains some of the most salient excerpts, quotes, and themes quotes from the book. I hope you enjoy it and does a small part in helping you make the most of your own finitude.
+</p>
+<a href="https://leebyron.com/4000/" target="_blank">
+  <figure>
+    <img src="../media/269d4ece86e479ae.png" style="box-shadow: 0 0.5rem 1rem #00000022;">
+    <p>
+      <figcaption>
+        leebyron.com/4000
+      </figcaption>
+    </p>
+  </figure>
+</a>]]></content>
+    <rights>© 2023 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/dont-escape-full-screen/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/dont-escape-full-screen/"/>
+    <published>2022-11-28T11:51:17.000-08:00</published>
+    <updated>2022-11-28T20:02:31.000+00:00</updated>
+    <title>don't escape full screen</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  I prefer small laptops and tidy screens, so keep most of my apps in full screen mode on my Mac. Lots of these apps, especially browsers, may have modals, forms, or other elements I need my Esc key to control. If I overzealously hit Esc one times too many, my window leaves full screen.
+</p>
+<p>
+  Ugh.
+</p>
+<p>
+  A quick solution is to open the Keyboard Preferences, in the Shortcuts tab add a new App Shortcut for “Exit Full Screen” for all applications, and choose something a little more intentional. In my case, I use Control-Escape<a href="#fn:1" id="fn:1.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+</p>
+<p>
+  <img src="../media/37edfc1b13554f26.png" alt="Screen Shot 2022-11-28 at 11.47.16 AM">
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>
+        Especially helpful as I have <a href="https://leebyron.com/til/remap-caps-lock/" target="_blank">remapped Caps Lock</a> to be Control.
+      </p>
+      <a href="#fn:1.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/notunes/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/notunes/"/>
+    <published>2022-09-14T13:48:45.000-07:00</published>
+    <updated>2022-09-14T20:57:26.000+00:00</updated>
+    <title>noTunes</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  There’s many things I love about Apple’s software and OS, but one thing that feels particularly… monopolistic, and also annoying, is how the Apple Music app opens automatically whenever you connect bluetooth headphones. I literally never want this. This is behavior that cannot be disabled, the Apple Music cannot be uninstalled. What to do?
+</p>
+<p>
+  The <a href="https://github.com/tombonez/noTunes" target="_blank">noTunes</a> app is an incredibly simple (open source!) app which solves exactly this problem. More specifically it just keeps the Apple Music app from opening at all, or lets you launch a replacement app if you so choose.
+</p>
+<p>
+  Install it with <code>brew</code>, launch it, then add it to “Login Items” in System Preferences to ensure it launches automatically.
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">brew install --cask notunes</span>
+</span></code></pre>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/brewfile/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/brewfile/"/>
+    <published>2022-09-13T15:47:21.000-07:00</published>
+    <updated>2022-09-13T23:04:23.000+00:00</updated>
+    <title>Brewfile</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  I’m a huge fan of <a href="https://brew.sh/" target="_blank">brew</a>. I use it for installing a broad list of command line tools, as well as Mac apps. Most apps you use can be installed with <code>brew install --cask</code>. However, where I’ve found Brew most helpful is as a lightweight way to set up new computers with all the apps and utilities I rely on. To do this, I use <em>Brewfile</em>.
+</p>
+<p>
+  This is brew’s equivalent of a package.json or Gemfile, it’s just a list of all software that should be installed. To get started quickly run <code>brew bundle</code> and to learn more, see the <a href="https://github.com/Homebrew/homebrew-bundle" target="_blank">Homebrew/homebrew-bundle</a> repo.
+</p>
+<p>
+  However, keeping the Brewfile up to date as new things are installed does not happen automatically. Here are a few additional things I do:
+</p>
+<ul>
+  <li>
+    <p>
+      I keep my <code>.Brewfile</code> in my homedir, and track it as part of my <a href="https://github.com/leebyron/dotfiles" target="_blank">dotfiles</a>.
+    </p>
+  </li>
+  <li>
+    <p>
+      I use <a href="https://github.com/Homebrew/homebrew-aliases" target="_blank"><code>brew alias</code></a> to keep commonly used commands and their arguments terse. The most important being <code>brew add</code> which is a replacement for <code>brew install</code> which also updates the Brewfile, <code>brew remove</code> replacing <code>brew uninstall</code> and <code>brew sync</code> which installs anything new after pulling dotfiles changes from another machine. You can see all of <a href="https://github.com/leebyron/dotfiles/tree/main/.brew-aliases" target="_blank">these scripts</a> which I also include in my dotfiles repo.
+    </p>
+  </li>
+</ul>
+<p>
+  The final result is that setting up a new machine with a list of apps I use is pretty easy, as is keeping that install base the same across a few computers I use. Brew alias makes it easy to keep everything correct.
+</p>
+<p>
+  For personal machines, this has been much more simple and useable than Vagrant, Ansible, or other more professional environment management tool.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/autosetupremote/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/autosetupremote/"/>
+    <published>2022-08-20T20:53:16.000-07:00</published>
+    <updated>2022-08-21T04:53:45.000+00:00</updated>
+    <title>autoSetupRemote</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="git"/>
+    <content type="html"><![CDATA[<p>
+  Ever seen this git error message while creating and pushing a new branch before opening a PR?
+</p>
+<pre data-code-block><code>fatal: The current branch my-pr-change has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin my-pr-change</code></pre>
+<p>
+  Perhaps you have a script you use which automates setting this upstream for your new branches, but as of <a href="https://lore.kernel.org/git/xmqqy1xinf00.fsf@gitster.g/T/" target="_blank">git v2.37</a> which was released June 2022, Git can handle this directly.
+</p>
+<p>
+  From your terminal, run:
+</p>
+<pre data-code-block><code>git config --global push.autoSetupRemote true</code></pre>
+<p>
+  This allows a simple <code>git push</code> to automatically create remote branches to match.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/time-impact-of-kids/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/time-impact-of-kids/"/>
+    <published>2022-08-12T09:39:04.000-07:00</published>
+    <updated>2022-08-12T18:25:56.000+00:00</updated>
+    <title>time impact of kids</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="parenthood"/>
+    <content type="html"><![CDATA[<p>
+  As part of a recent reflection of my mental health and self care routines, and a desire to tighten up my work/life balance, I tracked how I spend my time over the course of a week. What became most clear was just how much time I spend on childcare of my two young sons (4yo and 1yo).
+</p>
+<p>
+  I repeated this from a typical week a few years ago, before we had our kids, which left a clear high-level comparison of how having kids has impacted the balance of my time.
+</p>
+<p>
+  <img src="../media/da86f2fd111a1d06.png" alt="TimeSpent">
+</p>
+<p>
+  To add a little bit of color:
+</p>
+<ul>
+  <li>
+    <p>
+      <strong>Work</strong> is the time I spend on my job and career. This is the portion of time which changed the least, mostly due to job expectations and my own desire to continue investing in having career impact.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Sleep</strong> took a significant hit. My brain chemistry seems to require a lot of sleep, I am definitely not one of those people who thrives on 4 hours a night, I need <em>at least</em> 6 hours. Anyone who has young kids can empathize with the struggle to maintain a healthy sleep schedule.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Social</strong> is the dedicated time I spend with my wife and my friends. The dramatic reduction has stress-tested my partnership and greatly limited my time with friends. This used to be even lower, but over the last few months has recovered a bit to where it is today.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Self</strong> is the time I spend on myself, either recharging and playing games or working on creative projects. This is the portion which has taken the greatest hit, and I believe is to blame for the pressure I’m feeling on my mental health. I’ve also found myself so tired from limited sleep, work pressure, and the toil of childcare that I spend all of this time on podcasts or mindless games (and bad habits like reading Reddit/News) and don’t have contiguous time to spend on creative projects.
+    </p>
+  </li>
+  <li>
+    <p>
+      <strong>Childcare</strong> is the time I spend with my kids, almost always with my wife as well. We’re privileged to have our older son in 9-5 preschool and an amazing nanny through the day for our baby. Despite this help, time spend on the morning routine, dinner, bedtime routine, and weekends sure adds up.
+    </p>
+  </li>
+</ul>
+<p>
+  I absolutely love my kids, and to be clear I’m thrilled to have the time to spend with them, especially when they’re young. However the impact on how I spend my time is real, and the reduction of time I can invest into myself has taken a toll. I don’t have any immediate ideas of how to recover that time (if you do, I’m all ears!), but the exercise in seeing it was helpful.
+</p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>
+        </th>
+        <th align="right">
+          Before Kids
+        </th>
+        <th align="right">
+          After Kids
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          Work
+        </td>
+        <td align="right">
+          54 hr/wk
+        </td>
+        <td align="right">
+          47 hr/wk
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Sleep
+        </td>
+        <td align="right">
+          58 hr/wk
+        </td>
+        <td align="right">
+          42 hr/wk
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Social
+        </td>
+        <td align="right">
+          22 hr/wk
+        </td>
+        <td align="right">
+          7 hr/wk
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Self
+        </td>
+        <td align="right">
+          34 hr/wk
+        </td>
+        <td align="right">
+          7 hr/wk
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Children
+        </td>
+        <td align="right">
+        </td>
+        <td align="right">
+          65 hr/wk
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/meetingbar/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/meetingbar/"/>
+    <published>2022-02-11T23:08:10.000-08:00</published>
+    <updated>2022-02-12T07:24:31.000+00:00</updated>
+    <title>meetingbar</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  As a manager I live and die by my calendar. While Google Calendar gives me a birds-eye view, what I need at a glance is where I’m supposed to be and how I’m supposed to get there. I’ve tried many plugins and apps and my favorite is incredibly simple: <a href="https://github.com/leits/MeetingBar" target="_blank">MeetingBar</a>.
+</p>
+<p>
+  MeetingBar sits in your menu bar and at a glance shows either your next meeting along with a countdown until it starts or your current meeting and time remaining. Click to drop open a menu with an item for each calendar entry for the day. Choose an item to immediately open the attached Google Meet or Zoom link.
+</p>
+<p>
+  <img src="https://github.com/leits/MeetingBar/raw/master/screenshot.png" alt="MeetingBar">
+</p>
+<p>
+  There are quite a few nice details beyond this, but that’s the gist. Oh, and it’s open source and can be installed with brew:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">brew install meetingbar</span>
+</span></code></pre>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/smooth-scrolling/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/smooth-scrolling/"/>
+    <published>2022-01-30T21:27:10.000-08:00</published>
+    <updated>2022-01-31T05:37:08.000+00:00</updated>
+    <title>smooth scrolling</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="css"/>
+    <content type="html"><![CDATA[<p>
+  Browser’s automatic scrolling behavior has traditionally been very jumpy, with developers needing to write custom JavaScript code to simulate a smooth scroll. However thanks to the <a href="https://www.w3.org/TR/cssom-view-1/#smooth-scrolling" target="_blank">smooth scrolling</a> specification, browsers over the years have adopted an API for CSS and JavaScript to natively smooth scroll.
+</p>
+<p>
+  When clicking an anchor link, the transition be can be smoothed by adding the <code>scroll-behavior</code> rule to the root element.
+</p>
+<pre data-code-block data-lang="css"><code><span data-line="1"><span style="color:#6F42C1;">:root</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  </span><span style="color:#1976D2;">scroll-behavior</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">smooth</span><span style="color:#24292EFF;">;</span>
+</span><span data-line="3"><span style="color:#24292EFF;">}</span>
+</span></code></pre>
+<p>
+  For navigating to a specific page location using <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo" target="_blank"><code>window.scrollTo()</code></a> or similar methods, provide an options object instead of explicit coordinates.
+</p>
+<pre data-code-block data-lang="js"><code><span data-line="1"><span style="color:#C2C3C5;">// Old way</span>
+</span><span data-line="2"><span style="color:#1976D2;">window</span><span style="color:#6F42C1;">.scrollTo</span><span style="color:#24292EFF;">(</span><span style="color:#1976D2;">0</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">100</span><span style="color:#24292EFF;">)</span>
+</span><span data-line="3">
+</span><span data-line="4"><span style="color:#C2C3C5;">// Smooth way</span>
+</span><span data-line="5"><span style="color:#1976D2;">window</span><span style="color:#6F42C1;">.scrollTo</span><span style="color:#24292EFF;">({ top</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">100</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> behavior</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">'smooth'</span><span style="color:#24292EFF;"> })</span>
+</span></code></pre>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/community-git-aliases/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/community-git-aliases/"/>
+    <published>2022-01-28T22:18:48.000-08:00</published>
+    <updated>2022-01-29T07:11:01.000+00:00</updated>
+    <title>community git aliases</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="git"/>
+    <content type="html"><![CDATA[<p>
+  After writing about <a href="../git-alias/">git aliases</a> I asked my Twitter followers for their favorite custom aliases, and learned about a number of new ones!
+</p>
+<p>
+  To list them here, I’ll show them in git configfile syntax. You can find yours at either <code>~/.gitconfig</code> or <code>~/.config/git/config</code>.
+</p>
+<pre data-code-block data-lang="ini"><code><span data-line="1"><span style="color:#24292EFF;">[alias]</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># My MVPs (@leeb)</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">s</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!git add -A; git status -s&quot;</span>
+</span><span data-line="4"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">sl</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> log --graph --simplify-by-decoration --</span><span style="color:#D32F2F;">pretty=</span><span style="color:#24292EFF;">format:</span><span style="color:#22863A;">'%D %C(dim)(%cr)'</span><span style="color:#24292EFF;"> --all --not --tags</span>
+</span><span data-line="5"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">last</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> log -1 HEAD</span>
+</span><span data-line="6"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">addremove</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> add --all</span>
+</span><span data-line="7"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fixup</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { TARGET=$(git rev-parse &quot;</span><span style="color:#24292EFF;">$1</span><span style="color:#22863A;">&quot;); git commit --fixup=$TARGET ${@:2} &amp;&amp; EDITOR=true git rebase -i --autostash --autosquash $TARGET^; }; f&quot;</span>
+</span><span data-line="8"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">unstage</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> restore --staged</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">discard</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> restore</span>
+</span><span data-line="10">
+</span><span data-line="11"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Find the ancestor and merge bases of sets of commits (@leeb)</span>
+</span><span data-line="12"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">oldest-ancestor</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !zsh -c </span><span style="color:#22863A;">'diff --old-line-format='' --new-line-format='' &lt;(git rev-list --first-parent &quot;${1:-master}&quot;) &lt;(git rev-list --first-parent &quot;${2:-HEAD}&quot;) | head -1'</span>
+</span><span data-line="13"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">all-merge-bases</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { eval $(git for-each-ref --shell --format='git merge-base master %(refname);' refs/heads) | sort | uniq; }; f&quot;</span>
+</span><span data-line="14"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">common-merge-base</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git rev-list --no-walk $(git all-merge-bases) | tail -n1; }; f&quot;</span>
+</span><span data-line="15">
+</span><span data-line="16"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Replace &quot;git git&quot; with &quot;git&quot; (@jkreeftmeijer)</span>
+</span><span data-line="17"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">git</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !git</span>
+</span><span data-line="18">
+</span><span data-line="19"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Nice shortcuts (@mathias)</span>
+</span><span data-line="20"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">st</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> status -s</span>
+</span><span data-line="21">
+</span><span data-line="22"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Show the diff between the latest commit and the current state (@mathias)</span>
+</span><span data-line="23"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">d</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !</span><span style="color:#22863A;">&quot;git diff-index --quiet HEAD -- || clear; git --no-pager diff --patch-with-stat&quot;</span>
+</span><span data-line="24">
+</span><span data-line="25"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Show different kinds of things (@mathias)</span>
+</span><span data-line="26"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">tags</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> tag -l</span>
+</span><span data-line="27"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">branches</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> branch --all</span>
+</span><span data-line="28"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">aliases</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> config --get-regexp alias</span>
+</span><span data-line="29"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">remotes</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> remote --verbose</span>
+</span><span data-line="30"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">contributors</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> shortlog --summary --numbered --email</span>
+</span><span data-line="31">
+</span><span data-line="32"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Credit an author on the latest commit: git credit &quot;Lee Byron&quot; lee@leebyron.com (@mathias)</span>
+</span><span data-line="33"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">credit</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git commit --amend --author \&quot;</span><span style="color:#24292EFF;">$1 &lt;$2&gt;\</span><span style="color:#22863A;">&quot; -C HEAD; }; f&quot;</span>
+</span><span data-line="34">
+</span><span data-line="35"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Show the user email for the current repository. (@mathias)</span>
+</span><span data-line="36"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">whoami</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> config user.email</span>
+</span><span data-line="37">
+</span><span data-line="38"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Remove branches that have already been merged with main, &quot;delete merged&quot; (@mathias)</span>
+</span><span data-line="39"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">dm</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d&quot;</span>
+</span><span data-line="40">
+</span><span data-line="41"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Find branches with commit, tags with commit, comments with code, and commits with message (@mathias)</span>
+</span><span data-line="42"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fb</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git branch -a --contains $1; }; f&quot;</span>
+</span><span data-line="43"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">ft</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git describe --always --contains $1; }; f&quot;</span>
+</span><span data-line="44"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fc</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short -S$1; }; f&quot;</span>
+</span><span data-line="45"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fm</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f&quot;</span>
+</span><span data-line="46">
+</span><span data-line="47"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Stage commits by chunk (@skwp)</span>
+</span><span data-line="48"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">chunkyadd</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> add --patch</span>
+</span><span data-line="49">
+</span><span data-line="50"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Alternative to &quot;git stash&quot; (@skwp)</span>
+</span><span data-line="51"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># via http://philjackson.github.io/2013/04/07/handy-git-tips-to-stop-you-getting-fired.html</span>
+</span><span data-line="52"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">snapshot</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !git stash save </span><span style="color:#22863A;">&quot;snapshot: $(date)&quot;</span><span style="color:#24292EFF;"> &amp;&amp; git stash apply </span><span style="color:#22863A;">&quot;stash@{0}&quot;</span>
+</span><span data-line="53"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">snapshots</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !git stash list --grep snapshot</span>
+</span><span data-line="54">
+</span><span data-line="55"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Nice shortcuts (@DLX)</span>
+</span><span data-line="56"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">cl</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> clone --recursive</span>
+</span><span data-line="57"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">co</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> checkout --quiet</span>
+</span><span data-line="58"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">subup</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> submodule update --recursive --init</span>
+</span><span data-line="59">
+</span><span data-line="60"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Pretty log (@4lb0)</span>
+</span><span data-line="61"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">l</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> log --graph --decorate --</span><span style="color:#D32F2F;">pretty=</span><span style="color:#24292EFF;">format:</span><span style="color:#22863A;">'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)&lt;%an&gt;%Creset'</span><span style="color:#24292EFF;"> --abbrev-commit</span>
+</span><span data-line="62"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Undo last commit (@4lb0)</span>
+</span><span data-line="63"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">undo</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> reset --soft HEAD~</span>
+</span><span data-line="64"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Add and commit: git c &quot;message&quot; (@4lb0)</span>
+</span><span data-line="65"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">c</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!f() { git add --all &amp;&amp; git commit -m \&quot;</span><span style="color:#24292EFF;">$1\</span><span style="color:#22863A;">&quot;; } f&quot;</span>
+</span><span data-line="66">
+</span><span data-line="67"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Force push less likely to clobber your coworker's work (@HostileUX)</span>
+</span><span data-line="68"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">pushf</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> push --force-with-lease</span>
+</span><span data-line="69">
+</span><span data-line="70"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Add changed files into the existing commit (@samhogy)</span>
+</span><span data-line="71"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">whoops</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> commit --amend --no-edit</span>
+</span><span data-line="72"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Push a new branch to origin</span>
+</span><span data-line="73"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">pushu</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !git push -u origin $(git symbolic-ref --short HEAD)</span>
+</span><span data-line="74">
+</span><span data-line="75"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Another prettier but more verbose log (@_angelmm)</span>
+</span><span data-line="76"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">ll</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> log --graph --abbrev-commit --decorate --</span><span style="color:#D32F2F;">format=</span><span style="color:#24292EFF;">format:</span><span style="color:#22863A;">'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(bold red)- %an%C(reset)'</span><span style="color:#24292EFF;"> --all</span>
+</span><span data-line="77">
+</span><span data-line="78"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># Use fzf to add, restore, restore staged, fix previous commit (@mattorb)</span>
+</span><span data-line="79"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fza</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!git ls-files -m -o --exclude-standard | fzf --print0 -m --preview 'git diff {}' --preview-window=top:10:wrap | xargs -0 -t -o git add --all&quot;</span>
+</span><span data-line="80"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fzr</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!git ls-files -m --exclude-standard | fzf --print0 -m --preview 'git diff {}' --preview-window=top:10:wrap | xargs -0 -t -o git restore&quot;</span>
+</span><span data-line="81"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">fzrs</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;!git diff --name-only --staged | fzf --print0 -m --preview 'git diff {}' --preview-window=top:10:wrap | xargs -0 -t -o git restore --staged&quot;</span>
+</span><span data-line="82"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">ffix</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> !</span><span style="color:#D32F2F;">HASH=</span><span style="color:#24292EFF;">`git log --</span><span style="color:#D32F2F;">pretty=</span><span style="color:#24292EFF;">oneline | head -n 100 | fzf` &amp;&amp; git fixit `echo ${HASH} | awk </span><span style="color:#22863A;">'{ print $1 }'</span><span style="color:#24292EFF;">`</span>
+</span></code></pre>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/git-alias/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/git-alias/"/>
+    <published>2022-01-27T22:54:58.000-08:00</published>
+    <updated>2022-01-28T07:21:21.000+00:00</updated>
+    <title>git alias</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="git"/>
+    <content type="html"><![CDATA[<p>
+  If you use git frequently you ought to set up some shortcuts with git aliases.
+</p>
+<p>
+  For example, while <code>git show</code> is useful, sometimes you just want the last commit information and not the entire contents of the commit. Consider adding <code>git last</code>
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">git config --global alias.last </span><span style="color:#22863A;">'log -1 HEAD'</span>
+</span></code></pre>
+<p>
+  Now running <code>git last</code> is equivalent to <code>git log -1 HEAD</code>! This gets included into git help and shell completion.
+</p>
+<p>
+  Another useful alias is <code>git unstage</code> to remove a file from the staged commit, and <code>git discard</code> to remove the changes altogether.
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">git config --global alias.unstage </span><span style="color:#22863A;">'restore --staged'</span>
+</span><span data-line="2"><span style="color:#24292EFF;">git config --global alias.discard </span><span style="color:#22863A;">'checkout HEAD --'</span>
+</span></code></pre>
+<p>
+  My most used alias is one which stages all changes and then prints the current status, which I simply call <code>git s</code>. To run multiple commands, prefix with <code>!</code> so the alias runs as a shell script.
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">git config --global alias.s </span><span style="color:#22863A;">'!git add -A; git status'</span>
+</span></code></pre>
+<p>
+  I use this so frequently, that I have an alias <code>gs</code> set up in my shell config:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#6F42C1;">alias</span><span style="color:#24292EFF;"> gs=</span><span style="color:#22863A;">'git s'</span>
+</span></code></pre>
+<p>
+  Finally, you might want more complex positional arguments. To do this, define then invoke a shell function. I have an alias <code>git fixup</code> which has almost the same API as <code>git commit</code> but takes an existing commit as the first argument. That will apply the staged change to that commit and rebase all later commits atop it. Useful when working in a stacked PR and fixing an issue in one of the earliest commits:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">git config --global alias.fixup </span><span style="color:#22863A;">'!f() { TARGET=$(git rev-parse &quot;$1&quot;); git commit --fixup=$TARGET ${@:2} &amp;&amp; EDITOR=true git rebase -i --autostash --autosquash $TARGET^; }; f'</span>
+</span></code></pre>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/vim-time-travel/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/vim-time-travel/"/>
+    <published>2022-01-26T22:35:11.000-08:00</published>
+    <updated>2022-01-27T06:54:25.000+00:00</updated>
+    <title>vim time travel</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="vim"/>
+    <content type="html"><![CDATA[<p>
+  To undo and redo in Vim, use <code>u</code> and <code>⌃⇧R</code> (“CTRL-R” in Vim lingo, note the capital R) respectively. This works as you’d expect, but there are a few shortcomings:
+</p>
+<ul>
+  <li>
+    <p>
+      It is very easy to undo, but dexterously challenging to redo.
+    </p>
+  </li>
+  <li>
+    <p>
+      If you undo, then accidentally make an edit, you can’t redo.
+    </p>
+  </li>
+</ul>
+<p>
+  Fortunately Vim has a very powerful undo feature called “undo trees” which you might understand as similar to git branching. Undoing and then starting a new change is just a separate branch in the undo tree. There are a number of ways of interacting with the undo tree<a href="#fn:undo-redo" id="fn:undo-redo.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>, but a comparatively simple one is undo time travel.
+</p>
+<p>
+  To go to an earlier state, use <code>g-</code>, to go to a later state, <code>g+</code>. If you mess up with undo and redo, you can usually just try <code>g-</code> repeatedly until you’re back where you want to be. While this is not quite as easy to remember as <code>u</code> for undo, I find “go earlier” and “go later” as pretty great mnemonics and really appreciate the symmetry.
+</p>
+<p>
+  These are shorthand for the <code>:earlier</code> and <code>:later</code> commands, which are quite flexible. As an example, <code>:earlier 5m</code> will go to whatever version you were looking at five minutes ago. Amazing.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:undo-redo">
+      <p>
+        Another example of interacting with the undo tree is <code>:undolist</code>, which shows all leafs in the tree. To learn more about undo, try <code>:help undo-redo</code>.
+      </p>
+      <a href="#fn:undo-redo.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/numeric-string-type/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/numeric-string-type/"/>
+    <published>2022-01-26T22:23:26.000-08:00</published>
+    <updated>2022-01-27T06:34:45.000+00:00</updated>
+    <title>numeric string type</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="typescript"/>
+    <content type="html"><![CDATA[<p>
+  One of the most powerful recent features from TypeScript is <a href="https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html" target="_blank">template types</a>. While they’re capable of everything from string manipulation to implementing generic parsers, sometimes it’s the simplest uses that are the most useful.
+</p>
+<p>
+  A type I’ve come to find very helpful is “numeric string”:
+</p>
+<pre data-code-block data-lang="typescript"><code><span data-line="1"><span style="color:#D32F2F;">type</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">NumericString</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">`</span><span style="color:#D32F2F;">${</span><span style="color:#1976D2;">number</span><span style="color:#D32F2F;">}</span><span style="color:#22863A;">`</span>
+</span></code></pre>
+<p>
+  This type is a “subtype” of string, which means it can be used anywhere a string is expected, but not every string can be used where <code>NumericString</code> is expected.
+</p>
+<p>
+  This is particularly helpful in describing API payloads which include numeric strings instead of numbers to represent numeric values which need to be exact or support high precision (and avoid floating point rounding errors) such as currencies.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/opaque-types/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/opaque-types/"/>
+    <published>2022-01-25T22:09:05.000-08:00</published>
+    <updated>2022-08-21T04:52:11.000+00:00</updated>
+    <title>opaque types</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="typescript"/>
+    <content type="html"><![CDATA[<p>
+  One of my favorite features from Flow is <a href="https://flow.org/en/docs/types/opaque-types/" target="_blank">opaque types</a>. This allows a separation between interface and implementation that’s incredibly helpful as a type API designer, and a rare example of a “nominal type” in an otherwise “structural type” environment. Unfortunately, TypeScript still does not support this functionality.
+</p>
+<ol start="1">
+  <li>
+    <p>
+      I use this as a much simpler version of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields" target="_blank">private fields</a> that doesn’t require a class interface and is scoped to a whole module rather than just a single class (fantastically helpful for a more functional programming style).
+    </p>
+  </li>
+  <li>
+    <p>
+      This is a great way to generate “subtypes” of a primitive like a string or number, which is particularly useful for representing things like URLs, UUIDs, and other things which are string-like but not strings.
+    </p>
+  </li>
+</ol>
+<p>
+  You can emulate this behavior in TypeScript by lying to the compiler. For example, let’s create a <code>UUID</code> type:
+</p>
+<pre data-code-block data-lang="typescript"><code><span data-line="1"><span style="color:#D32F2F;">export</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">type</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">UUID</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">string</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&amp;</span><span style="color:#24292EFF;"> { [$uuid]</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span><span style="color:#24292EFF;"> }</span>
+</span><span data-line="2"><span style="color:#D32F2F;">declare</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">const</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">$uuid</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">unique</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">symbol</span>
+</span><span data-line="3">
+</span><span data-line="4"><span style="color:#D32F2F;">export</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">function</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">isUUID</span><span style="color:#24292EFF;">(value</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">unknown</span><span style="color:#24292EFF;">)</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> value </span><span style="color:#D32F2F;">is</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">UUID</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="5"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">return</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">uuid</span><span style="color:#6F42C1;">.validate</span><span style="color:#24292EFF;">(value)</span>
+</span><span data-line="6"><span style="color:#24292EFF;">}</span>
+</span><span data-line="7">
+</span><span data-line="8"><span style="color:#D32F2F;">export</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">function</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">createUUID</span><span style="color:#24292EFF;">()</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">UUID</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">return</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">uuid</span><span style="color:#6F42C1;">.v4</span><span style="color:#24292EFF;">() </span><span style="color:#D32F2F;">as</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">UUID</span>
+</span><span data-line="10"><span style="color:#24292EFF;">}</span>
+</span></code></pre>
+<p>
+  This introduces the type <code>UUID</code> which you can use anywhere you use a string, but you can also write functions that accept only a <code>UUID</code> and not just any string.
+</p>
+<p>
+  This works by telling TypeScript that there exists a variable called <code>$uuid</code> that is a <a href="https://www.typescriptlang.org/docs/handbook/symbols.html#unique-symbol" target="_blank">unique symbol</a> (the result of calling <code>Symbol()</code>) and that the type <code>UUID</code> is both a <code>string</code> and (<code>&amp;</code>) an object with a required property of that unique symbol<a href="#fn:why" id="fn:why.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>. However none of this exists at runtime, there is no variable or unique symbol, so there’s no way of actually creating a <code>UUID</code> type outside of casting, which we only do in this bit of library code.
+</p>
+<p>
+  Perhaps you don’t actually want to expose that <code>UUID</code> is implemented as a <code>string</code>, just remove the <code>string &amp;</code>:
+</p>
+<pre data-code-block data-lang="typescript"><code><span data-line="1"><span style="color:#D32F2F;">export</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">type</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">UUID</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> { [$uuid]</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span><span style="color:#24292EFF;"> }</span>
+</span></code></pre>
+<p>
+  This version cannot be used where a <code>string</code> is expected, even though it’s still a string value at runtime.
+</p>
+<p>
+  This works surprisingly well, but there are shortcomings:
+</p>
+<ul>
+  <li>
+    <p>
+      Errors are not specifically helpful. Provide the wrong value where <code>UUID</code> is expected and see the details of this hack exposed.
+    </p>
+  </li>
+  <li>
+    <p>
+      This pattern is a bit inscrutable compared to Flow’s clearer explicit syntax. Don’t forget to include a comment explaining what this does.
+    </p>
+  </li>
+  <li>
+    <p>
+      There’s still no concept of “module private” fields without going around the type compiler yet again.
+    </p>
+  </li>
+  <li>
+    <p>
+      (As of TS v4.5) Equality checks require explicit typecasts. For example <code>userEmail === &quot;admin@site.co&quot;</code> will fail tsc with “This condition will always return false”. This example can be resolved with the typecast <code>(&quot;admin@site.co&quot; as Email)</code>. This should ideally not be necessary since the intent is to define a subtype, which should be comparable to the supertype.
+    </p>
+  </li>
+</ul>
+<p>
+  More examples of where opaque types are useful:
+</p>
+<ul>
+  <li>
+    <p>
+      <code>URL</code>, <code>Email</code>, <code>Username</code>, <code>ID</code> or anything else you might want to validate before using and offer a guarantee that if you have a value of that type, it has been validated.
+    </p>
+  </li>
+  <li>
+    <p>
+      HTML sanitization, to type a string which has been HTML sanitized, while having unsafe functions that accept only sanitized strings.
+    </p>
+  </li>
+  <li>
+    <p>
+      Subtypes of number, like integers or positive values.
+    </p>
+  </li>
+  <li>
+    <p>
+      Opaque types for numeric or string database IDs which may be used alongside other strings or numbers.
+    </p>
+  </li>
+  <li>
+    <p>
+      Unique types for overlapping identifiers such as classic MySQL auto increments that you’d hate to mix up, like <code>UserID</code> and <code>MessageID</code>.
+    </p>
+  </li>
+</ul>
+<p>
+  I’d still love to see explicit support for this long-loved feature from Flow built into TypeScript, but this technique works reasonably well despite the shortcomings.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:why">
+      <p>
+        There are variants of this technique, a common alternative being <code>{_brand: typeof $uuid}</code> but I like this one the best for a couple reasons. I don’t like the IDE showing <code>._brand</code> in the typeahead completion; it will not show a symbol property. I find it slightly more helpful to <a href="https://www.typescriptlang.org/play?#code/PTAEFkE9QBwJwKYDMF0QE1AFwQYwBYB2AlgI4CuCAUAgB4wD2cW2kMCoAqpwJIAioALygAzljjFCAc1AAyUAG9QAbQAk5csXQBdAFzY4lUAF8q6PABsAholC4GhMaHWb0+8iQocRkALYAjBgszSxsOJA9cLGIHUGIRbn4ACgA3KwtKd0IAa0IGAHdCAEp9NIyOeK5ePioqEFAAQTsGX19Y9Jw4QitolOo6RmZWdlAAUV8rYgshUXFJGXklAH0l-zgrQnQV-Sw2BAYkZwQJqZMQ3Gtbe0cWVWPJiyyyIx8AoPPL8Mjo2Pjxh9S6UyoA8uQKxVKQIqIjGJ2CdTAAGEWjAwth8BxUHAmKBfAgRCIrFJ8VRrk48lgGok+PpqTMAOQARgATABmemkhzkhiUwj-Kb6fnTYRMtn0oA" target="_blank">see the name of the symbol shown</a> when encountering an error .
+      </p>
+      <a href="#fn:why.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/staff-eng-archetypes/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/staff-eng-archetypes/"/>
+    <published>2022-01-24T21:35:13.000-08:00</published>
+    <updated>2022-01-26T07:13:12.000+00:00</updated>
+    <title>staff eng archetypes</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="management"/>
+    <content type="html"><![CDATA[<p>
+  As I write this it’s performance reviews season at my company, which means renewed interest in the expectations of engineers of each <em>level</em>. My role is to help define this for our front-end engineers and ensure fair outcomes. A common question I hear throughout this process is: <em>what is a staff engineer?</em>
+</p>
+<p>
+  My company, like many in the tech industry, defines a progression of <a href="https://www.levels.fyi/" target="_blank">levels</a> for engineers<a href="#fn:and-designers" id="fn:and-designers.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>. Others may use a set of titles, these are often interchangeable. To grossly simplify:
+</p>
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Level
+        </th>
+        <th>
+          Scope
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <span style="white-space: pre">Junior Eng</span>
+        </td>
+        <td>
+          First few years in industry. Expected to learn quickly, complete assigned small projects with little guidance, and continue to grow.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span style="white-space: pre">Mid-level Eng</span>
+        </td>
+        <td>
+          2-6 years in industry. Completes moderate projects with autonomy and contributes to the team in other ways.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span style="white-space: pre">Senior Eng</span>
+        </td>
+        <td>
+          5 or more years experience. Accountable for large projects requiring a team and external stakeholders. Mentors and improves their team.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <span style="white-space: pre">Staff+ Eng<a href="#fn:staff-plus" id="fn:staff-plus.ref" data-footnote-ref aria-label="note"><sup>2</sup></a></span>
+        </td>
+        <td>
+          Typically over 10 years experience. Peer to managers, accountable for their team’s roadmap and technical vision. Then… things get complicated.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p>
+  Most companies provide expectations guidelines alongside these levels, often breaking things down by technical skills, soft skills, leadership, etc. These can be helpful tools for both engineers and managers to guide them in their career, but I’ve found this often breaks down at the Staff Eng level, for a few reasons:
+</p>
+<ul>
+  <li>
+    <p>
+      There just aren’t that many Staff+ Eng to compare and generalize. Most organizations will have less than 1 in 10 engineers at this level.
+    </p>
+  </li>
+  <li>
+    <p>
+      Every one of these engineers is a different person, who found a unique impact relative to what was needed and what they’re good at. No two Staff+ Eng follow exactly the same path.
+    </p>
+  </li>
+  <li>
+    <p>
+      The gamut of potential impact is so diverse that what is central to one Staff Engineer’s impact may be near absent from another’s. It can be hard to even define base expectations.
+    </p>
+  </li>
+</ul>
+<p>
+  A different approach is necessary. Rather than defining one set of expectations, describe <a href="https://staffeng.com/guides/staff-archetypes" target="_blank">Staff Eng Archetypes</a><wbr><a href="#fn:staffeng.com" id="fn:staffeng.com.ref" data-footnote-ref aria-label="note"><sup>3</sup></a>. Archetypes (or Personas) are a concept borrowed from literature, psychology and UX design, with the goal of simultaneously describing the diversity of the role by breaking it into smaller groups, while also generalizing within each group. The staffeng.com article describes four of these archetypes:
+</p>
+<ul>
+  <li>
+    <p>
+      The <strong>Tech Lead</strong> guides the technical execution of their team via day to day leadership. The most common Staff Eng archetype and a natural extension of the expectations of a Senior Eng. This is such a common path to management that there’s a term “TLM” for the variant which also takes on some people management, furthering their autonomy.
+    </p>
+  </li>
+  <li>
+    <p>
+      The <strong>Architect</strong> sets the vision for a domain, and is accountable for its success, often requiring many teams working together. This may be a purely technical vision or, more often for a front-end engineer, a product vision.
+    </p>
+  </li>
+  <li>
+    <p>
+      The <strong>Solver</strong> goes deep to solve problems no one else can. Not purely technical, really tough problems are often equal part organizational and require excellent communication skills and “bedside manner”.
+    </p>
+  </li>
+  <li>
+    <p>
+      The <strong>Right Hand</strong> extends a leader’s bandwidth by helping to operate a complex organization, converting inefficiencies into well run programs. They bounce between whatever is most urgent be it tech, people, process, or business.
+    </p>
+  </li>
+</ul>
+<p>
+  If these all sound really different from each other, that’s the idea! There are just as many ways to becoming a Staff Eng as there are engineers with that title. I love that these four archetypes each highlight a very different core competency: tactical leadership, vision setting, technical excellence, and organized execution. It wouldn’t be possible to define base expectations across these for all Staff Eng.
+</p>
+<p>
+  I also appreciate that using archetypes is still flawed. Not everyone will fit into these four buckets, some may bridge between multiple, others will define their own path. For those with aspirations to become a Staff Eng and those that manage them, my advice is to not emulate others but find and lean into your own strengths.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:and-designers">
+      <p>
+        Designers often have a very similar career progression. You can generally replace “engineer” with “designer” throughout this entire post. A fantastic comparable resource for designers is <a href="https://staff.design" target="_blank">staff.design</a>.
+      </p>
+      <a href="#fn:and-designers.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:staff-plus">
+      <p>
+        Some companies define titles beyond Staff Eng, like “Senior Staff Eng”, “Principle Eng”, “Distinguished Eng”, “Architect”, or “Technical Fellow”. What I share here is also true for these engineers, just further into the limit. These are often collectively referred to as “Staff+ Eng”.
+      </p>
+      <a href="#fn:staff-plus.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:staffeng.com">
+      <p>
+        One of many fantastic resources from <a href="https://staffeng.com/" target="_blank">staffeng.com</a>!
+      </p>
+      <a href="#fn:staffeng.com.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/ikigai/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/ikigai/"/>
+    <published>2022-01-23T11:31:22.000-08:00</published>
+    <updated>2023-07-24T16:57:58.000+00:00</updated>
+    <title>ikigai</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="career"/>
+    <content type="html"><![CDATA[<p>
+  Years ago I came across the concept of “Ikigai” (or “life’s reason”) in <a href="https://theviewinside.me/what-is-your-ikigai/" target="_blank">a blog post</a>, along with an explanatory four-axis venn diagram<a href="#fn:meme-seeding" id="fn:meme-seeding.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>. It introduced the idea of honing in on a life’s purpose by way of doing what you’re good at, what you enjoy, what the world needs, and what you can be paid for. This really resonated with me.
+</p>
+<p>
+  I find this model a helpful tool in thinking about my own career, but it’s important to remember that it’s just that: a model. While I like the framework, as I’ve read more about Ikigai I also have some real concerns with it:
+</p>
+<ul>
+  <li>
+    <p>
+      It’s mired in the pseudo-science of “self help” that I’m really suspicious of. Most books frame Ikigai as an elusive thing to start searching for today, that you need to find happiness, and need coaching to achieve.
+    </p>
+  </li>
+  <li>
+    <p>
+      It feels like yet another foreign cultural fetishization. Ikigai is a Japanese concept but nearly all material written on it is English.
+    </p>
+  </li>
+  <li>
+    <p>
+      The origins of Ikigai’s introduction to English readers is via a <a href="http://www.ted.com/talks/dan_buettner_how_to_live_to_be_100" target="_blank">TED talk</a> on the unusual lives of centenarians in Okinawa, Japan which don’t seem to relate to the venn diagram; where did that come from?
+    </p>
+  </li>
+</ul>
+<p>
+  These concerns turn out to be valid. In fact the origin of this venn diagram is not Japanese at all, but instead comes from a book by Spanish Astrologist, Andrés Zuzunaga. <a href="https://theviewinside.me/what-is-your-ikigai/" target="_blank">Marc Winn’s blog post</a> combined <a href="https://www.cosmograma.com/proposito.php" target="_blank">Andrés Zuzunaga’s original graphic</a> with the idea of Ikigai presented in <a href="http://www.ted.com/talks/dan_buettner_how_to_live_to_be_100" target="_blank">Dan Buettner’s TED talk</a> and voilà, a meme!
+</p>
+<p>
+  Despite it’s shortcomings and misappropriation I still really like this mental model for considering career progression and debugging gaps in a sense of fulfillment. Here’s my translation of <a href="https://www.cosmograma.com/proposito.php" target="_blank">Andrés Zuzunaga’s original graphic</a> in English:
+</p>
+<p>
+  <img src="../media/82b332968f3e80ff.svg" alt="purpose.svg">
+</p>
+<p>
+  Ikigai is still a very real concept, just not the same one as presented by most of these blog posts and books. Japanese neuroscientist Ken Mogi (who has also written a book on Ikigai, mostly about food) has <a href="https://youtu.be/a_2RIydy_NQ" target="_blank">a video</a> addressing this venn diagram with an attempt to bring the term back to an original intent. In the video he proposes a new (crude, hand-drawn) diagram to take its place with two distinct changes:
+</p>
+<ul>
+  <li>
+    <p>
+      The four circles of the venn diagram are replaced with two axis: small to big and private to public.
+    </p>
+  </li>
+  <li>
+    <p>
+      Rather than Ikigai being found at the center of this diagram, he emphatically repeats that <em>all of it</em> is Ikigai.
+    </p>
+  </li>
+</ul>
+<p>
+  The goal being not to find the one perfect thing which checks all boxes but instead to cultivate a broad diversity of things big and small, public and private, to bring a rich multifaceted purpose to life.
+</p>
+<p>
+  I also appreciate this very different model, and took the liberty to capture Ken’s <a href="https://youtu.be/a_2RIydy_NQ" target="_blank">“true Ikigai diagram”</a> with a few additions in a similar spirit:
+</p>
+<p>
+  <img src="../media/2323a938a1a47935.svg" alt="ikagai.svg">
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:meme-seeding">
+      <p>
+        Years later, Marc wrote a <a href="https://theviewinside.me/meme-seeding/" target="_blank">follow up post</a> on the origins of his article on Ikigai and addressed how it took on a life of its own.
+      </p>
+      <a href="#fn:meme-seeding.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>
+      https://leebyron.com/til/multi-purpose-modifier-keys/
+    </id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/multi-purpose-modifier-keys/"/>
+    <published>2022-01-22T22:19:43.000-08:00</published>
+    <updated>2022-01-23T06:48:43.000+00:00</updated>
+    <title>multi-purpose modifier keys</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="keyboards"/>
+    <content type="html"><![CDATA[<p>
+  I spent a very long time not thinking too hard about customizing my keyboard beyond <a href="https://leebyron.com/til/remap-caps-lock/" target="_blank">remapping caps lock</a>. That is not until recently when I started playing around with the custom keyboard firmware <a href="https://qmk.fm" target="_blank">QMK</a> and macOS keyboard customization software <a href="https://karabiner-elements.pqrs.org" target="_blank">Karabiner</a>. The most immediately useful thing I discovered was leveraging modifier keys to have multiple purposes.
+</p>
+<p>
+  Modifier keys are held down so that other key presses result in a different symbol or command. But what if they’re pressed alone? Nothing happens? That’s an opportunity.
+</p>
+<p>
+  The first I tried was the “Vim key”. Caps lock is remapped to the much more useful control key when held. When pressed alone, it is escape. This key is really easy to reach from the home row and this made getting in and out of Vim insert mode feel much easier. However I found myself falling back to muscle memory to reach for escape or use the equivalent and now easier to press control+c.
+</p>
+<p>
+  Much more ergonomically offensive is backspace. I’m a terrible typist so backspace is probably one of my most pressed keys and far enough from the home row that my whole hand must move. So the next mapping I’ve tried is Caps lock as control and backspace. This muscle memory has been hard to unwire, so I’ve disabled my true backspace key.
+</p>
+<p>
+  Here’s a small part of my Karabiner “complex_modifications” configuration:
+</p>
+<pre data-code-block data-lang="json"><code><span data-line="1"><span style="color:#22863A;">&quot;manipulators&quot;</span><span style="color:#24292EFF;">: [</span>
+</span><span data-line="2"><span style="color:#24292EFF;">    {</span>
+</span><span data-line="3"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;type&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;basic&quot;</span><span style="color:#212121;">,</span>
+</span><span data-line="4"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;from&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="5"><span style="color:#24292EFF;">            </span><span style="color:#D32F2F;">&quot;key_code&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;caps_lock&quot;</span><span style="color:#212121;">,</span>
+</span><span data-line="6"><span style="color:#24292EFF;">            </span><span style="color:#D32F2F;">&quot;modifiers&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> { </span><span style="color:#D32F2F;">&quot;optional&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> [</span><span style="color:#22863A;">&quot;any&quot;</span><span style="color:#24292EFF;">] } }</span><span style="color:#212121;">,</span>
+</span><span data-line="7"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;to&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> [ { </span><span style="color:#D32F2F;">&quot;key_code&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;left_control&quot;</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&quot;lazy&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span><span style="color:#24292EFF;"> } ]</span><span style="color:#212121;">,</span>
+</span><span data-line="8"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;to_if_alone&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> [ { </span><span style="color:#D32F2F;">&quot;key_code&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;delete_or_backspace&quot;</span><span style="color:#24292EFF;"> } ] }</span><span style="color:#212121;">,</span>
+</span><span data-line="9"><span style="color:#24292EFF;">    {</span>
+</span><span data-line="10"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;type&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;basic&quot;</span><span style="color:#212121;">,</span>
+</span><span data-line="11"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;from&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="12"><span style="color:#24292EFF;">            </span><span style="color:#D32F2F;">&quot;key_code&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;delete_or_backspace&quot;</span><span style="color:#212121;">,</span>
+</span><span data-line="13"><span style="color:#24292EFF;">            </span><span style="color:#D32F2F;">&quot;modifiers&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> { </span><span style="color:#D32F2F;">&quot;optional&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> [ </span><span style="color:#22863A;">&quot;all&quot;</span><span style="color:#24292EFF;"> ] } }</span><span style="color:#212121;">,</span>
+</span><span data-line="14"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">&quot;to&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> [ { </span><span style="color:#D32F2F;">&quot;key_code&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;vk_none&quot;</span><span style="color:#24292EFF;"> } ] }</span><span style="color:#212121;">,</span>
+</span></code></pre>
+<p>
+  Also, this works both ways! Not only can you provide a behavior for pressing modifier keys on their own, but also consider making a typical key a modifier when held. As an example, I map the return key to behave as “right control” when held.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/ripgrep/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/ripgrep/"/>
+    <published>2022-01-21T22:24:50.000-08:00</published>
+    <updated>2022-01-22T06:47:44.000+00:00</updated>
+    <title>r.i.p. grep</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="terminal"/>
+    <content type="html"><![CDATA[<p>
+  One of the oldest and most incredible tools in the terminal is <code>grep</code><a href="#fn:grep" id="fn:grep.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>. It was written overnight by the GOAT, <a href="https://en.wikipedia.org/wiki/Ken_Thompson" target="_blank">Ken Thompson</a>, back in the early 1970s. It allows you to search through a file (or stdin) for a regular expression pattern<a href="#fn:regexp" id="fn:regexp.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>. Useful then, useful now. Incredible.
+</p>
+<p>
+  However, it turns out that software written fifty years ago might start to show signs of age. Enter <a href="https://github.com/BurntSushi/ripgrep" target="_blank">ripgrep</a>, or <code>rg</code> in your terminal. It is faster, it is aware of your <code>.gitignore</code> files, it prints results in color, it has a modern RegExp engine, it supports full Unicode, it searches compressed files, it has an easy to use and very powerful set of options, and of course it takes half as many letters to type.
+</p>
+<p>
+  Do yourself a favor and install it:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">brew install ripgrep</span>
+</span></code></pre>
+<p>
+  Want to learn more? Check out the <a href="https://github.com/BurntSushi/ripgrep" target="_blank">ripgrep</a> project page, this very <a href="https://blog.burntsushi.net/ripgrep/" target="_blank">in depth article</a> explaining why it’s fast and how it works, or this fantastic resource <a href="https://beyondgrep.com/feature-comparison/" target="_blank">comparing many grep replacements</a>.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:grep">
+      <p>
+        The name “grep” comes from <code>g/re/p</code> – globally run a regular expression and print. It was literally that exact command extracted from the <code>ed</code> text editor. There’s a great <a href="https://www.youtube.com/watch?v=NTfOnGZUZDk" target="_blank">Computerphile</a> video which tells this story.
+      </p>
+      <a href="#fn:grep.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:regexp">
+      <p>
+        Ken Thompson didn’t invent Regular Expressions, but did popularize their use in computers. One of many reasons he is one of the greatest of all time.
+      </p>
+      <a href="#fn:regexp.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/bat-a-cat-with-wings/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/bat-a-cat-with-wings/"/>
+    <published>2022-01-20T23:42:20.000-08:00</published>
+    <updated>2022-01-21T08:53:04.000+00:00</updated>
+    <title>bat, a cat with wings</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="terminal"/>
+    <content type="html"><![CDATA[<p>
+  On macOS there is the fantastic “Preview” utility. Select a file and hit space bar to quickly take a look at the contents. In terminal things are a little different. There’s <code>tail</code>, <code>cat</code>, and <code>less</code>. Bash denizens will be familiar with the results.
+</p>
+<p>
+  <img src="../media/76a2c219c5bdb4fc.png" alt="regular old cat">
+</p>
+<p>
+  Good luck if you try taking a look at a massive file, a file with long lines, or to get a quick read on some code. Maybe your habit is to open files in Vim or another editor so you can at least move around quickly and get some basic syntax highlighting.
+</p>
+<p>
+  There’s a better way…
+</p>
+<p>
+  Use <a href="https://github.com/sharkdp/bat" target="_blank"><code>bat</code></a>, it’s just <code>cat</code> but with wings. It syntax highlights, it shows line numbers, it intelligently pipes to <code>less</code> (if it needs to), it even integrates with <code>git</code> to point out modified lines. It knows where its running and where its printing and falls back to the simple thing when you just need it to <code>cat</code> a file.
+</p>
+<p>
+  <img src="../media/37d23ef3d437ac42.png" alt="bat! it's got wings">
+</p>
+<p>
+  Learn more about <code>bat</code> at <a href="https://github.com/sharkdp/bat" target="_blank">github.com/sharkdp/bat</a>, and install with <a href="https://formulae.brew.sh/formula/bat" target="_blank">Homebrew</a>:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">brew install bat</span>
+</span></code></pre>
+<p>
+  One more thing. Combine <code>bat</code> with <code>prettier</code> as <a href="https://github.com/eth-p/bat-extras/blob/master/doc/prettybat.md" target="_blank"><code>prettybat</code></a>, or with <code>man</code> as <a href="https://github.com/eth-p/bat-extras/blob/master/doc/batman.md" target="_blank"><code>batman</code></a>, a few of many bonus tools that comes with <a href="https://github.com/eth-p/bat-extras/blob/master/README.md#installation" target="_blank"><code>bat-extras</code></a>.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/launch-control/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/launch-control/"/>
+    <published>2022-01-19T23:07:38.000-08:00</published>
+    <updated>2022-01-20T08:00:22.000+00:00</updated>
+    <title>launch control</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  I need to run a command every time a particular file changed. In the past I’ve used tools like <a href="https://facebook.github.io/watchman/" target="_blank">watchman</a> to do this, and found them heavyweight. In this particular case, I could safely assume I was running on macOS and wanted to avoid the dependency of installed software. <em>Then I learned about <code>launchctl</code>.</em>
+</p>
+<p>
+  The man page for <a href="x-man-page://launchctl">launchctl</a> is not particularly helpful, so it required some searching and experimenting to understand. This, along with <a href="x-man-page://launchd">launchd</a>, are a powerful system for configuring services within the operating system. One way launchd determines that a service should be started is by watching for changes to a file. Perfect.
+</p>
+<p>
+  A “service” is any executable program (like a shell script or a JavaScript file) and a configuration plist file placed in a specific location. For example, lets set up a service that runs a website builder every time a source file is updated.
+</p>
+<p>
+  Here, <code>~/Library/LaunchAgents/com.leebyron.website-agent.plist</code> defines the name of my agent, the program to run, where to write standard output, and the path to watch. Changes to that path will run my program. Note that the program is not run inside a shell, so a node script needs to provide a full path to the node executable, rather than a executable “hash bang”.
+</p>
+<pre data-code-block data-lang="xml"><code><span data-line="1"><span style="color:#24292EFF;">&lt;?</span><span style="color:#22863A;">xml</span><span style="color:#6F42C1;"> version</span><span style="color:#24292EFF;">=</span><span style="color:#22863A;">&quot;1.0&quot;</span><span style="color:#6F42C1;"> encoding</span><span style="color:#24292EFF;">=</span><span style="color:#22863A;">&quot;UTF-8&quot;</span><span style="color:#24292EFF;">?&gt;</span>
+</span><span data-line="2"><span style="color:#24292EFF;">&lt;!</span><span style="color:#D32F2F;">DOCTYPE</span><span style="color:#24292EFF;"> plist PUBLIC &quot;-//Apple Computer//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;</span>
+</span><span data-line="3"><span style="color:#24292EFF;">&lt;</span><span style="color:#22863A;">plist</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">version</span><span style="color:#24292EFF;">=</span><span style="color:#22863A;">&quot;1.0&quot;</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="4"><span style="color:#24292EFF;">&lt;</span><span style="color:#22863A;">dict</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="5"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;Label&lt;/</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="6"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;com.leebyron.website-agent&lt;/</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="7"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;ProgramArguments&lt;/</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="8"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">array</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="9"><span style="color:#24292EFF;">        &lt;</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;/Users/leebyron/.nvm/versions/node/v17.3.0/bin/node&lt;/</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="10"><span style="color:#24292EFF;">        &lt;</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;/Users/leebyron/projects/website/generate.js&lt;/</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="11"><span style="color:#24292EFF;">    &lt;/</span><span style="color:#22863A;">array</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="12"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;StandardOutPath&lt;/</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="13"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;/Users/leebyron/projects/website/output.log&lt;/</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="14"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;StandardErrorPath&lt;/</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="15"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;/Users/leebyron/projects/website/output.log&lt;/</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="16"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;WatchPaths&lt;/</span><span style="color:#22863A;">key</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="17"><span style="color:#24292EFF;">    &lt;</span><span style="color:#22863A;">array</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="18"><span style="color:#24292EFF;">        &lt;</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;/Users/leebyron/projects/website/src&lt;/</span><span style="color:#22863A;">string</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="19"><span style="color:#24292EFF;">    &lt;/</span><span style="color:#22863A;">array</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="20"><span style="color:#24292EFF;">&lt;/</span><span style="color:#22863A;">dict</span><span style="color:#24292EFF;">&gt;</span>
+</span><span data-line="21"><span style="color:#24292EFF;">&lt;/</span><span style="color:#22863A;">plist</span><span style="color:#24292EFF;">&gt;</span>
+</span></code></pre>
+<p>
+  Finally, tell launch control about this service. You’ll need to know your uid number (which you can find by running the <code>id</code> command). Replace “500” here with whatever your uid happens to be.
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">launchctl bootstrap gui/500/ </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/Library/LaunchAgents/com.leebyron.website-agent.plist</span>
+</span></code></pre>
+<p>
+  To remove this service, replace <code>bootstrap</code> with <code>bootout</code>:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">launchctl bootout gui/500/ </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/Library/LaunchAgents/com.leebyron.website-agent.plist</span>
+</span></code></pre>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>
+      https://leebyron.com/til/type-unicode-from-the-keyboard/
+    </id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/type-unicode-from-the-keyboard/"/>
+    <published>2022-01-18T23:14:26.000-08:00</published>
+    <updated>2022-01-19T08:31:54.000+00:00</updated>
+    <title>type unicode from the keyboard</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <category term="keyboard"/>
+    <content type="html"><![CDATA[<p>
+  I’m often looking up Unicode code points to use in various places. There are two ways I type them quickly from the keyboard.
+</p>
+<p>
+  The first way is a cheat. In the first tab of Keyboard preferences, ensure “Press 🌐 to: ” is set to “Show Emoji &amp; Symbols”. Now tap the <code>fn</code> key to bring up the Symbols picker. The search does a half decent job of finding the symbol you need. Clicking it behaves as a key press.
+</p>
+<p>
+  The second way is best if you know the <em>code</em>. From the Keyboard preferences in the “Input Sources” tab, press the <code>+</code> button and add the “Unicode Hex Input” keyboard. When using this keyboard, <code>⌥+&lt;key&gt;</code> no longer produces an alternate symbol, but instead allows you to type in hex codes.
+</p>
+<p>
+  Now by holding ⌥ and typing <code>229b</code>, I can type: ⊛
+</p>
+<p>
+  One small caveat is that this only supports 4-digit UTF-16 codes, but it does support surrogate pairs. This is annoying to type, but does allow entering Emoji directly via keyboard.
+</p>
+<p>
+  For example holding ⌥ and typing <code>d83ddcbe</code>: 💾
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/command-z-in-vim/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/command-z-in-vim/"/>
+    <published>2022-01-17T22:46:57.000-08:00</published>
+    <updated>2022-01-19T08:32:44.000+00:00</updated>
+    <title>command-z in vim</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="vim"/>
+    <content type="html"><![CDATA[<p>
+  Vim, run from the terminal, does not make use of the Command key. So most of my muscle memory has been lost while learning it. However I found a shortcut: iTerm’s key mapping.
+</p>
+<p>
+  In iTerm, open Preferences (or press <code>Command-,</code> and in the Keys tab add a new Key Binding.
+</p>
+<ul>
+  <li>
+    <p>
+      Keyboard Shortcut: ⌘z
+    </p>
+  </li>
+  <li>
+    <p>
+      Action: Send text with “vim” Special Chars
+    </p>
+  </li>
+  <li>
+    <p>
+      Value: <code>\&lt;M-u&gt;</code> (The backslash is important)
+    </p>
+  </li>
+</ul>
+<p>
+  Now within the terminal, hitting Command-Z (Undo) will map to Meta-U, which will perform Undo in Vim.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/enable-key-repeat/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/enable-key-repeat/"/>
+    <published>2022-01-16T23:09:29.000-08:00</published>
+    <updated>2022-01-17T08:00:46.000+00:00</updated>
+    <title>enable key repeat</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  In macOS, when you hold down a letter key you see a small popover with available alternates for that letter (for example by applying accents). This behavior can be disabled, returning to the previous behavior where holding a key repeats that letter until you release it.
+</p>
+<p>
+  To do so for a specific app:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">defaults write com.googlecode.iterm2 ApplePressAndHoldEnabled -bool </span><span style="color:#6F42C1;">false</span>
+</span></code></pre>
+<p>
+  Or to disable system wide:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">defaults write -g ApplePressAndHoldEnabled -bool </span><span style="color:#6F42C1;">false</span>
+</span></code></pre>
+<p>
+  After changing this setting, you need to restart the app or sign in session.
+</p>
+<p>
+  <em>I learned this TIL recently from <a href="https://twitter.com/rsms" target="_blank">@rsms</a> care of his excellent <a href="https://gist.github.com/rsms/fb463396c95ad8d9efa338a8050a01dc" target="_blank">macOS Fixes</a> doc.</em>
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/remap-caps-lock/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/remap-caps-lock/"/>
+    <published>2022-01-15T20:41:11.000-08:00</published>
+    <updated>2022-01-16T04:49:14.000+00:00</updated>
+    <title>remap caps lock</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  The caps lock key is conveniently located next to your left pinkie on the home row, easier to press than almost all other modifiers despite being one I find least useful. Luckily, macOS makes it very easy to remap this key<a href="#fn:alternative" id="fn:alternative.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+</p>
+<p>
+  In System Preferences → Keyboard, press “Modifier Keys…” to open a menu mapping physical keys to the action they apply. I always remap my caps lock key to “Control”, since I spend a fair amount of time in Terminal, where Control is used a fair amount (like Control-C to send <code>SIGINT</code>, or Control-Z to send <code>SIGTSTP</code>).
+</p>
+<p>
+  <img src="../media/91e205164869e572.png" alt="Screen Shot 2022-01-15 at 8.39.01 PM.png">
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:alternative">
+      <p>
+        There is other software for much more powerful key remapping, which I’ll write about in the future. It’s nice that this is an OS-provided preference, so you can quickly set it without installing anything.
+      </p>
+      <a href="#fn:alternative.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/mac-find-buffer/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/mac-find-buffer/"/>
+    <published>2022-01-14T22:25:32.000-08:00</published>
+    <updated>2022-01-15T06:36:45.000+00:00</updated>
+    <title>mac find buffer</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  Most text based apps on the Mac have a find buffer accessed with ⌘F. A common workflow is to select some text, copy it with ⌘C, open find with ⌘F, paste the searched text with ⌘V, hit return to find the next instance, and hit return multiple times until you find the instance you’re looking for, then hit escape to close the find overlay.
+</p>
+<p>
+  <em>There’s a faster way.</em>
+</p>
+<p>
+  After selecting text, press ⌘E to fill that text into the find buffer. It may look like nothing happened, but now press ⌘G to find the next instance of that text (⌘⇧G to find the previous). Continue pressing ⌘G until you find the instance you’re looking for.
+</p>
+<p>
+  This has a benefit of not changing modes; your cursor remains within the text document rather than being caught by the find input.
+</p>
+<p>
+  This works in Safari, Chrome, TextEdit, Notes, VSCode, Terminal (but not iTerm), and most other places you work with text in macOS.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/remove-mac-desktop/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/remove-mac-desktop/"/>
+    <published>2022-01-13T21:32:26.000-08:00</published>
+    <updated>2022-01-14T07:31:43.000+00:00</updated>
+    <title>how to remove the mac desktop</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  After nearly two decades on a Mac, I’ve finally come to the conclusion that the Desktop is actively harmful. It is the junk drawer of the Mac. It distracts me, it collects stuff, things get lost there, I’m done with it.
+</p>
+<p>
+  <strong>Here’s how to get rid of it.</strong>
+</p>
+<ul>
+  <li>
+    <p>
+      Remove everything from the Desktop folder.
+    </p>
+  </li>
+  <li>
+    <p>
+      Make sure nothing is being automatically saved to the desktop. The most likely culprit is <a href="../mac-screenshot/">Screenshot.app</a>.
+    </p>
+  </li>
+  <li>
+    <p>
+      Disable the Desktop folder from the desktop, and restart Finder
+    </p>
+    <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">defaults write com.apple.finder CreateDesktop </span><span style="color:#6F42C1;">false</span>
+</span><span data-line="2"><span style="color:#24292EFF;">Killall Finder</span>
+</span></code></pre>
+  </li>
+  <li>
+    <p>
+      Open Finder, right click Desktop in sidebar and “Remove from Sidebar”
+    </p>
+  </li>
+</ul>
+<p>
+  You can’t actually delete the Desktop folder itself, because Finder will just recreate it upon finding it missing. You can instead render it useless by symlinking it back to your home directory<a href="#fn:symlink" id="fn:symlink.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">rm -rf </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/Desktop</span>
+</span><span data-line="2"><span style="color:#24292EFF;">ln -s </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/Desktop</span>
+</span><span data-line="3"><span style="color:#24292EFF;">sudo chflags -h schg </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/Desktop</span>
+</span></code></pre>
+<p>
+  This last step stops Finder from replacing the symlink with an empty directory.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:symlink">
+      <p>
+        As an aside, if you want to keep your Desktop but want to put it somewhere else (like within Dropbox), these same symlinking steps will achieve this, just change the linked location.
+      </p>
+      <a href="#fn:symlink.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/mac-screenshot/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/mac-screenshot/"/>
+    <published>2022-01-13T17:39:49.000-08:00</published>
+    <updated>2022-01-14T18:12:04.000+00:00</updated>
+    <title>mac screenshot</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="mac"/>
+    <content type="html"><![CDATA[<p>
+  Mac has some keyboard shortcuts for capturing your screen via an app called “Screenshot.”
+</p>
+<ul>
+  <li>
+    <p>
+      Capture your entire screen with Command+Shift+3
+    </p>
+  </li>
+  <li>
+    <p>
+      Capture a portion of the screen with Command+Shift+4, then drag and release a rectangle.
+    </p>
+    <ul>
+      <li>
+        <p>
+          Before dragging, press space bar to toggle on capture window mode, then click the window to capture. This has the nice benefit of including the window’s drop shadow with image transparency.
+        </p>
+      </li>
+      <li>
+        <p>
+          While dragging, hold space bar to change from sizing the capture area to moving the capture area.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>
+      Pull up the Screenshot app with Command+Shift+5<a href="#fn:finder" id="fn:finder.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>, and access the three image capture modes as well as two video capture modes and an options menu.
+    </p>
+  </li>
+</ul>
+<p>
+  By default all screenshots are saved to the Desktop. To keep your Desktop from becoming a junk drawer, I highly recommend saving them in some other dedicated location. I personally create a folder called “Screenshots” that I put at the top level of my Dropbox folder. If you don’t use Dropbox, consider a folder in your home directory.
+</p>
+<p>
+  Open the Screenshot app and in the bar that appears click “Options”, and under the “Save to” heading choose “Other Location” and choose or create the dedicated folder. Afterwards, I recommend adding your Screenshots folder to your Finder’s sidebar for quick access.
+</p>
+<p>
+  While you’re at it, take a look at the other options. I like to disable “Show Floating Thumbnail” since that feature delays saving the screenshot to disk for a number of seconds.
+</p>
+<p>
+  Alternatively, you can use the <code>defaults</code> terminal command:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">defaults write com.apple.screencapture location </span><span style="color:#22863A;">&quot;~/Dropbox/Screenshots&quot;</span>
+</span></code></pre>
+<p>
+  To make sure it worked (and check your other settings):
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">defaults </span><span style="color:#6F42C1;">read</span><span style="color:#24292EFF;"> com.apple.screencapture</span>
+</span></code></pre>
+<p>
+  <img src="../media/5d29319e337e0664.png" alt="Screenshot.app Options">
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:finder">
+      <p>
+        Or you can open it directly via Finder. It’s in <code>/Applications/Utilities</code> and called “Screenshot.app”
+      </p>
+      <a href="#fn:finder.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/leap/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/leap/"/>
+    <published>2022-01-12T20:01:10.000-08:00</published>
+    <updated>2023-07-24T16:57:58.000+00:00</updated>
+    <title>leap®</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="keyboards"/>
+    <content type="html"><![CDATA[<p>
+  The <a href="https://en.wikipedia.org/wiki/Canon_Cat" target="_blank">Canon Cat</a> was a computer designed by <a href="https://en.wikipedia.org/wiki/Jef_Raskin" target="_blank">Jef Raskin</a>, who also dreamed up the Apple Macintosh. Steve Jobs meddled too much in the Mac and Raskin left Apple to create the Cat<a href="#fn:swyft" id="fn:swyft.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>. It was a commercial flop, but had some awesome ideas mostly lost to time.
+</p>
+<p>
+  Raskin was no fan of the computer mouse<a href="#fn:hth" id="fn:hth.ref" data-footnote-ref aria-label="note"><sup>2</sup></a> and thought keyboard driven UIs could be much more powerful, and the Cat has a couple tricks which show that he was truly onto something, most notably: <em>Leap</em>.
+</p>
+<p>
+  The Cat keyboard is really unique. This computer has no mouse and no arrow keys<a href="#fn:creep" id="fn:creep.ref" data-footnote-ref aria-label="note"><sup>3</sup></a>. Instead it has “Leap” keys under the space bar.
+</p>
+<p>
+  <img src="../media/32fbd2a67421bb0d.jpeg" title="Credit: https://vintagecomputer.ca/canon-cat/" alt="Canon Cat keyboard">
+</p>
+<ul>
+  <li>
+    <p>
+      To move around you hold down a Leap key with your thumb (in the direction you want to move) and start typing the thing you want to move to. The cursor moves in real-time with each key press.
+    </p>
+  </li>
+  <li>
+    <p>
+      If you got it wrong you can hit “Undo” to go back.
+    </p>
+  </li>
+  <li>
+    <p>
+      To keep looking for the same thing, hold “Use Front”<a href="#fn:use-front" id="fn:use-front.ref" data-footnote-ref aria-label="note"><sup>4</sup></a> and “Leap Again”.
+    </p>
+  </li>
+  <li>
+    <p>
+      There’s a dedicated “Page” button so you can Leap through page by page to rapidly move through a large file (or press it on its own to create a new blank page).
+    </p>
+  </li>
+  <li>
+    <p>
+      Pressing both Leap keys highlights the text between the cursor and the previously leapt location. Leaping with highlighted text moves that text along with the cursor.
+    </p>
+  </li>
+</ul>
+<p>
+  This is so different from what we’re used to that it seems like it might be frustrating to use and rightfully part of history instead of current kit, but I find this inspiring. I wish I could get my computer to work this way!
+</p>
+<p>
+  I’ve been using VIM exclusively the last few weeks and trying to get used to it. I’m realizing that I spend way more time <em>moving around</em> then I actually do typing new things. I’ve come to really appreciate the <code>/</code> and <code>?</code> commands which search ahead and back for some text to move towards. It’s very powerful, but slightly awkward to use, so I find myself not using it as much as I should. Having that functionality under my thumbs would feel like a super power.
+</p>
+<p>
+  There aren’t that many Canon Cats still floating around, but if you want to get a feel for what using one of these is like, you can run its <a href="https://archive.org/details/canoncat" target="_blank">software in emulation mode</a> thanks to the Internet Archive! How to use this is not very clear, but here’s what I figured out so far:
+</p>
+<ul>
+  <li>
+    <p>
+      option keys (left and right) are Jump
+    </p>
+  </li>
+  <li>
+    <p>
+      <code>\</code> key is Undo
+    </p>
+  </li>
+  <li>
+    <p>
+      control is “Use Front”
+    </p>
+  </li>
+  <li>
+    <p>
+      Full screen the emulator to immerse yourself!
+    </p>
+  </li>
+</ul>
+<p>
+  Obviously, it’s not quite the same as having the Cat keyboard in front of you, but I still found it very curious to use and gave me confidence that this could be an easily learned and very fun to use digital world to live in.
+</p>
+<p>
+  There are surprisingly almost no modern tools that reference back to Leap and the Canon Cat. One notable exception is the <a href="https://100r.co/site/left.html" target="_blank">Left</a> text editor by Hundred Rabbits, which very recently <a href="https://twitter.com/hundredrabbits/status/1466832328462790656?s=21" target="_blank">added Leap</a>.
+</p>
+<p>
+  Here are some resources with a lot more content, digitized instruction manuals, history, and other bits and bobs down this particular rabbit hole:
+</p>
+<ul>
+  <li>
+    <p>
+      <a href="http://www.canoncat.net/" target="_blank">canoncat.net</a>
+    </p>
+  </li>
+  <li>
+    <p>
+      <a href="https://www.canoncat.org/" target="_blank">canoncat.org</a>
+    </p>
+  </li>
+  <li>
+    <p>
+      <a href="https://www.old-computers.com/museum/computer.asp?st=1&amp;c=642" target="_blank">Canon Cat on old-computers.com</a>
+    </p>
+  </li>
+  <li>
+    <p>
+      <a href="https://en.wikipedia.org/wiki/The_Humane_Interface" target="_blank">The Humane Interface</a>
+    </p>
+  </li>
+</ul>
+<p>
+  Finally, I’ll leave you with this convincing promotional video showing off the Cat in use, showing both more of what it can do<a href="#fn:calc" id="fn:calc.ref" data-footnote-ref aria-label="note"><sup>5</sup></a> as well as some truly excellent ’80s hairstyles.
+</p>
+<div class="yt-player" style="--aspectRatio:1.3333333333333333;">
+  <iframe src="https://www.youtube.com/embed/o_TlE_U_X3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:swyft">
+      <p>
+        Jef Raskin started the project by founding a company, Information Appliances, and called the computer SWYFT: “Superb With Your Favorite Typing”. Canon acquired his company and their marketing team came up with the name “Cat.” No idea if Apple intentionally took a pot-shot at Jef with Swift.
+      </p>
+      <a href="#fn:swyft.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:hth">
+      <p>
+        Jef Raskin briefly discussed the Canon Cat’s Leap innovation in an <a href="https://youtu.be/1qvrOEExlps?t=1337" target="_blank">Feb 1992 episode</a> of High Tech Heros, a public access show from Los Altos.
+      </p>
+      <a href="#fn:hth.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:creep">
+      <p>
+        Arrow behavior is kinda still there. Tapping Leap on its own moves the cursor ahead by one. they fittingly called this “Creep”. Shift+Leap would scroll the page up and down.
+      </p>
+      <a href="#fn:creep.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:use-front">
+      <p>
+        The “Use Front” key is essentially your “Command” key, but they printed the commands on the front of the key caps, hence “Use Front”.
+      </p>
+      <a href="#fn:use-front.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:calc">
+      <p>
+        Like running calculations (or code!) live in a document with a key press instead of having a dedicated calc app. Really cool ideas.
+      </p>
+      <a href="#fn:calc.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>
+      https://leebyron.com/til/meta-tags-and-the-semantic-web/
+    </id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/meta-tags-and-the-semantic-web/"/>
+    <published>2022-01-11T22:53:30.000-08:00</published>
+    <updated>2023-07-24T16:57:58.000+00:00</updated>
+    <title>meta tags &amp; the semantic web</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="web"/>
+    <content type="html"><![CDATA[<p>
+  For better or worse these days a lot of the web is consumed via an aggregator platform. Search engines like Google, or Duck Duck Go, and social media like Facebook, Twitter, Reddit, and Mastodon. When links are displayed on these platforms, they use available metadata to give as rich a preview as possible.
+</p>
+<p>
+  This is the reality of the branch of the multiverse we find ourselves in tracing back to a quote from Sir Tim Berners Lee from <a href="https://youtu.be/vG8WpLr6y_U?" target="_blank">1999</a>:
+</p>
+<blockquote>
+  <p>
+    I have a dream for the Web [in which computers] become capable of analyzing all the data on the Web – the content, links, and transactions between people and computers. A “Semantic Web”, which makes this possible, has yet to emerge, but when it does, the day-to-day mechanisms of trade, bureaucracy and our daily lives will be handled by machines talking to machines.
+  </p>
+</blockquote>
+<p>
+  Some variation of this is is right…
+</p>
+<p>
+  However, for us Webmasters, it’s tough to keep track of the peculiarities of how each platform would like to consume semantic information. Having just added some meta data to this very page, I’ll drop some links and tl;dr of what I learned along the way:
+</p>
+<ul>
+  <li>
+    <p>
+      <a href="https://www.w3.org/RDF/" target="_blank">RDF</a> (Resource Description Language) and <a href="https://en.wikipedia.org/wiki/Web_Ontology_Language" target="_blank">OWL</a> (Web Ontology Language) were early standards that live on. They don’t get a lot of direct practical use<a href="#fn:rdfa" id="fn:rdfa.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>. There is also <a href="https://microformats.io/" target="_blank">microformats</a> which still has some use, but is no longer preferred.
+    </p>
+  </li>
+  <li>
+    <p>
+      <a href="https://ogp.me/" target="_blank">Open Graph</a> is a standard proposed by Facebook which addressed the mess that was the web at the time<a href="#fn:og-deck" id="fn:og-deck.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>. It has a surprisingly broad schema and some quirks<a href="#fn:og-non-standard" id="fn:og-non-standard.ref" data-footnote-ref aria-label="note"><sup>3</sup></a>. Since then, <a href="https://json-ld.org/" target="_blank">JSON-LD</a> has become the preferred tool. JSON is way easier for representing data, and there’s a huge set of <a href="https://schema.org/docs/schemas.html" target="_blank">available schema</a>.
+    </p>
+  </li>
+  <li>
+    <p>
+      <a href="https://developers.facebook.com/docs/sharing/webmasters/#markup" target="_blank">Facebook</a> (and other Meta apps, like Messenger) use Open Graph with some minor Facebook specific additions.
+    </p>
+    <ul>
+      <li>
+        <p>
+          Use the <a href="https://developers.facebook.com/tools/debug/" target="_blank">share debugger</a> to see what information was parsed and any warnings. It shows a share preview based on an older version of their desktop site and can’t be relied on.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>
+      <a href="https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup" target="_blank">Twitter</a> uses Open Graph if it finds them, but adds “Card Tags”. This is most helpful when you want something to appear slightly differently on Twitter vs Facebook.
+    </p>
+    <ul>
+      <li>
+        <p>
+          Use their <a href="https://cards-dev.twitter.com/validator" target="_blank">card validator</a> to see what a card will look like. This shows for desktop, I’m not aware of a mobile preview.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>
+      <a href="https://developers.google.com/search/docs/advanced/structured-data/intro-structured-data" target="_blank">Google</a> will also use Open Graph if it finds it, but prefers <a href="https://json-ld.org/" target="_blank">JSON-LD</a>.
+    </p>
+    <ul>
+      <li>
+        <p>
+          There are <a href="https://developers.google.com/search/docs/advanced/structured-data" target="_blank">multiple validators</a> for both generic JSON-LD and Google specific results. Despite being the most mature of these tools, I’ve found it least helpful in giving error messages. Caveat caelator.
+        </p>
+      </li>
+    </ul>
+  </li>
+</ul>
+<p>
+  One last resource that I found very helpful was the <a href="http://linter.structured-data.org/" target="_blank">structured data linter</a>. This tool understands just about all of the above. It’s not all that helpful for understanding how any one service will interpret your page, but is very useful to ensure the meta data you expect is being found, and that there are no inconsistencies or other problems.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:rdfa">
+      <p>
+        RDF actually does get a fair amount of practical use via <a href="https://www.w3.org/TR/rdfa-primer/" target="_blank">RDFa</a> (RDF for attributes) because it can markup existing HTML files as opposed to requiring separate XML files. In fact, this site uses RDFa to embed licensing data in the footer! Check it out in the <a href="http://linter.structured-data.org/?url=https:%2F%2Fleebyron.com%2Ftil%2Fmeta-tags-and-the-semantic-web%2F" target="_blank">structured data linter</a>.
+      </p>
+      <a href="#fn:rdfa.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:og-deck">
+      <p>
+        Facebook made an interesting <a href="https://www.scribd.com/doc/30715288/The-Open-Graph-Protocol-Design-Decisions" target="_blank">deck on the design decisions</a> of Open Graph that details these problems. It’s an interesting read.
+      </p>
+      <a href="#fn:og-deck.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:og-non-standard">
+      <p>
+        Open Graph uses <code>&lt;meta&gt;</code> tags, but annoyingly uses a <code>property=</code> attribute which was borrowed from RDF but is non standard for a <code>&lt;meta&gt;</code> tag. It ideally should have used <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta#attr-name" target="_blank"><code>name=</code></a> (which Twitter cards does). Someone should have caught that in code review.
+      </p>
+      <a href="#fn:og-non-standard.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/by-rss-you-mean-atom/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/by-rss-you-mean-atom/"/>
+    <published>2022-01-10T21:50:17.000-08:00</published>
+    <updated>2022-01-12T08:47:25.000+00:00</updated>
+    <title>by RSS you mean Atom</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="til"/>
+    <content type="html"><![CDATA[<p>
+  I set about adding an “RSS feed” for this til site, only to find that despite reader apps calling themselves “RSS readers”, that most “RSS” feeds out there are not actually written in <a href="https://www.rssboard.org/rss-specification" target="_blank">RSS</a>, they’re mostly written in <a href="https://datatracker.ietf.org/doc/html/rfc4287" target="_blank">Atom</a>. There are actually a small handful of feed document formats out there, and RSS is sort of the “Kleenex” of the feed marketplace: all feeds find themselves called “RSS” when they may not be.
+</p>
+<p>
+  RSS was created in 1999 (the <a href="https://www.youtube.com/watch?v=vG8WpLr6y_U" target="_blank">best era of the web</a> if you ask me) by Netscape as a simplification of RDF. It was …tossed over the wall. This was right about the time of the Netscape &amp; AOL merger, and RSS disappeared from netscape.com. Meanwhile RSS was <em>very popular</em> in the early days of the internet and adopted by many media companies figuring out this whole world wide web thing. In 2002 the version of RSS we mostly know was created by an independent group (retitled from “Rich Site Summary” to “Really Simple Syndication”) but under dubious legal circumstances and under the shadow of the AOL/Netflix conglomerate which technically owned the copyright.
+</p>
+<p>
+  Emerge <a href="https://datatracker.ietf.org/doc/html/rfc4287" target="_blank">Atom</a>, an open standard introduced in 2003 meant to replace RSS. It’s vendor neutral and open, solves some of RSS’s quirks, extensible, internationalized, championed by Google and other cool young tech companies, and even blessed by the IETF as RFC4287. And it still gets called “RSS”, sigh… open source is hard sometimes.
+</p>
+<p>
+  Two decades later, please use <a href="https://datatracker.ietf.org/doc/html/rfc4287" target="_blank">Atom</a> for your syndication feeds. It has been hardened by two decades of use and still works great.
+</p>
+<p>
+  In fact, even this site <a href="https://leebyron.com/til/feed.xml" target="_blank">has one</a>! Consider subscribing with <a href="https://netnewswire.com/" target="_blank">NetNewsWire</a>, an open source feed reader.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/ascii-table/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/ascii-table/"/>
+    <published>2022-01-09T23:49:50.000-08:00</published>
+    <updated>2023-07-24T16:57:58.000+00:00</updated>
+    <title>ascii table</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  The <a href="https://en.wikipedia.org/wiki/ASCII" target="_blank">ASCII</a> 7-bit character encoding is ubiquitous<a href="#fn:actually-utf8" id="fn:actually-utf8.ref" data-footnote-ref aria-label="note"><sup>1</sup></a> and foundational to how computers talk to each other. It has an absolutely fascinating history that dates surprisingly far back. The ASCII standard started in 1963, and was iterated until 1986. ASCII was based on ITA2, a telegraph standard from 1924, which itself derived from <a href="https://en.wikipedia.org/wiki/Baudot_code" target="_blank">Baudot code</a> from 1870—literally the beginning of digital communication (the namesake for “baud” speed).
+</p>
+<style>.ascii-table td:first-child { background: #00000008; }</style>
+<pre class="ascii-table"><div class="table-wrapper"><table><thead><tr><th></th><th><code>0x00</code></th><th><code>0x10</code></th><th><code>0x20</code></th><th><code>0x30</code></th><th><code>0x40</code></th><th><code>0x50</code></th><th><code>0x60</code></th><th><code>0x70</code></th></tr></thead><tbody><tr><td><strong><code>0x00</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Null_character" title="Null" target="_blank"><code>␀</code></a> <code>⌃@</code> <code>\0</code></td><td><a href="https://en.wikipedia.org/wiki/Data_Link_Escape" title="Data Link Escape" target="_blank"><code>␐</code></a> <code>⌃P</code></td><td>Space</td><td><code>0</code></td><td><code>@</code></td><td><code>P</code></td><td><code>`</code></td><td><code>p</code></td></tr><tr><td><strong><code>0x01</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Start_of_Heading" title="Start of Heading" target="_blank"><code>␁</code></a> <code>⌃A</code></td><td><a href="https://en.wikipedia.org/wiki/Device_Control_1" title="Device Control 1 / XON / Resume" target="_blank"><code>␑</code></a> <code>⌃Q</code></td><td><code>!</code></td><td><code>1</code></td><td><code>A</code></td><td><code>Q</code></td><td><code>a</code></td><td><code>q</code></td></tr><tr><td><strong><code>0x02</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Start_of_Text" title="Start of Text" target="_blank"><code>␂</code></a> <code>⌃B</code></td><td><a href="https://en.wikipedia.org/wiki/Device_Control_2" title="Device Control 2" target="_blank"><code>␒</code></a> <code>⌃R</code></td><td><code>&quot;</code></td><td><code>2</code></td><td><code>B</code></td><td><code>R</code></td><td><code>b</code></td><td><code>r</code></td></tr><tr><td><strong><code>0x03</code></strong></td><td><a href="https://en.wikipedia.org/wiki/End-of-Text_character" title="End of Text" target="_blank"><code>␃</code></a> <code>⌃C</code></td><td><a href="https://en.wikipedia.org/wiki/Device_Control_3" title="Device Control 3 / XOFF / Pause" target="_blank"><code>␓</code></a> <code>⌃S</code></td><td><code>#</code></td><td><code>3</code></td><td><code>C</code></td><td><code>S</code></td><td><code>c</code></td><td><code>s</code></td></tr><tr><td><strong><code>0x04</code></strong></td><td><a href="https://en.wikipedia.org/wiki/End-of-Transmission_character" title="End of Transmission" target="_blank"><code>␄</code></a> <code>⌃D</code></td><td><a href="https://en.wikipedia.org/wiki/Device_Control_4" title="Device Control 4" target="_blank"><code>␔</code></a> <code>⌃T</code></td><td><code>$</code></td><td><code>4</code></td><td><code>D</code></td><td><code>T</code></td><td><code>d</code></td><td><code>t</code></td></tr><tr><td><strong><code>0x05</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Enquiry_character" title="Enquiry" target="_blank"><code>␅</code></a> <code>⌃E</code></td><td><a href="https://en.wikipedia.org/wiki/Negative-acknowledge_character" title="Negative Acknowledgement" target="_blank"><code>␕</code></a> <code>⌃U</code></td><td><code>%</code></td><td><code>5</code></td><td><code>E</code></td><td><code>U</code></td><td><code>e</code></td><td><code>u</code></td></tr><tr><td><strong><code>0x06</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Acknowledge_character" title="Acknowledgement" target="_blank"><code>␆</code></a> <code>⌃F</code></td><td><a href="https://en.wikipedia.org/wiki/Synchronous_Idle" title="Synchronous Idle" target="_blank"><code>␖</code></a> <code>⌃V</code></td><td><code>&amp;</code></td><td><code>6</code></td><td><code>F</code></td><td><code>V</code></td><td><code>f</code></td><td><code>v</code></td></tr><tr><td><strong><code>0x07</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Bell_character" title="Bell" target="_blank"><code>␇</code></a> <code>⌃G</code> <code>\a</code></td><td><a href="https://en.wikipedia.org/wiki/End-of-Transmission-Block_character" title="End of Transmission Block" target="_blank"><code>␗</code></a> <code>⌃W</code></td><td><code>'</code></td><td><code>7</code></td><td><code>G</code></td><td><code>W</code></td><td><code>g</code></td><td><code>w</code></td></tr><tr><td><strong><code>0x08</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Backspace" title="Backspace" target="_blank"><code>␈</code></a> <code>⌃H</code> <code>\b</code></td><td><a href="https://en.wikipedia.org/wiki/Cancel_character" title="Cancel" target="_blank"><code>␘</code></a> <code>⌃X</code></td><td><code>(</code></td><td><code>8</code></td><td><code>H</code></td><td><code>X</code></td><td><code>h</code></td><td><code>x</code></td></tr><tr><td><strong><code>0x09</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Horizontal_Tab" title="Horizontal Tab" target="_blank"><code>␉</code></a> <code>⌃I</code> <code>\t</code></td><td><a href="https://en.wikipedia.org/wiki/End_of_Medium" title="End of Medium" target="_blank"><code>␙</code></a> <code>⌃Y</code></td><td><code>)</code></td><td><code>9</code></td><td><code>I</code></td><td><code>Y</code></td><td><code>i</code></td><td><code>y</code></td></tr><tr><td><strong><code>0x0A</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Line_Feed" title="Line Feed" target="_blank"><code>␊</code></a> <code>⌃J</code> <code>\n</code></td><td><a href="https://en.wikipedia.org/wiki/Substitute_character" title="Substitute" target="_blank"><code>␚</code></a> <code>⌃Z</code></td><td><code>*</code></td><td><code>:</code></td><td><code>J</code></td><td><code>Z</code></td><td><code>j</code></td><td><code>z</code></td></tr><tr><td><strong><code>0x0B</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Vertical_Tab" title="Vertical Tab" target="_blank"><code>␋</code></a> <code>⌃K</code> <code>\v</code></td><td><a href="https://en.wikipedia.org/wiki/Escape_character" title="Escape" target="_blank"><code>␛</code></a> <code>⌃[</code> <code>\e</code></td><td><code>+</code></td><td><code>;</code></td><td><code>K</code></td><td><code>[</code></td><td><code>k</code></td><td><code>{</code></td></tr><tr><td><strong><code>0x0C</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Form_Feed" title="Form Feed" target="_blank"><code>␌</code></a> <code>⌃L</code> <code>\f</code></td><td><a href="https://en.wikipedia.org/wiki/File_Separator" title="File Separator" target="_blank"><code>␜</code></a> <code>⌃\</code></td><td><code>,</code></td><td><code>&lt;</code></td><td><code>L</code></td><td><code>\</code></td><td><code>l</code></td><td><code>|</code></td></tr><tr><td><strong><code>0x0D</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Carriage_Return" title="Carriage Return" target="_blank"><code>␍</code></a> <code>⌃M</code> <code>\r</code></td><td><a href="https://en.wikipedia.org/wiki/Group_Separator" title="Group Separator" target="_blank"><code>␝</code></a> <code>⌃]</code></td><td><code>-</code></td><td><code>=</code></td><td><code>M</code></td><td><code>]</code></td><td><code>m</code></td><td><code>}</code></td></tr><tr><td><strong><code>0x0E</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Shift_Out" title="Shift Out" target="_blank"><code>␎</code></a> <code>⌃N</code></td><td><a href="https://en.wikipedia.org/wiki/Record_Separator" title="Record Separator" target="_blank"><code>␞</code></a> <code>⌃^</code></td><td><code>.</code></td><td><code>&gt;</code></td><td><code>N</code></td><td><code>^</code></td><td><code>n</code></td><td><code>~</code></td></tr><tr><td><strong><code>0x0F</code></strong></td><td><a href="https://en.wikipedia.org/wiki/Shift_In" title="Shift In" target="_blank"><code>␏</code></a> <code>⌃O</code></td><td><a href="https://en.wikipedia.org/wiki/Unit_Separator" title="Unit Separator" target="_blank"><code>␟</code></a> <code>⌃_</code></td><td><code>/</code></td><td><code>?</code></td><td><code>O</code></td><td><code>_</code></td><td><code>o</code></td><td><a href="https://en.wikipedia.org/wiki/Delete_character" title="Delete" target="_blank"><code>␡</code></a> <code>⌃?</code></td></tr></tbody></table></div></pre>
+<h2 id="other-fun-facts-about-ascii">
+  <a href="#other-fun-facts-about-ascii" data-anchor>Other fun facts about ASCII:</a>
+</h2>
+<ul>
+  <li>
+    <p>
+      The first 128 Unicode values are ASCII. UTF-8, the most common modern encoding, uses a variable number of bytes to cover the full Unicode spectrum, but just happens to use exactly one byte for the first 128 and exactly matches ASCII. That means every ancient ASCII file is also a valid modern UTF-8 file. This is a <em>beautiful</em> hack and a major reason for the success of UTF-8.
+    </p>
+  </li>
+  <li>
+    <p>
+      The number digits are carefully placed so <a href="https://en.wikipedia.org/wiki/Binary-coded_decimal" target="_blank">BCD</a> can be converted to ASCII and vice-versa in one instruction: <code>ascii = bcd XOR 0x30</code>.
+    </p>
+  </li>
+  <li>
+    <p>
+      Many keys you still reach via “shift” on a modern keyboard are either <code>0x10</code> or <code>0x20</code> above their standard key, a holdover from mechanical typewriters.
+    </p>
+  </li>
+  <li>
+    <p>
+      Lowercase letters are exactly <code>0x20</code> above uppercase.
+    </p>
+  </li>
+  <li>
+    <p>
+      Your “control” key has a <code>⌃</code> on it because its original purpose was to remap typical keys to control keys by xor’ing the highest bit <code>0x40</code> (<code>XOR</code> also happens to be <code>^</code> in C). Some of these vestiges of the past still work everywhere, and all should work in your terminal! Try <code>⌃H</code> for a home-row oriented backspace.
+    </p>
+  </li>
+</ul>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:actually-utf8">
+      <p>
+        These days it’s really UTF-8 thats ubiquitous.
+      </p>
+      <a href="#fn:actually-utf8.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>
+      https://leebyron.com/til/setup-a-simple-screencast/
+    </id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/setup-a-simple-screencast/"/>
+    <published>2022-01-07T22:35:43.000-08:00</published>
+    <updated>2022-01-12T08:47:25.000+00:00</updated>
+    <title>setup a simple screencast</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  There’s plenty of good software out there for screencasting, but if you’re in a pinch Quicktime Player does a solid job with a bit of prep.
+</p>
+<ol start="1">
+  <li>
+    <p>
+      Get a clear desktop and open all windows you want to screencast, not full screened. Also open Quicktime Player.
+    </p>
+    <ul>
+      <li>
+        <p>
+          Don’t forget to increase font size in any terminals, browsers, or IDEs to increase visibility. 100 columns works okay.
+        </p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>
+      File → New Movie Recording
+    </p>
+    <p>
+      Don’t actually record a movie. This just abuses the webcam preview so you can have your face in the screen cast. Resize the window down and position it in the corner of your desktop.
+    </p>
+  </li>
+  <li>
+    <p>
+      File → New Screen Recording
+    </p>
+    <ul>
+      <li>
+        <p>
+          Choose the “Record Selected Portion” and resize the area to be 1280×720 (or a large size of the same aspect ratio if your screen allows).
+        </p>
+      </li>
+      <li>
+        <p>
+          You can’t move windows around while resizing the recording area, but you can during recording. If necessary, start a recording to get windows all lined up.
+        </p>
+      </li>
+      <li>
+        <p>
+          Open options and make sure your microphone is on.
+        </p>
+      </li>
+      <li>
+        <p>
+          Record! Press ⌘⌃esc to stop. Trim the resulting video.
+        </p>
+      </li>
+    </ul>
+  </li>
+</ol>
+<p>
+  <img src="../media/7f2cdba5d3c1f40e.jpg" alt="screencast-setup.jpg">
+</p>
+<hr>
+<p>
+  I did exactly this to record a screencast about this very tool!
+</p>
+<div class="yt-player" style="--aspectRatio:1.7777777777777777;">
+  <iframe src="https://www.youtube.com/embed/iJn9kZw-hw8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/markdown-footnotes/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/markdown-footnotes/"/>
+    <published>2022-01-06T22:58:33.000-08:00</published>
+    <updated>2023-07-24T16:57:58.000+00:00</updated>
+    <title>markdown footnotes</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="markdown"/>
+    <content type="html"><![CDATA[<p>
+  Much like <a href="../markdown-link-references">markdown link references</a>, footnotes are defined in one place and referenced in another, but it doesn’t matter where the footnote is defined, they’ll always be collected at the end of the document in the order in which they are referenced<a href="#fn:a-note" id="fn:a-note.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+</p>
+<p>
+  Footnotes are created similar to shortcut reference links, but the identifier starts with a <code>^</code>.
+</p>
+<pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">order in which they are referenced[</span><span style="color:#D32F2F;">^a-note</span><span style="color:#24292EFF;">].</span>
+</span></code></pre>
+<p>
+  A footnote definition is formatted exactly like link reference definitions<a href="#fn:needs-cr" id="fn:needs-cr.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>: in a box followed by a comma.
+</p>
+<pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">[</span><span style="color:#D32F2F;">^a-note</span><span style="color:#24292EFF;">]: Despite footnotes appearing numbered, the identifier can be any text.</span>
+</span><span data-line="2"><span style="color:#24292EFF;">This is helpful if you may add more notes later and don't want to be bothered to</span>
+</span><span data-line="3"><span style="color:#24292EFF;">reorder them.</span>
+</span></code></pre>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:a-note">
+      <p>
+        Despite footnotes appearing numbered, the identifier can be any text. This is helpful if you may add more notes later and don’t want to be bothered to reorder them.
+      </p>
+      <a href="#fn:a-note.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:needs-cr">
+      <p>
+        Unlike a link reference definition, a footnote definition needs an empty line immediately after it, otherwise content from multiple lines is joined into a single paragraph.
+      </p>
+      <a href="#fn:needs-cr.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>
+      https://leebyron.com/til/markdown-link-references/
+    </id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/markdown-link-references/"/>
+    <published>2022-01-05T10:40:18.000-08:00</published>
+    <updated>2022-01-07T21:34:42.000+00:00</updated>
+    <title>markdown link references</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="markdown"/>
+    <content type="html"><![CDATA[<p>
+  Inline markdown links and images can be hard to read with long URLs. References are a great way to keep prose readable and keep a catalog of links. There are <a href="https://spec.commonmark.org/0.30/#links" title="Nearly a hundred tests" target="_blank">quite a few variations</a> of the syntax.
+</p>
+<p>
+  Write references with a box around the reference identifier followed by a colon and the URL, optionally include a trailing title in quotes (which may go on the following line):
+</p>
+<pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">[links]</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">https://spec.commonmark.org/0.30/#links</span>
+</span><span data-line="2"><span style="color:#24292EFF;">[links]</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">https://spec.commonmark.org/0.30/#links</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">'</span><span style="color:#2B5581;">Nearly a hundred tests</span><span style="color:#D32F2F;">'</span>
+</span></code></pre>
+<p>
+  Then within prose, refer to them with typical link syntax, but with a trailing box instead of parentheses. If the linked text is the same as the identifier, just use a standalone box.
+</p>
+<pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">Here is a link about [</span><span style="color:#D32F2F;">markdown links</span><span style="color:#24292EFF;">][links]. What's the web without [</span><span style="color:#D32F2F;">links</span><span style="color:#24292EFF;">]?</span>
+</span></code></pre>
+<p>
+  Here is a link about <a href="https://spec.commonmark.org/0.30/#links" title="Nearly a hundred tests" target="_blank">markdown links</a>. What’s the web without <a href="https://spec.commonmark.org/0.30/#links" title="Nearly a hundred tests" target="_blank">links</a>?
+</p>
+<p>
+  References can appear anywhere in a Markdown file. I often place them right after the paragraph where they’re used. If they’re used in multiple places, I’ll group them together at the end of a section or end of the whole document.
+</p>
+<hr>
+<p>
+  References can also be used for images. The syntax for the reference is the same, but the image use itself starts with an <code>!</code>.
+</p>
+<pre data-code-block data-lang="markdown"><code><span data-line="1"><span style="color:#24292EFF;">![</span><span style="color:#D32F2F;">moebius</span><span style="color:#24292EFF;">]</span>
+</span><span data-line="2">
+</span><span data-line="3"><span style="color:#24292EFF;">[moebius]</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">https://uploads4.wikiart.org/images/m-c-escher/bond-of-union.jpg</span>
+</span><span data-line="4"><span style="color:#24292EFF;">'Bond of Union, M.C. Escher 1956'</span>
+</span></code></pre>
+<p>
+  <img src="https://uploads4.wikiart.org/images/m-c-escher/bond-of-union.jpg" title="Bond of Union, M.C. Escher 1956" alt="moebius">
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/how-to-rearrange-bits/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/how-to-rearrange-bits/"/>
+    <published>2022-01-04T00:58:22.000-08:00</published>
+    <updated>2022-01-12T08:47:25.000+00:00</updated>
+    <title>how to rearrange bits</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  If you have a bit-powered display where the elements don’t align to the bits in the byte, you may want to remap bits from the source byte to the destination byte. Manually writing a bunch of shifts is frustrating, and I found a great tool which writes this code for you!
+</p>
+<p>
+  <a href="http://programming.sirrida.de/calcperm.php" target="_blank">http://programming.sirrida.de/calcperm.php</a>
+</p>
+<p>
+  I just used this to map sprite binary data to Unicode <a href="https://www.fileformat.info/info/unicode/block/braille_patterns/list.htm" target="_blank">braille patterns</a>. The 8 dots in a braille pattern can map to a byte, but perhaps not in the order you expect.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+  <entry>
+    <id>https://leebyron.com/til/changing-a-word-in-vim/</id>
+    <link rel="alternate" type="text/html" href="https://leebyron.com/til/changing-a-word-in-vim/"/>
+    <published>2022-01-03T16:34:57.000-08:00</published>
+    <updated>2022-01-12T08:47:25.000+00:00</updated>
+    <title>changing a word in vim</title>
+    <author>
+      <name>Lee Byron</name>
+      <uri>https://leebyron.com</uri>
+    </author>
+    <category term="vim"/>
+    <content type="html"><![CDATA[<p>
+  The <code>c</code> key starts a chord to change something. This is super useful for changing the word under the cursor. <code>cw</code> will change from the current position until the end of the next word, and <code>ciw</code> will change the whole word under the cursor (read: <code>c</code>hange <code>i</code>n <code>w</code>ord).
+</p>
+<hr>
+<p>
+  This, combined with other movements can lead to very quick changes. One I’ve found quite useful is <code>ci&quot;</code> which changes the contents of a quoted string, and <code>ca&quot;</code> (<code>c</code>hange <code>a</code>ll <code>&quot;</code>quoted) to include the quote marks themselves. Or when working in prose, <code>cis</code> will change the current sentence and <code>cip</code> the current paragraph.
+</p>
+<p>
+  Sometimes a change command is hard to think about first, or the area you want to change is subtly different from what the change command would do. Replace <code>c</code> with <code>v</code> to get a similar visual motion (like <code>v3w</code> for 3 words), muck about, then press <code>c</code> to change.
+</p>
+<p>
+  Changing the whole line (but keeping the indentation) is simply <code>cc</code>.
+</p>]]></content>
+    <rights>© 2022 Lee Byron ⸱ licensed under CC BY 4.0</rights>
+  </entry>
+</feed>
