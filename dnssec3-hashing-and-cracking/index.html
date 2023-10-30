@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>til / DNSSEC3 Hashing, and Cracking — Kevin Jiang</title>
+    <meta property="og:url" content="https://kevinjiang.ca/til/dnssec3-hashing-and-cracking/">
+    <meta property="og:title" content="til / DNSSEC3 Hashing, and Cracking — Kevin Jiang">
+    <meta property="og:description" content="So I’ve been on a journey to make a niche domain search tool, similar to micro.domains. I thought a key competitive advantage would be the ability to quickly query which domains exist and which ones don’t, without having to send out a bunch of whois requests. (This was the original motivation but this entire post is a rabbit-hole down DNSSEC).">
+    <meta property="og:type" content="article">
+    <meta property="article:author:first_name" content="Kevin">
+    <meta property="article:author:last_name" content="Jiang">
+    <meta property="article:published_time" content="2023-10-30T00:47:32.000-04:00">
+    <meta property="article:modified_time" content="2023-10-30T05:28:33.000+00:00">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevin51jiang">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "name": "DNSSEC3 Hashing, and Cracking",
+  "description": "So I’ve been on a journey to make a niche domain search tool, similar to micro.domains. I thought a key competitive advantage would be the ability to quickly query which domains exist and which ones don’t, without having to send out a bunch of whois requests. (This was the original motivation but this entire post is a rabbit-hole down DNSSEC).",
+  "author": {
+    "@type": "Person",
+    "name": "Kevin Jiang",
+    "url": "https://kevinjiang.ca"
+  },
+  "url": "https://kevinjiang.ca/til/dnssec3-hashing-and-cracking/",
+  "datePublished": "2023-10-30T00:47:32.000-04:00",
+  "dateModified": "2023-10-30T05:28:33.000+00:00",
+  "keywords": "domains",
+  "isPartOf": "https://kevinjiang.ca/til/",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://kevinjiang.ca/til/dnssec3-hashing-and-cracking/">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Reader Feed" href="https://kevinjiang.ca/til/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61714711-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-61714711-1');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="https://kevinjiang.ca/til/"><img src="../assets/logo.svg" alt="Kevin Jiang"></a>
+    </header>
+    <article>
+      <h1>
+        <a href="../">til</a><span>DNSSEC3 Hashing, and Cracking</span>
+      </h1>
+      <p>
+        So I’ve been on a journey to make a niche domain search tool, similar to <a href="http://micro.domains" target="_blank">micro.domains</a>. I thought a key competitive advantage would be the ability to quickly query which domains exist and which ones don’t, without having to send out a bunch of whois requests. (This was the original motivation but this entire post is a rabbit-hole down DNSSEC).
+      </p>
+      <p>
+        DNSSEC and DNSSEC3 are additional standards to reduce the availability of publically available DNS data, in the name of security through obscurity. Sure, if you apply it on your own corporate subdomain it’s still understandable, but it also applies to “full domains” as well (e.g. google.com). Which means, even if I have the zone files from CZDS, I can’t enumerate all the domain names for… reasons?
+      </p>
+      <p>
+        For DNSSEC, it’s trivial to enumerate everything. For example, let’s say everything under .ca was encrypted using DNSSEC, and I wanted to find all the domains. I would simply be able to ask for <code>a.ca</code>, then if that domain doesn’t exist, it’ll tell me the next and previous domains registered. I can then just follow these “pointers”, until I have everything under the TLD. Fun days.
+      </p>
+      <p>
+        However, DNSSEC3 removes some of that fun by making it so that it gives you ranges of hashes where a domain doesn’t exist. No fun pointers to follow anymore :(.
+      </p>
+      <p>
+        So then how do you enumerate? Now it’s no longer guaranteed, but you can get decently close, roughly 79% <a href="#fn:a" id="fn:a.ref1" data-footnote-ref aria-label="note"><sup>1</sup></a>.
+      </p>
+      <p>
+        One way is to use GPU-based Hash Breaking<a href="#fn:b" id="fn:b.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>. From this 2014 paper, it seems to suggest that all the domains use SHA-1, and each TLD uses a constant salt for all their domains. I’m not sure if it’s the case, but I wonder if you could find the salt and brute force everything still?
+      </p>
+      <p>
+        In a paper from 2017<a href="#fn:a" id="fn:a.ref2" data-footnote-ref aria-label="note"><sup>1</sup></a>, it seems like they did a brute force using relatively older GPUs (7 graphics cards from 2011 to 2016) and got the 79% previously mentioned in 2 weeks. Given that I have a 3090, I assume this is way easier to do, and I’ll have to look for implementations.
+      </p>
+      <p>
+        References:
+      </p>
+      <section data-footnotes aria-label="footnotes">
+        <ol>
+          <li id="fn:a">
+            <p>
+              <a href="https://ieeexplore.ieee.org/document/8002913" target="_blank">https://ieeexplore.ieee.org/document/8002913</a>
+            </p>
+            <a href="#fn:a.ref1" data-footnote-backref aria-label="return">↩</a><a href="#fn:a.ref2" data-footnote-backref aria-label="return">↩</a>
+          </li>
+          <li id="fn:b">
+            <p>
+              <a href="https://ieeexplore.ieee.org/document/6924218" target="_blank">https://ieeexplore.ieee.org/document/6924218</a>
+            </p>
+            <a href="#fn:b.ref" data-footnote-backref aria-label="return">↩</a>
+          </li>
+        </ol>
+      </section>
+    </article>
+    <footer>
+      <div class="linkedlist">
+        <a href="../i-made-a-til/" class="prev">I made a TIL</a>
+      </div>
+      <div class="license" xmlns:cc="http://creativecommons.org/ns" xmlns:dct="http://purl.org/dc/terms/">
+        This <a property="dct:title" rel="cc:attributionURL" href="https://kevinjiang.ca/til/dnssec3-hashing-and-cracking/">til</a> was created <span property="dct:created" content="2023-10-30T00:47:32.000-04:00">Mon, Oct 30, 2023, 12:47 AM</span> ⸱ <a href="https://raw.githubusercontent.com/kevin51jiang/til/main/entries/dnssec3%20hashing%2C%20and%20cracking.md" target="_blank">raw</a> ⸱ <a href="https://github.com/kevin51jiang/til/edit/main/entries/dnssec3%20hashing%2C%20and%20cracking.md#L8" target="_blank">edit</a><br>© <span rel="dct:dateCopyrighted">2023</span> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kevinjiang.ca">Kevin Jiang</a> ⸱ licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="cc:license license noopener noreferrer">CC BY 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true"></a> ⸱ <a href="https://kevinjiang.ca/til/feed.xml" rel="alternate feed" type="application/atom+xml">feed</a>
+      </div>
+    </footer>
+  </body>
+</html>
