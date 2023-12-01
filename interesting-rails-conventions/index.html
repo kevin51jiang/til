@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>til / Interesting Rails Conventions — Kevin Jiang</title>
+    <meta property="og:url" content="https://kevinjiang.ca/til/interesting-rails-conventions/">
+    <meta property="og:title" content="til / Interesting Rails Conventions — Kevin Jiang">
+    <meta property="og:description" content="As a noob in programming in Ruby on Rails, I feel like there’s a lot to learn. Unfortunately Intellisense doesn’t work great leading to harder discoverability. Convention over configuration is great, but only if you already know that convention. Here’s some miscellaneous things that I found interesting while reading the Ruby on Rails guides (for v7.1.2).">
+    <meta property="og:type" content="article">
+    <meta property="article:author:first_name" content="Kevin">
+    <meta property="article:author:last_name" content="Jiang">
+    <meta property="article:published_time" content="2023-12-01T12:06:08.000-05:00">
+    <meta property="article:modified_time" content="2023-12-01T17:52:01.000+00:00">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevin51jiang">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "name": "Interesting Rails Conventions",
+  "description": "As a noob in programming in Ruby on Rails, I feel like there’s a lot to learn. Unfortunately Intellisense doesn’t work great leading to harder discoverability. Convention over configuration is great, but only if you already know that convention. Here’s some miscellaneous things that I found interesting while reading the Ruby on Rails guides (for v7.1.2).",
+  "author": {
+    "@type": "Person",
+    "name": "Kevin Jiang",
+    "url": "https://kevinjiang.ca"
+  },
+  "url": "https://kevinjiang.ca/til/interesting-rails-conventions/",
+  "datePublished": "2023-12-01T12:06:08.000-05:00",
+  "dateModified": "2023-12-01T17:52:01.000+00:00",
+  "keywords": "rails",
+  "isPartOf": "https://kevinjiang.ca/til/",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://kevinjiang.ca/til/interesting-rails-conventions/">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Reader Feed" href="https://kevinjiang.ca/til/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61714711-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-61714711-1');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="https://kevinjiang.ca/til/"><img src="../assets/logo.svg" alt="Kevin Jiang"></a>
+    </header>
+    <article>
+      <h1>
+        <a href="../">til</a><span>Interesting Rails Conventions</span>
+      </h1>
+      <p>
+        As a noob in programming in Ruby on Rails, I feel like there’s a lot to learn. Unfortunately Intellisense doesn’t work great leading to harder discoverability. Convention over configuration is great, but only if you already know that convention. Here’s some miscellaneous things that I found interesting while reading the Ruby on Rails guides (for v7.1.2).
+      </p>
+      <p>
+        Disclaimer: I’m still very new to this, so if anything here is wrong please let me know!
+      </p>
+      <h2 id="notes">
+        <a href="#notes" data-anchor>Notes:</a>
+      </h2>
+      <ul>
+        <li>
+          <p>
+            In regex, use <code>\A</code> and <code>\z</code> to indicate the start and end of the string. <a href="#fn:a" id="fn:a.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>has_many :books, dependent: :destroy</code> <a href="#fn:b" id="fn:b.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>
+          </p>
+        </li>
+        <li>
+          <p>
+            Use <code>has_and_belongs_to_many</code> to build an implicit join table easily, otherwise <code>has_many :through</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            Symbol vs String: Use Symbol when the identity of it matters, use String when contents matter
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>-&gt; { method }</code> or <code>-&gt;(args) { method(args)}</code> is a lambda
+          </p>
+        </li>
+        <li>
+          <p>
+            Metaprogramming makes things confusing. As a beginner, try not to touch it if possible (and to keep code readable).
+          </p>
+        </li>
+        <li>
+          <p>
+            ActiveJob is really cool
+          </p>
+        </li>
+        <li>
+          <p>
+            You can use <code>&lt;%= method %&gt;</code> erb-style interpolation in YAML files, somehow. I should figure out how.
+          </p>
+        </li>
+        <li>
+          <p>
+            An ActiveStorage “file” is called an attachment
+          </p>
+        </li>
+        <li>
+          <p>
+            You should periodically purge unattached uploads <a href="#fn:c" id="fn:c.ref" data-footnote-ref aria-label="note"><sup>3</sup></a>
+          </p>
+        </li>
+      </ul>
+      <h2 id="full-text">
+        <a href="#full-text" data-anchor>Full text:</a>
+      </h2>
+      <pre data-code-block data-lang="rb"><code><span data-line="1"><span style="color:#D32F2F;">class</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">Author</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&lt;</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">ApplicationRecord</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  has_many :books</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> dependent: :destroy</span>
+</span><span data-line="3"><span style="color:#D32F2F;">end</span>
+</span><span data-line="4">
+</span><span data-line="5"><span style="color:#D32F2F;">class</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">Book</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&lt;</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">ApplicationRecord</span>
+</span><span data-line="6"><span style="color:#24292EFF;">  belongs_to :author</span>
+</span><span data-line="7"><span style="color:#D32F2F;">end</span>
+</span><span data-line="8">
+</span></code></pre><pre data-code-block data-lang="rb"><code><span data-line="1"><span style="color:#24292EFF;">namespace :active_storage </span><span style="color:#D32F2F;">do</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  desc </span><span style="color:#22863A;">&quot;Purges unattached Active Storage blobs. Run regularly.&quot;</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  task purge_unattached: :environment </span><span style="color:#D32F2F;">do</span>
+</span><span data-line="4"><span style="color:#24292EFF;">    </span><span style="color:#1976D2;">ActiveStorage</span><span style="color:#212121;">::</span><span style="color:#1976D2;">Blob</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">unattached</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">where(created_at: </span><span style="color:#212121;">..</span><span style="color:#1976D2;">2</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">days</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">ago)</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">find_each(</span><span style="color:#D32F2F;">&amp;</span><span style="color:#24292EFF;">:purge_later)</span>
+</span><span data-line="5"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">end</span>
+</span><span data-line="6"><span style="color:#D32F2F;">end</span>
+</span></code></pre>
+      <p>
+        The query generated by ActiveStorage::Blob.unattached can be slow and potentially disruptive on applications with larger databases.
+      </p>
+      <section data-footnotes aria-label="footnotes">
+        <ol>
+          <li id="fn:a">
+            <p>
+              use <code>\A</code> and <code>\z</code> to match the start and end of the string, <code>^</code> and <code>$</code> match the start/end of a line. Due to frequent misuse of <code>^</code> and <code>$</code>, you need to pass the multiline: true option in case you use any of these two anchors in the provided regular expression. In most cases, you should be using <code>\A</code> and <code>\z</code>.
+            </p>
+            <a href="#fn:a.ref" data-footnote-backref aria-label="return">↩</a>
+          </li>
+          <li id="fn:b">
+            <a href="#fn:b.ref" data-footnote-backref aria-label="return">↩</a>
+          </li>
+          <li id="fn:c">
+            <a href="#fn:c.ref" data-footnote-backref aria-label="return">↩</a>
+          </li>
+        </ol>
+      </section>
+    </article>
+    <footer>
+      <div class="linkedlist">
+        <a href="../docker-compose/" class="prev">docker compose</a>
+      </div>
+      <div class="license" xmlns:cc="http://creativecommons.org/ns" xmlns:dct="http://purl.org/dc/terms/">
+        This <a property="dct:title" rel="cc:attributionURL" href="https://kevinjiang.ca/til/interesting-rails-conventions/">til</a> was created <span property="dct:created" content="2023-12-01T12:06:08.000-05:00">Fri, Dec 1, 2023, 12:06 PM</span> ⸱ <a href="https://raw.githubusercontent.com/kevin51jiang/til/main/entries/interesting%20rails%20conventions.md" target="_blank">raw</a> ⸱ <a href="https://github.com/kevin51jiang/til/edit/main/entries/interesting%20rails%20conventions.md#L8" target="_blank">edit</a><br>© <span rel="dct:dateCopyrighted">2023</span> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kevinjiang.ca">Kevin Jiang</a> ⸱ licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="cc:license license noopener noreferrer">CC BY 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true"></a> ⸱ <a href="https://kevinjiang.ca/til/feed.xml" rel="alternate feed" type="application/atom+xml">feed</a>
+      </div>
+    </footer>
+  </body>
+</html>

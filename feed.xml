@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2023-11-30T14:18:13.000+00:00</updated>
+  <updated>2023-12-01T17:52:01.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -15,6 +15,119 @@
   </author>
   <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/interesting-rails-conventions/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/interesting-rails-conventions/"/>
+    <published>2023-12-01T12:06:08.000-05:00</published>
+    <updated>2023-12-01T17:52:01.000+00:00</updated>
+    <title>Interesting Rails Conventions</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <category term="rails"/>
+    <content type="html"><![CDATA[<p>
+  As a noob in programming in Ruby on Rails, I feel like there’s a lot to learn. Unfortunately Intellisense doesn’t work great leading to harder discoverability. Convention over configuration is great, but only if you already know that convention. Here’s some miscellaneous things that I found interesting while reading the Ruby on Rails guides (for v7.1.2).
+</p>
+<p>
+  Disclaimer: I’m still very new to this, so if anything here is wrong please let me know!
+</p>
+<h2 id="notes">
+  <a href="#notes" data-anchor>Notes:</a>
+</h2>
+<ul>
+  <li>
+    <p>
+      In regex, use <code>\A</code> and <code>\z</code> to indicate the start and end of the string. <a href="#fn:a" id="fn:a.ref" data-footnote-ref aria-label="note"><sup>1</sup></a>
+    </p>
+  </li>
+  <li>
+    <p>
+      <code>has_many :books, dependent: :destroy</code> <a href="#fn:b" id="fn:b.ref" data-footnote-ref aria-label="note"><sup>2</sup></a>
+    </p>
+  </li>
+  <li>
+    <p>
+      Use <code>has_and_belongs_to_many</code> to build an implicit join table easily, otherwise <code>has_many :through</code>
+    </p>
+  </li>
+  <li>
+    <p>
+      Symbol vs String: Use Symbol when the identity of it matters, use String when contents matter
+    </p>
+  </li>
+  <li>
+    <p>
+      <code>-&gt; { method }</code> or <code>-&gt;(args) { method(args)}</code> is a lambda
+    </p>
+  </li>
+  <li>
+    <p>
+      Metaprogramming makes things confusing. As a beginner, try not to touch it if possible (and to keep code readable).
+    </p>
+  </li>
+  <li>
+    <p>
+      ActiveJob is really cool
+    </p>
+  </li>
+  <li>
+    <p>
+      You can use <code>&lt;%= method %&gt;</code> erb-style interpolation in YAML files, somehow. I should figure out how.
+    </p>
+  </li>
+  <li>
+    <p>
+      An ActiveStorage “file” is called an attachment
+    </p>
+  </li>
+  <li>
+    <p>
+      You should periodically purge unattached uploads <a href="#fn:c" id="fn:c.ref" data-footnote-ref aria-label="note"><sup>3</sup></a>
+    </p>
+  </li>
+</ul>
+<h2 id="full-text">
+  <a href="#full-text" data-anchor>Full text:</a>
+</h2>
+<pre data-code-block data-lang="rb"><code><span data-line="1"><span style="color:#D32F2F;">class</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">Author</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&lt;</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">ApplicationRecord</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  has_many :books</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> dependent: :destroy</span>
+</span><span data-line="3"><span style="color:#D32F2F;">end</span>
+</span><span data-line="4">
+</span><span data-line="5"><span style="color:#D32F2F;">class</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">Book</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&lt;</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">ApplicationRecord</span>
+</span><span data-line="6"><span style="color:#24292EFF;">  belongs_to :author</span>
+</span><span data-line="7"><span style="color:#D32F2F;">end</span>
+</span><span data-line="8">
+</span></code></pre><pre data-code-block data-lang="rb"><code><span data-line="1"><span style="color:#24292EFF;">namespace :active_storage </span><span style="color:#D32F2F;">do</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  desc </span><span style="color:#22863A;">&quot;Purges unattached Active Storage blobs. Run regularly.&quot;</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  task purge_unattached: :environment </span><span style="color:#D32F2F;">do</span>
+</span><span data-line="4"><span style="color:#24292EFF;">    </span><span style="color:#1976D2;">ActiveStorage</span><span style="color:#212121;">::</span><span style="color:#1976D2;">Blob</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">unattached</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">where(created_at: </span><span style="color:#212121;">..</span><span style="color:#1976D2;">2</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">days</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">ago)</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">find_each(</span><span style="color:#D32F2F;">&amp;</span><span style="color:#24292EFF;">:purge_later)</span>
+</span><span data-line="5"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">end</span>
+</span><span data-line="6"><span style="color:#D32F2F;">end</span>
+</span></code></pre>
+<p>
+  The query generated by ActiveStorage::Blob.unattached can be slow and potentially disruptive on applications with larger databases.
+</p>
+<section data-footnotes aria-label="footnotes">
+  <ol>
+    <li id="fn:a">
+      <p>
+        use <code>\A</code> and <code>\z</code> to match the start and end of the string, <code>^</code> and <code>$</code> match the start/end of a line. Due to frequent misuse of <code>^</code> and <code>$</code>, you need to pass the multiline: true option in case you use any of these two anchors in the provided regular expression. In most cases, you should be using <code>\A</code> and <code>\z</code>.
+      </p>
+      <a href="#fn:a.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:b">
+      <a href="#fn:b.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+    <li id="fn:c">
+      <a href="#fn:c.ref" data-footnote-backref aria-label="return">↩</a>
+    </li>
+  </ol>
+</section>]]></content>
+    <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>https://kevinjiang.ca/til/docker-compose/</id>
     <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/docker-compose/"/>
