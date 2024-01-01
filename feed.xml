@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2023-12-01T17:52:01.000+00:00</updated>
+  <updated>2024-01-01T14:30:55.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -13,8 +13,48 @@
     <name>Kevin Jiang</name>
     <uri>https://kevinjiang.ca</uri>
   </author>
-  <rights>© 2023 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/building-postgres-on-mac/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/building-postgres-on-mac/"/>
+    <published>2024-01-01T09:22:36.000-05:00</published>
+    <updated>2024-01-01T14:30:55.000+00:00</updated>
+    <title>Building Postgres on Mac</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  While trying to install Postgres today, I thought it’d be fun to try 16.1 for the fun of it.
+</p>
+<p>
+  I ran the command with asdf as <code>asdf install postgres 16.1</code>
+</p>
+<p>
+  Turns out, Postgres updated things in update 16 (building with ic4uc by default now) and I kept getting this error:
+</p>
+<pre data-code-block><code>checking for icu-uc icu-i18n... no
+configure: error: ICU library not found
+If you have ICU already installed, see config.log for details on the
+failure.  It is possible the compiler isn't looking in the proper directory.
+Use --without-icu to disable ICU support.</code></pre>
+<p>
+  I found an article describing <em>this exact issue</em> on someone’s blog at <a href="https://viggy28.dev/article/postgres-v16-icu-installation-issue/" target="_blank">https://viggy28.dev/article/postgres-v16-icu-installation-issue/</a>
+</p>
+<p>
+  The solution was to run this following block instead:
+</p>
+<pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#D32F2F;">export</span><span style="color:#24292EFF;"> PKG_CONFIG_PATH=/usr/local/opt/icu4c/lib/pkgconfig/</span>
+</span><span data-line="2"><span style="color:#24292EFF;">asdf install postgres 16.1</span>
+</span></code></pre>
+<p>
+  Thanks a bunch Vignesh! It saved me a ton of time. I wonder if this would be what it felt like to use Stack Overflow 10 years ago.
+</p>]]></content>
+    <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>
       https://kevinjiang.ca/til/interesting-rails-conventions/
