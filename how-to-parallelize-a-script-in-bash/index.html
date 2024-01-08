@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      til / How to Parallelize a Script in Bash — Kevin Jiang
+    </title>
+    <meta property="og:url" content="https://kevinjiang.ca/til/how-to-parallelize-a-script-in-bash/">
+    <meta property="og:title" content="til / How to Parallelize a Script in Bash — Kevin Jiang">
+    <meta property="og:description" content="For running , while passing in option of an index of :">
+    <meta property="og:type" content="article">
+    <meta property="article:author:first_name" content="Kevin">
+    <meta property="article:author:last_name" content="Jiang">
+    <meta property="article:published_time" content="2024-01-08T11:22:01.000-05:00">
+    <meta property="article:modified_time" content="2024-01-08T16:26:02.000+00:00">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevin51jiang">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "name": "How to Parallelize a Script in Bash",
+  "description": "For running , while passing in option of an index of :",
+  "author": {
+    "@type": "Person",
+    "name": "Kevin Jiang",
+    "url": "https://kevinjiang.ca"
+  },
+  "url": "https://kevinjiang.ca/til/how-to-parallelize-a-script-in-bash/",
+  "datePublished": "2024-01-08T11:22:01.000-05:00",
+  "dateModified": "2024-01-08T16:26:02.000+00:00",
+  "isPartOf": "https://kevinjiang.ca/til/",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://kevinjiang.ca/til/how-to-parallelize-a-script-in-bash/">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Reader Feed" href="https://kevinjiang.ca/til/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61714711-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-61714711-1');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="https://kevinjiang.ca/til/"><img src="../assets/logo.svg" alt="Kevin Jiang"></a>
+    </header>
+    <article>
+      <h1>
+        <a href="../">til</a><span>How to Parallelize a Script in Bash</span>
+      </h1>
+      <p>
+        For running <code>scriptName.sh</code>, while passing in option of an index of <code>arrayThatVaries</code>:
+      </p>
+      <pre data-code-block data-lang="bash"><code><span data-line="1"><span style="color:#24292EFF;">arrayThatVaries=(</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  </span><span style="color:#22863A;">&quot;entry1&quot;</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  </span><span style="color:#22863A;">&quot;entry2&quot;</span>
+</span><span data-line="4"><span style="color:#24292EFF;">  </span><span style="color:#22863A;">&quot;entry3&quot;</span>
+</span><span data-line="5"><span style="color:#24292EFF;">)</span>
+</span><span data-line="6">
+</span><span data-line="7">
+</span><span data-line="8"><span style="color:#24292EFF;">(trap </span><span style="color:#22863A;">'kill 0'</span><span style="color:#24292EFF;"> SIGINT</span><span style="color:#D32F2F;">;</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">for</span><span style="color:#24292EFF;"> i </span><span style="color:#D32F2F;">in</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;${</span><span style="color:#D32F2F;">!</span><span style="color:#22863A;">arrayThatVaries[@]}&quot;</span><span style="color:#D32F2F;">;</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">do</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  scriptName.sh --option </span><span style="color:#22863A;">&quot;${arrayThatVaries[$i]}&quot;</span><span style="color:#24292EFF;"> --index </span><span style="color:#22863A;">&quot;$i&quot;</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&amp;</span>
+</span><span data-line="10"><span style="color:#D32F2F;">done</span>
+</span><span data-line="11"><span style="color:#24292EFF;">wait)</span>
+</span></code></pre>
+    </article>
+    <footer>
+      <div class="linkedlist">
+        <a href="../building-postgres-on-mac/" class="prev">Building Postgres on Mac</a>
+      </div>
+      <div class="license" xmlns:cc="http://creativecommons.org/ns" xmlns:dct="http://purl.org/dc/terms/">
+        This <a property="dct:title" rel="cc:attributionURL" href="https://kevinjiang.ca/til/how-to-parallelize-a-script-in-bash/">til</a> was created <span property="dct:created" content="2024-01-08T11:22:01.000-05:00">Mon, Jan 8, 2024, 11:22 AM</span> ⸱ <a href="https://raw.githubusercontent.com/kevin51jiang/til/main/entries/how%20to%20parallelize%20a%20script%20in%20bash.md" target="_blank">raw</a> ⸱ <a href="https://github.com/kevin51jiang/til/edit/main/entries/how%20to%20parallelize%20a%20script%20in%20bash.md#L8" target="_blank">edit</a><br>© <span rel="dct:dateCopyrighted">2024</span> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kevinjiang.ca">Kevin Jiang</a> ⸱ licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="cc:license license noopener noreferrer">CC BY 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true"></a> ⸱ <a href="https://kevinjiang.ca/til/feed.xml" rel="alternate feed" type="application/atom+xml">feed</a>
+      </div>
+    </footer>
+  </body>
+</html>

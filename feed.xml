@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2024-01-01T14:30:55.000+00:00</updated>
+  <updated>2024-01-08T16:26:02.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -15,6 +15,35 @@
   </author>
   <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/how-to-parallelize-a-script-in-bash/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/how-to-parallelize-a-script-in-bash/"/>
+    <published>2024-01-08T11:22:01.000-05:00</published>
+    <updated>2024-01-08T16:26:02.000+00:00</updated>
+    <title>How to Parallelize a Script in Bash</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  For running <code>scriptName.sh</code>, while passing in option of an index of <code>arrayThatVaries</code>:
+</p>
+<pre data-code-block data-lang="bash"><code><span data-line="1"><span style="color:#24292EFF;">arrayThatVaries=(</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  </span><span style="color:#22863A;">&quot;entry1&quot;</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  </span><span style="color:#22863A;">&quot;entry2&quot;</span>
+</span><span data-line="4"><span style="color:#24292EFF;">  </span><span style="color:#22863A;">&quot;entry3&quot;</span>
+</span><span data-line="5"><span style="color:#24292EFF;">)</span>
+</span><span data-line="6">
+</span><span data-line="7">
+</span><span data-line="8"><span style="color:#24292EFF;">(trap </span><span style="color:#22863A;">'kill 0'</span><span style="color:#24292EFF;"> SIGINT</span><span style="color:#D32F2F;">;</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">for</span><span style="color:#24292EFF;"> i </span><span style="color:#D32F2F;">in</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;${</span><span style="color:#D32F2F;">!</span><span style="color:#22863A;">arrayThatVaries[@]}&quot;</span><span style="color:#D32F2F;">;</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">do</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  scriptName.sh --option </span><span style="color:#22863A;">&quot;${arrayThatVaries[$i]}&quot;</span><span style="color:#24292EFF;"> --index </span><span style="color:#22863A;">&quot;$i&quot;</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">&amp;</span>
+</span><span data-line="10"><span style="color:#D32F2F;">done</span>
+</span><span data-line="11"><span style="color:#24292EFF;">wait)</span>
+</span></code></pre>]]></content>
+    <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>
       https://kevinjiang.ca/til/building-postgres-on-mac/
