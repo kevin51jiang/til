@@ -10,7 +10,7 @@
     <meta property="article:author:first_name" content="Kevin">
     <meta property="article:author:last_name" content="Jiang">
     <meta property="article:published_time" content="2024-07-23T08:33:43.000-04:00">
-    <meta property="article:modified_time" content="2024-07-23T14:10:23.000+00:00">
+    <meta property="article:modified_time" content="2024-07-23T14:15:59.000+00:00">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:creator" content="@kevin51jiang">
     <script type="application/ld+json">
@@ -26,7 +26,7 @@
   },
   "url": "https://kevinjiang.ca/til/cuda-issues/",
   "datePublished": "2024-07-23T08:33:43.000-04:00",
-  "dateModified": "2024-07-23T14:10:23.000+00:00",
+  "dateModified": "2024-07-23T14:15:59.000+00:00",
   "keywords": "cuda",
   "isPartOf": "https://kevinjiang.ca/til/",
   "license": "https://creativecommons.org/licenses/by/4.0/"
@@ -89,6 +89,16 @@
        '.-MMMM``--:::::--``MMMM-.'         GPU: NVIDIA GeForce RTX 3090
             '-MMMMMMMMMMMMM-'              Memory: 8751MiB / 32004MiB
                ``-:::::-``</code></pre>
+      <h2 id="what-we-re-trying-to-solve">
+        <a href="#what-we-re-trying-to-solve" data-anchor>What we’re trying to solve:</a>
+      </h2>
+      <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi</span>
+</span><span data-line="2">
+</span><span data-line="3"><span style="color:#D32F2F;">&gt;&gt;</span><span style="color:#24292EFF;"> Failed to initialize NVML: Unknown Error</span>
+</span></code></pre>
+      <p>
+        Ideally, we want it to print out an nvidia-smi screen.
+      </p>
       <h2 id="my-troubleshooting-steps">
         <a href="#my-troubleshooting-steps" data-anchor>My troubleshooting steps:</a>
       </h2>
@@ -229,6 +239,11 @@
         <li>
           <p>
             <code>sudo docker run --rm --runtime=nvidia --gpus all --device=/dev/nvidia-uvm-tools --device=/dev/nvidia-modeset --device=/dev/nvidiactl --device=/dev/nvidia0 ubuntu nvidia-smi</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            I only needed to add <code>--device=/dev/nvidiactl --device=/dev/nvidia0</code>, but ymmv
           </p>
         </li>
         <li>
