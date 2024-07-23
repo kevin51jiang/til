@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>til / cuda issues — Kevin Jiang</title>
+    <meta property="og:url" content="https://kevinjiang.ca/til/cuda-issues/">
+    <meta property="og:title" content="til / cuda issues — Kevin Jiang">
+    <meta property="og:description" content="First of all apologies for the rushed writing, but I’m too happy that I finally resolved my CUDA problem after days of trying. Maybe after I calm down a bit I’ll come back to make it more pleasant to read.">
+    <meta property="og:type" content="article">
+    <meta property="article:author:first_name" content="Kevin">
+    <meta property="article:author:last_name" content="Jiang">
+    <meta property="article:published_time" content="2024-07-23T08:33:43.000-04:00">
+    <meta property="article:modified_time" content="2024-07-23T14:10:23.000+00:00">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevin51jiang">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "name": "cuda issues",
+  "description": "First of all apologies for the rushed writing, but I’m too happy that I finally resolved my CUDA problem after days of trying. Maybe after I calm down a bit I’ll come back to make it more pleasant to read.",
+  "author": {
+    "@type": "Person",
+    "name": "Kevin Jiang",
+    "url": "https://kevinjiang.ca"
+  },
+  "url": "https://kevinjiang.ca/til/cuda-issues/",
+  "datePublished": "2024-07-23T08:33:43.000-04:00",
+  "dateModified": "2024-07-23T14:10:23.000+00:00",
+  "keywords": "cuda",
+  "isPartOf": "https://kevinjiang.ca/til/",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://kevinjiang.ca/til/cuda-issues/">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Reader Feed" href="https://kevinjiang.ca/til/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61714711-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-61714711-1');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="https://kevinjiang.ca/til/"><img src="../assets/logo.svg" alt="Kevin Jiang"></a>
+    </header>
+    <article>
+      <h1>
+        <a href="../">til</a><span>cuda issues</span>
+      </h1>
+      <blockquote>
+        <p>
+          First of all apologies for the rushed writing, but I’m too happy that I finally resolved my CUDA problem after days of trying. Maybe after I calm down a bit I’ll come back to make it more pleasant to read.
+        </p>
+      </blockquote>
+      <p>
+        I’m trying to run Nvidia Docker containers on my Linux Mint 21.3 machine. This solves the <code>Failed to initialize NVML: Unknown Error</code> problem. However, contrary to the other posts about <code>Failed to initialize NVML: Unknown Error</code>, where the GPU goes offline after a certain period of time, my GPU wasn’t detected at all!
+      </p>
+      <p>
+        CUDA works great on bare metal, but once containerized there’s always a problem of the GPU not being detected in Docker.
+      </p>
+      <p>
+        For my solution, check the last entry.
+      </p>
+      <p>
+        But first: neofetch
+      </p>
+      <pre data-code-block><code>            ...-:::::-...                 user@computer
+          .-MMMMMMMMMMMMMMM-.              ----------------
+      .-MMMM`..-:::::::-..`MMMM-.          OS: Linux Mint 21.3 x86_64
+    .:MMMM.:MMMMMMMMMMMMMMM:.MMMM:.        Host: MS-7D51 1.0
+   -MMM-M---MMMMMMMMMMMMMMMMMMM.MMM-       Kernel: 5.15.0-113-generic
+ `:MMM:MM`  :MMMM:....::-...-MMMM:MMM:`    Uptime: 52 mins
+ :MMM:MMM`  :MM:`  ``    ``  `:MMM:MMM:    Packages: 3113 (dpkg)
+.MMM.MMMM`  :MM.  -MM.  .MM-  `MMMM.MMM.   Shell: zsh 5.8.1
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   Resolution: 2560x1440
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM:MMM:   DE: Cinnamon 6.0.4
+:MMM:MMMM`  :MM.  -MM-  .MM:  `MMMM-MMM:   WM: Mutter (Muffin)
+.MMM.MMMM`  :MM:--:MM:--:MM:  `MMMM.MMM.   WM Theme: Mint-Y-Dark-Aqua (Mint-Y)
+ :MMM:MMM-  `-MMMMMMMMMMMM-`  -MMM-MMM:    Theme: Mint-Y-Aqua [GTK2/3]
+  :MMM:MMM:`                `:MMM:MMM:     Icons: Mint-Y-Sand [GTK2/3]
+   .MMM.MMMM:--------------:MMMM.MMM.      Terminal: gnome-terminal
+     '-MMMM.-MMMMMMMMMMMMMMM-.MMMM-'       CPU: AMD Ryzen 7 3700X (16) @ 3.600GHz
+       '.-MMMM``--:::::--``MMMM-.'         GPU: NVIDIA GeForce RTX 3090
+            '-MMMMMMMMMMMMM-'              Memory: 8751MiB / 32004MiB
+               ``-:::::-``</code></pre>
+      <h2 id="my-troubleshooting-steps">
+        <a href="#my-troubleshooting-steps" data-anchor>My troubleshooting steps:</a>
+      </h2>
+      <h3 id="cgroupfs">
+        <a href="#cgroupfs" data-anchor>Cgroupfs:</a>
+      </h3>
+      <ul>
+        <li>
+          <p>
+            this is probably not a problem anymore (fixed), but might as well do it because anything to do with CUDA is black magic
+          </p>
+        </li>
+        <li>
+          <p>
+            Relevant Links:
+          </p>
+          <ul>
+            <li>
+              <p>
+                <a href="https://github.com/NVIDIA/nvidia-docker/issues/1730#issue-1573551271" target="_blank">https://github.com/NVIDIA/nvidia-docker/issues/1730#issue-1573551271</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="https://github.com/NVIDIA/nvidia-docker/issues/1671#issuecomment-1740502744" target="_blank">https://github.com/NVIDIA/nvidia-docker/issues/1671#issuecomment-1740502744</a>
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            tl;dr
+          </p>
+        </li>
+      </ul>
+      <p>
+        Set <code>/etc/docker/daemon.json</code> to
+      </p>
+      <pre data-code-block data-lang="json"><code><span data-line="1"><span style="color:#24292EFF;">{</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">&quot;default-runtime&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;nvidia&quot;</span><span style="color:#212121;">,</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">&quot;runtimes&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="4"><span style="color:#24292EFF;">    </span><span style="color:#D32F2F;">&quot;nvidia&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="5"><span style="color:#24292EFF;">      </span><span style="color:#D32F2F;">&quot;args&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> []</span><span style="color:#212121;">,</span>
+</span><span data-line="6"><span style="color:#24292EFF;">      </span><span style="color:#D32F2F;">&quot;path&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;nvidia-container-runtime&quot;</span>
+</span><span data-line="7"><span style="color:#24292EFF;">    }</span>
+</span><span data-line="8"><span style="color:#24292EFF;">  }</span><span style="color:#212121;">,</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">&quot;exec-opts&quot;</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> [</span><span style="color:#22863A;">&quot;native.cgroupdriver=cgroupfs&quot;</span><span style="color:#24292EFF;">]</span>
+</span><span data-line="10"><span style="color:#24292EFF;">}</span>
+</span></code></pre>
+      <h3 id="passing-in-the-devices-in-docker-compose">
+        <a href="#passing-in-the-devices-in-docker-compose" data-anchor>Passing in the devices, in docker compose</a>
+      </h3>
+      <ul>
+        <li>
+          <p>
+            Relevant Links:
+          </p>
+          <ul>
+            <li>
+              <p>
+                <a href="https://github.com/AbdBarho/stable-diffusion-webui-docker/issues/389#issuecomment-1571340508" target="_blank">https://github.com/AbdBarho/stable-diffusion-webui-docker/issues/389#issuecomment-1571340508</a>
+              </p>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <p>
+            tl;dr
+          </p>
+        </li>
+      </ul>
+      <p>
+        Add the following to your <code>docker-compose.yaml</code>, under a service:
+      </p>
+      <pre data-code-block data-lang="yaml"><code><span data-line="1"><span style="color:#D32F2F;">service</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">ServiceName</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  </span><span style="color:#C2C3C5;"># ...</span>
+</span><span data-line="3"><span style="color:#24292EFF;">  </span><span style="color:#D32F2F;">deploy</span><span style="color:#D32F2F;">:</span>
+</span><span data-line="4"><span style="color:#24292EFF;">    </span><span style="color:#D32F2F;">resources</span><span style="color:#D32F2F;">:</span>
+</span><span data-line="5"><span style="color:#24292EFF;">      </span><span style="color:#D32F2F;">reservations</span><span style="color:#D32F2F;">:</span>
+</span><span data-line="6"><span style="color:#24292EFF;">        </span><span style="color:#D32F2F;">devices</span><span style="color:#D32F2F;">:</span>
+</span><span data-line="7"><span style="color:#24292EFF;">            - </span><span style="color:#D32F2F;">driver</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">nvidia</span>
+</span><span data-line="8"><span style="color:#24292EFF;">              </span><span style="color:#D32F2F;">capabilities</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> [</span><span style="color:#22863A;">&quot;gpu&quot;</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;compute&quot;</span><span style="color:#212121;">,</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;utility&quot;</span><span style="color:#24292EFF;">]</span>
+</span><span data-line="9"><span style="color:#24292EFF;">              </span><span style="color:#C2C3C5;"># &quot;gpu&quot; may or may not be present depending on the video card</span>
+</span></code></pre>
+      <h3 id="pass-in-the-gpu-using-gpus-all">
+        <a href="#pass-in-the-gpu-using-gpus-all" data-anchor>Pass in the GPU using —gpus all</a>
+      </h3>
+      <ul>
+        <li>
+          <p>
+            When you run something in Docker, tack on <code>--gpus all</code>
+          </p>
+        </li>
+      </ul>
+      <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi</span>
+</span><span data-line="2">
+</span><span data-line="3"><span style="color:#D32F2F;">&gt;&gt;</span><span style="color:#24292EFF;"> Failed to initialize NVML: Unknown Error</span>
+</span></code></pre>
+      <p>
+        …drat no change
+      </p>
+      <h3 id="passing-in-devices-(my-problem)">
+        <a href="#passing-in-devices-(my-problem)" data-anchor>Passing in Devices (my problem):</a>
+      </h3>
+      <ul>
+        <li>
+          <p>
+            My problem:
+          </p>
+          <ul>
+            <li>
+              <p>
+                For some reason, the symlinks for all the different devices aren’t made
+              </p>
+            </li>
+            <li>
+              <p>
+                Had to add all the <code>--device=/dev/nvidia-uvm-tools --device=/dev/nvidia-modeset --device=/dev/nvidiactl --device=/dev/nvidia0</code>, otherwise it wouldn’t be detected
+              </p>
+            </li>
+            <li>
+              <p>
+                Next up is to try
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">sudo nvidia-ctk system create-dev-char-symlinks \</span>
+</span><span data-line="2"><span style="color:#24292EFF;">    --create-all</span>
+</span></code></pre>
+      <ul>
+        <li>
+          <p>
+            Test if you have this problem:
+          </p>
+        </li>
+        <li>
+          <p>
+            <code>sudo docker run --rm --runtime=nvidia --gpus all --device=/dev/nvidia-uvm-tools --device=/dev/nvidia-modeset --device=/dev/nvidiactl --device=/dev/nvidia0 ubuntu nvidia-smi</code>
+          </p>
+        </li>
+        <li>
+          <p>
+            It works~
+          </p>
+        </li>
+      </ul>
+      <pre data-code-block data-lang="sh"><code><span data-line="1"><span style="color:#24292EFF;">sudo docker run --rm --runtime=nvidia --gpus all --device=/dev/nvidia-uvm-tools --device=/dev/nvidia-modeset --device=/dev/nvidiactl --device=/dev/nvidia0  ubuntu nvidia-smi</span>
+</span><span data-line="2">
+</span><span data-line="3"><span style="color:#D32F2F;">&gt;&gt;</span>
+</span><span data-line="4">
+</span><span data-line="5"><span style="color:#24292EFF;">Tue Jul 23 14:08:38 2024</span>
+</span><span data-line="6"><span style="color:#24292EFF;">+---------------------------------------------------------------------------------------+</span>
+</span><span data-line="7"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="8"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">-----------------------------------------+----------------------+----------------------+</span>
+</span><span data-line="9"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> GPU  Name                 Persistence-M </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> Bus-Id        Disp.A </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> Volatile Uncorr. ECC </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="10"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> Fan  Temp   Perf          Pwr:Usage/Cap </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">         Memory-Usage </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> GPU-Util  Compute M. </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="11"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">                                         </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">                      </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">               MIG M. </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="12"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">=========================================+======================+======================</span><span style="color:#D32F2F;">|</span>
+</span><span data-line="13"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">   0  NVIDIA GeForce RTX 3090        Off </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> 00000000:2D:00.0  On </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">                  N/A </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="14"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> 36%   34C    P2             106W / 350W </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">    587MiB / 24576MiB </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">      0%      Default </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="15"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">                                         </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">                      </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">                  N/A </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="16"><span style="color:#24292EFF;">+-----------------------------------------+----------------------+----------------------+</span>
+</span><span data-line="17">
+</span><span data-line="18"><span style="color:#24292EFF;">+---------------------------------------------------------------------------------------+</span>
+</span><span data-line="19"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> Processes:                                                                            </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="20"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">  GPU   GI   CI        PID   Type   Process name                            GPU Memory </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="21"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">        ID   ID                                                             Usage      </span><span style="color:#D32F2F;">|</span>
+</span><span data-line="22"><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;">=======================================================================================</span><span style="color:#D32F2F;">|</span>
+</span><span data-line="23"><span style="color:#24292EFF;">+---------------------------------------------------------------------------------------+</span>
+</span></code></pre>
+      <ul>
+        <li>
+          <p>
+            Relevant links:
+          </p>
+          <ul>
+            <li>
+              <p>
+                <a href="https://github.com/NVIDIA/nvidia-docker/issues/1730#issue-1573551271" target="_blank">https://github.com/NVIDIA/nvidia-docker/issues/1730#issue-1573551271</a> (used the repro steps here to finally figure out that the GPU was indeed getting detected)
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </article>
+    <footer>
+      <div class="linkedlist">
+        <a href="../on-solving-non-linear-programming-problems/" class="prev">on solving non-linear programming problems</a>
+      </div>
+      <div class="license" xmlns:cc="http://creativecommons.org/ns" xmlns:dct="http://purl.org/dc/terms/">
+        This <a property="dct:title" rel="cc:attributionURL" href="https://kevinjiang.ca/til/cuda-issues/">til</a> was created <span property="dct:created" content="2024-07-23T08:33:43.000-04:00">Tue, Jul 23, 2024, 8:33 AM</span> ⸱ <a href="https://raw.githubusercontent.com/kevin51jiang/til/main/entries/cuda%20issues.md" target="_blank">raw</a> ⸱ <a href="https://github.com/kevin51jiang/til/edit/main/entries/cuda%20issues.md#L8" target="_blank">edit</a><br>© <span rel="dct:dateCopyrighted">2024</span> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kevinjiang.ca">Kevin Jiang</a> ⸱ licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="cc:license license noopener noreferrer">CC BY 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true"></a> ⸱ <a href="https://kevinjiang.ca/til/feed.xml" rel="alternate feed" type="application/atom+xml">feed</a>
+      </div>
+    </footer>
+  </body>
+</html>
