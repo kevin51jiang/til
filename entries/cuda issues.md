@@ -43,6 +43,16 @@ But first: neofetch
                ``-:::::-``
 ```
 
+## What we're trying to solve:
+
+```sh
+sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
+
+>> Failed to initialize NVML: Unknown Error
+```
+
+Ideally, we want it to print out an nvidia-smi screen.
+
 ## My troubleshooting steps:
 
 ### Cgroupfs:
@@ -117,6 +127,7 @@ sudo nvidia-ctk system create-dev-char-symlinks \
 
 - Test if you have this problem:
 - `sudo docker run --rm --runtime=nvidia --gpus all --device=/dev/nvidia-uvm-tools --device=/dev/nvidia-modeset --device=/dev/nvidiactl --device=/dev/nvidia0 ubuntu nvidia-smi`
+- I only needed to add `--device=/dev/nvidiactl --device=/dev/nvidia0`, but ymmv
 - It works~
 
 ```sh
