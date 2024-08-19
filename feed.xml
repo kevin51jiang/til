@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2024-08-13T08:42:30.000+00:00</updated>
+  <updated>2024-08-19T22:11:30.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -15,6 +15,46 @@
   </author>
   <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/store-refs-in-zustand-stores/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/store-refs-in-zustand-stores/"/>
+    <published>2024-08-19T18:10:11.000-04:00</published>
+    <updated>2024-08-19T22:11:30.000+00:00</updated>
+    <title>Store Refs in Zustand Stores</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  Use callback refs.
+</p>
+<p>
+  Inside the zustand store:
+</p>
+<pre data-code-block data-lang="jsx"><code><span data-line="1"><span style="color:#24292EFF;">  settingsContainerRef</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">createRef</span><span style="color:#24292EFF;">() </span><span style="color:#D32F2F;">as</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">MutableRefObject</span><span style="color:#24292EFF;">&lt;</span><span style="color:#6F42C1;">HTMLDivElement</span><span style="color:#24292EFF;">&gt;</span><span style="color:#212121;">,</span>
+</span><span data-line="2"><span style="color:#24292EFF;">  setSettingsContainerEl</span><span style="color:#212121;">:</span><span style="color:#24292EFF;"> (element</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">HTMLDivElement</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">|</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">null</span><span style="color:#24292EFF;">) </span><span style="color:#D32F2F;">=&gt;</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="3"><span style="color:#24292EFF;">    </span><span style="color:#D32F2F;">if</span><span style="color:#24292EFF;"> (</span><span style="color:#D32F2F;">!</span><span style="color:#24292EFF;">element) {</span>
+</span><span data-line="4"><span style="color:#24292EFF;">      </span><span style="color:#D32F2F;">return</span><span style="color:#24292EFF;">;</span>
+</span><span data-line="5"><span style="color:#24292EFF;">    }</span>
+</span><span data-line="6"><span style="color:#24292EFF;">    </span><span style="color:#D32F2F;">const</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">newRef</span><span style="color:#24292EFF;"> </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">createRef</span><span style="color:#24292EFF;">() </span><span style="color:#D32F2F;">as</span><span style="color:#24292EFF;"> </span><span style="color:#6F42C1;">MutableRefObject</span><span style="color:#24292EFF;">&lt;</span><span style="color:#6F42C1;">HTMLDivElement</span><span style="color:#24292EFF;">&gt;;</span>
+</span><span data-line="7"><span style="color:#24292EFF;">    </span><span style="color:#1976D2;">newRef</span><span style="color:#24292EFF;">.current </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> element;</span>
+</span><span data-line="8"><span style="color:#24292EFF;">    </span><span style="color:#6F42C1;">set</span><span style="color:#24292EFF;">({ settingsContainerRef</span><span style="color:#D32F2F;">:</span><span style="color:#24292EFF;"> newRef });</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  }</span><span style="color:#212121;">,</span>
+</span></code></pre>
+<p>
+  Then in JSX:
+</p>
+<pre data-code-block><code>    &lt;div
+     ref={setSettingsContainerEl}
+     ...
+     /&gt;</code></pre>
+<p>
+  Source: <a href="https://github.com/pmndrs/zustand/discussions/1833#discussioncomment-8957558" target="_blank">https://github.com/pmndrs/zustand/discussions/1833#discussioncomment-8957558</a>
+</p>]]></content>
+    <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>
       https://kevinjiang.ca/til/how-to-soft-link-a-directory-on-linux/
