@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>
+      til / how to mount nfs shares in nfs containers — Kevin Jiang
+    </title>
+    <meta property="og:url" content="https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/">
+    <meta property="og:title" content="til / how to mount nfs shares in nfs containers — Kevin Jiang">
+    <meta property="og:description" content="Do this in the main proxmox node shell">
+    <meta property="og:type" content="article">
+    <meta property="article:author:first_name" content="Kevin">
+    <meta property="article:author:last_name" content="Jiang">
+    <meta property="article:published_time" content="2025-03-30T00:17:47.000-07:00">
+    <meta property="article:modified_time" content="2025-03-30T07:20:05.000+00:00">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:creator" content="@kevin51jiang">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "LearningResource",
+  "name": "how to mount nfs shares in nfs containers",
+  "description": "Do this in the main proxmox node shell",
+  "author": {
+    "@type": "Person",
+    "name": "Kevin Jiang",
+    "url": "https://kevinjiang.ca"
+  },
+  "url": "https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/",
+  "datePublished": "2025-03-30T00:17:47.000-07:00",
+  "dateModified": "2025-03-30T07:20:05.000+00:00",
+  "isPartOf": "https://kevinjiang.ca/til/",
+  "license": "https://creativecommons.org/licenses/by/4.0/"
+}
+</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/">
+    <link rel="shortcut icon" href="../assets/favicon.png">
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="alternate" type="application/atom+xml" title="Reader Feed" href="https://kevinjiang.ca/til/feed.xml">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61714711-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-61714711-1');
+    </script>
+  </head>
+  <body>
+    <header>
+      <a href="https://kevinjiang.ca/til/"><img src="../assets/logo.svg" alt="Kevin Jiang"></a>
+    </header>
+    <article>
+      <h1>
+        <a href="../">til</a><span>how to mount nfs shares in nfs containers</span>
+      </h1>
+      <p>
+        Do this in the main proxmox node shell
+      </p>
+      <pre data-code-block><code>sudo mount -t nfs4 -o nfsvers=4.2 &lt;your-ip&gt;:/nasnfs /nas</code></pre>
+      <ul>
+        <li>
+          <p>
+            Here, nasnfs is the name of the NFS resource, and /nas is the mount directory.
+          </p>
+        </li>
+      </ul>
+      <p>
+        Then, what you should do is
+      </p>
+      <pre data-code-block><code>pct set &lt;lxc-container-id&gt; -mp0 /nas,mp=/mnt/nasnfs
+pct set &lt;lxc-container-id&gt; -mp1 /nas2,mp=/mnt/nasnfs2
+etc..</code></pre>
+      <p>
+        Source: <a href="https://forum.proxmox.com/threads/tutorial-mounting-nfs-share-to-an-unprivileged-lxc.138506/post-726198" target="_blank">https://forum.proxmox.com/threads/tutorial-mounting-nfs-share-to-an-unprivileged-lxc.138506/post-726198</a>
+      </p>
+    </article>
+    <footer>
+      <div class="linkedlist">
+        <a href="../store-refs-in-zustand-stores/" class="prev">Store Refs in Zustand Stores</a>
+      </div>
+      <div class="license" xmlns:cc="http://creativecommons.org/ns" xmlns:dct="http://purl.org/dc/terms/">
+        This <a property="dct:title" rel="cc:attributionURL" href="https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/">til</a> was created <span property="dct:created" content="2025-03-30T00:17:47.000-07:00">Sun, Mar 30, 2025, 12:17 AM</span> ⸱ <a href="https://raw.githubusercontent.com/kevin51jiang/til/main/entries/how%20to%20mount%20nfs%20shares%20in%20nfs%20containers.md" target="_blank">raw</a> ⸱ <a href="https://github.com/kevin51jiang/til/edit/main/entries/how%20to%20mount%20nfs%20shares%20in%20nfs%20containers.md#L8" target="_blank">edit</a><br>© <span rel="dct:dateCopyrighted">2025</span> <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://kevinjiang.ca">Kevin Jiang</a> ⸱ licensed under <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="cc:license license noopener noreferrer">CC BY 4.0<img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" aria-hidden="true"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" aria-hidden="true"></a> ⸱ <a href="https://kevinjiang.ca/til/feed.xml" rel="alternate feed" type="application/atom+xml">feed</a>
+      </div>
+    </footer>
+  </body>
+</html>

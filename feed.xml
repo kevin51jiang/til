@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2024-08-19T22:11:30.000+00:00</updated>
+  <updated>2025-03-30T07:20:05.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -13,8 +13,42 @@
     <name>Kevin Jiang</name>
     <uri>https://kevinjiang.ca</uri>
   </author>
-  <rights>© 2024 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  <rights>© 2025 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/"/>
+    <published>2025-03-30T00:17:47.000-07:00</published>
+    <updated>2025-03-30T07:20:05.000+00:00</updated>
+    <title>how to mount nfs shares in nfs containers</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  Do this in the main proxmox node shell
+</p>
+<pre data-code-block><code>sudo mount -t nfs4 -o nfsvers=4.2 &lt;your-ip&gt;:/nasnfs /nas</code></pre>
+<ul>
+  <li>
+    <p>
+      Here, nasnfs is the name of the NFS resource, and /nas is the mount directory.
+    </p>
+  </li>
+</ul>
+<p>
+  Then, what you should do is
+</p>
+<pre data-code-block><code>pct set &lt;lxc-container-id&gt; -mp0 /nas,mp=/mnt/nasnfs
+pct set &lt;lxc-container-id&gt; -mp1 /nas2,mp=/mnt/nasnfs2
+etc..</code></pre>
+<p>
+  Source: <a href="https://forum.proxmox.com/threads/tutorial-mounting-nfs-share-to-an-unprivileged-lxc.138506/post-726198" target="_blank">https://forum.proxmox.com/threads/tutorial-mounting-nfs-share-to-an-unprivileged-lxc.138506/post-726198</a>
+</p>]]></content>
+    <rights>© 2025 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>
       https://kevinjiang.ca/til/store-refs-in-zustand-stores/
