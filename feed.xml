@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2025-03-30T07:20:05.000+00:00</updated>
+  <updated>2025-03-31T07:31:57.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -15,6 +15,43 @@
   </author>
   <rights>© 2025 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/how-to-make-claude-play-pokemon/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/how-to-make-claude-play-pokemon/"/>
+    <published>2025-03-31T00:24:49.000-07:00</published>
+    <updated>2025-03-31T07:31:57.000+00:00</updated>
+    <title>how to make claude play pokemon</title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  Today I went to the <a href="http://lu.ma/poke" target="_blank">Claude Plays Pokemon</a> mini hackathon. The goal was to get through the Mt Moon labyrinth, and nobody finished.
+</p>
+<p>
+  Not much was done, but here’s some takeaways:
+</p>
+<ul>
+  <li>
+    <p>
+      Sonnet 3.7 is very bad at vision for gameboy. Some people experimented with upscaling/coloring in the screenshots. Other people just told Sonnet that it was visually impaired and not to trust what it was seeing.
+    </p>
+  </li>
+  <li>
+    <p>
+      The idea of playing with the multiverse (trying multiple paths and then only contiuing with the “best”) is pretty interesting and could be effective.
+    </p>
+  </li>
+  <li>
+    <p>
+      The emulator/memory has it so the border of the map (lines where x=0, y=0) is walkable tiles, but you actually can’t walk there. This is what led to Claude getting stuck for one team.
+    </p>
+  </li>
+</ul>]]></content>
+    <rights>© 2025 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>
       https://kevinjiang.ca/til/how-to-mount-nfs-shares-in-nfs-containers/
