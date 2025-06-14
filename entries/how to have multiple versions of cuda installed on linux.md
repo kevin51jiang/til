@@ -5,23 +5,6 @@ date: 2025-06-13T20:44:59-07:00
 tags: [cuda]
 ---
 
-I originally followed the tutorial here
-"https://notesbyair.github.io/blog/cs/2020-05-26-installing-multiple-versions-of-cuda-cudnn/"
-but that disappeared so I'm writing my own.
-
-- Archive link is here:
-  https://web.archive.org/web/20220129002741/https://notesbyair.github.io/blog/cs/2020-05-26-installing-multiple-versions-of-cuda-cudnn/
-
-Differences:
-
-- we're installing cuda more than cudnn since I only run ML workflows
-- the `_switch_cuda` by itself will list versions installed, and the currently
-  active one. Previously it would be easy to forget which versions were
-  installed.
-
-I'm running on Linux Mint so I'm used to the apt world. Unix wizards need not
-apply.
-
 ## Steps
 
 ### One-time setup
@@ -92,3 +75,22 @@ generator instead of editing the commands yourself.
   style="border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: block; margin: 20px auto;"
   title="CUDA Installation Command Generator"
 ></iframe>
+
+## References
+
+I originally followed the tutorial here
+"https://notesbyair.github.io/blog/cs/2020-05-26-installing-multiple-versions-of-cuda-cudnn/"
+but that disappeared so I'm writing my own.
+
+- Archive link is here:
+  https://web.archive.org/web/20220129002741/https://notesbyair.github.io/blog/cs/2020-05-26-installing-multiple-versions-of-cuda-cudnn/
+
+Differences:
+
+- we're installing cuda more than cudnn since I only run ML workflows
+- the `_switch_cuda` by itself will list versions installed, and the currently
+  active one. Previously it would be easy to forget which versions were
+  installed.
+
+I'm running on Linux Mint so I'm used to the apt world. Unix wizards need not
+apply.
