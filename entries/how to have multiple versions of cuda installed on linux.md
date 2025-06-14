@@ -71,15 +71,18 @@ function _switch_cuda {
    runfile and not the .deb._
    - For me, I did Linux > x86_64 > Ubuntu > 22.04 > runfile (local)
 3. Use the provided wget command to download the runfile
-   1. e.g.
-      `wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux.run`
+   - e.g.
+     `wget https://developer.download.nvidia.com/compute/cuda/12.1.1/local_installers/cuda_12.1.1_530.30.02_linux.run`
 4. Install the cuda
-   1. `sudo sh cuda_12.1.1_530.30.02_linux.run --silent --toolkit --toolkitpath=/usr/local/cuda-12.1`
+   - `sudo sh cuda_12.1.1_530.30.02_linux.run --silent --toolkit --toolkitpath=/usr/local/cuda-12.1`
 
 Done!
 
 Then before you need to use CUDA, or after you enter your python venv you can
 just `_switch_cuda 12.1`.
+
+Alternatively, after you have the runfile URL, you can just paste it in this
+generator instead of editing the commands yourself.
 
 <iframe
   src="https://kevinjiang.ca/install-cuda-script/"
