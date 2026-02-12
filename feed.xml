@@ -3,7 +3,7 @@
   <id>https://kevinjiang.ca/til/feed.xml</id>
   <link rel="self" type="application/atom+xml" href="https://kevinjiang.ca/til/feed.xml"/>
   <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/"/>
-  <updated>2025-06-14T05:00:59.000+00:00</updated>
+  <updated>2026-02-12T07:41:11.000+00:00</updated>
   <title>Kevin Jiang / til</title>
   <subtitle>
     Things I've Learned: brief blurbs on miscellaneous matter.
@@ -13,8 +13,219 @@
     <name>Kevin Jiang</name>
     <uri>https://kevinjiang.ca</uri>
   </author>
-  <rights>© 2025 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  <rights>© 2026 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
   <generator uri="https://github.com/kevin51jiang/til">til</generator>
+  <entry>
+    <id>
+      https://kevinjiang.ca/til/how-to-use-integrated-monitor-speakers-as-seperate-left-and-right-channels-in-linux-mint/
+    </id>
+    <link rel="alternate" type="text/html" href="https://kevinjiang.ca/til/how-to-use-integrated-monitor-speakers-as-seperate-left-and-right-channels-in-linux-mint/"/>
+    <published>2026-02-11T22:26:33.000-08:00</published>
+    <updated>2026-02-12T07:41:11.000+00:00</updated>
+    <title>
+      how to use integrated monitor speakers as seperate left and right channels in linux mint
+    </title>
+    <author>
+      <name>Kevin Jiang</name>
+      <uri>https://kevinjiang.ca</uri>
+    </author>
+    <content type="html"><![CDATA[<p>
+  I’ve always wanted nice surround sound, but for some reason I could never bring myself to actually buy speakers for the better sound and bring (more) clutter to my desk.
+</p>
+<p>
+  However Linux Mint by default only allows you to output to a single device at once, bleh. I have <em>4</em> speakers just sitting there, and you tell me that I can only use 2?
+</p>
+<p>
+  I’ve searched online at multiiple different forums and I even spent a good Friday night trying to get this to work a few months ago. But alas AI was not smart enough at that time. Now with Gemini 3 Flash it was suprisingly competent.
+</p>
+<p>
+  The ideal state I am going for, is having the left monitor be a single “Front Left” speaker, and the right monitor be a single “Front Right” speaker.
+</p>
+<pre data-code-block><code>::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
+:............................................***************************=...........................
+:..-++++++++++++++...........................*-------------------------+=...........................
+:..-++++++++++++++.......................=...***************************=..:+.......................
+:..-++++++++++++++....................+@%#@:..............................-*-=*+....................
+:..-++++++++++++++.................+@%##%@+................................:*+--=*=.................
+:..-++++++++++++++.............:+@%##%@+......................................-*+--=*=..............
+:..-++++++++++++++..........:*@%##%@+............................................-*+--+*-...........
+:..-++++++++++++++.......:#@%##%@=..................................................-*+--+*-........
+:..-++++++++++++++.....#@###%@-........................................................=*=--+*-.....
+:..-++++++++++++++..%@###@@-..............................................................+#=--**:..
+:..-++++++++++++++:@##%%-....................................................................+*=-=*.
+:..-++++++++++++++..#-.........................................................................:+*..
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++.........................-----------------------------:...........................
+:..-++++++++++++++........................:*+@#%%#%%#%*%#*%#@%%@%%#%##%#*...........................
+:..-++++++++++++++........................:%#%@#%%#%%#%%%@%%%%@%#*#%#*%#*...........................
+:..-++++++++++++++........................:%*#%%%%@%%@%@%%%%%%%%%*#%##%#*...........................
+:..-++++++++++++++........................:%##@@%@@@@%@@%@@%@@%%***%%%%%*...........................
+:..-++++++++++++++........................:%#%#%%@%%%%%%%%@%%%%%%%%@@%@%*...........................
+:..-++++++++++++++........................:******##########********#####+...........................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..-++++++++++++++..................................................................................
+:..:::::::::::::::..................................................................................
+....:...............................................................................................</code></pre>
+<blockquote>
+  <p>
+    Bird’s eye view of my desk, featuring a computer on the left, and 3 monitors angled at the user. The two monitors on the wings have built in speakers.
+  </p>
+</blockquote>
+<h3 id="my-machine">
+  <a href="#my-machine" data-anchor>My machine:</a>
+</h3>
+<pre data-code-block data-lang="bash"><code><span data-line="1"><span style="color:#C2C3C5;"># Linux Mint 22.3 Cinnamon, plus:</span>
+</span><span data-line="2"><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;"> ❯ pactl --version</span>
+</span><span data-line="3"><span style="color:#24292EFF;">pactl 16.1</span>
+</span><span data-line="4"><span style="color:#24292EFF;">Compiled with libpulse 16.1.0</span>
+</span><span data-line="5"><span style="color:#24292EFF;">Linked with libpulse 16.1.0</span>
+</span><span data-line="6">
+</span><span data-line="7"><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;"> ❯ pipewire --version</span>
+</span><span data-line="8"><span style="color:#24292EFF;">pipewire</span>
+</span><span data-line="9"><span style="color:#24292EFF;">Compiled with libpipewire 1.0.5</span>
+</span><span data-line="10"><span style="color:#24292EFF;">Linked with libpipewire 1.0.5</span>
+</span><span data-line="11">
+</span><span data-line="12"><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;"> ❯ wireplumber --version</span>
+</span><span data-line="13"><span style="color:#24292EFF;">wireplumber</span>
+</span><span data-line="14"><span style="color:#24292EFF;">Compiled with libwireplumber 0.4.17</span>
+</span><span data-line="15"><span style="color:#24292EFF;">Linked with libwireplumber 0.4.17</span>
+</span></code></pre>
+<h2 id="instructions">
+  <a href="#instructions" data-anchor>Instructions</a>
+</h2>
+<ol start="1">
+  <li>
+    <p>
+      Create these files:
+    </p>
+  </li>
+</ol>
+<details>
+  <summary>
+    <p>
+      <code>pipewire.conf.d/50-combined-monitors.conf</code>:
+    </p>
+  </summary><pre data-code-block data-lang="toml"><code><span data-line="1"><span style="color:#C2C3C5;"># Combined Monitors: stereo split across two HDMI outputs</span>
+</span><span data-line="2"><span style="color:#C2C3C5;"># Left channel (FL) → HDMI 0 (Monitor Left, pro-output-8)</span>
+</span><span data-line="3"><span style="color:#C2C3C5;"># Right channel (FR) → HDMI 2 (Monitor Right, pro-output-3)</span>
+</span><span data-line="4"><span style="color:#C2C3C5;">#</span>
+</span><span data-line="5"><span style="color:#C2C3C5;"># Requires pro-audio profile on the NVidia card</span>
+</span><span data-line="6"><span style="color:#C2C3C5;"># (set via wireplumber/main.lua.d/51-nvidia-pro-audio.lua)</span>
+</span><span data-line="7">
+</span><span data-line="8"><span style="color:#24292EFF;">context</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">objects </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> [</span>
+</span><span data-line="9"><span style="color:#24292EFF;">    { factory </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> adapter</span>
+</span><span data-line="10"><span style="color:#24292EFF;">        args </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="11"><span style="color:#24292EFF;">            factory</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">name     </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> support.null-audio-sink</span>
+</span><span data-line="12"><span style="color:#24292EFF;">            node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">name        </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;combined-monitors&quot;</span>
+</span><span data-line="13"><span style="color:#24292EFF;">            node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">description </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;Combined Monitors (Stereo Split)&quot;</span>
+</span><span data-line="14"><span style="color:#24292EFF;">            media</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">class      </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;Audio/Sink&quot;</span>
+</span><span data-line="15"><span style="color:#24292EFF;">            audio</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">channels   </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">2</span>
+</span><span data-line="16"><span style="color:#24292EFF;">            audio</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">position   </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;FL,FR&quot;</span>
+</span><span data-line="17"><span style="color:#24292EFF;">            # This allows the sink volume to affect the signal sent to loopbacks</span>
+</span><span data-line="18"><span style="color:#24292EFF;">            monitor</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">channel-volumes </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span>
+</span><span data-line="19"><span style="color:#24292EFF;">            priority</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">session </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">2000</span>
+</span><span data-line="20"><span style="color:#24292EFF;">            priority</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">driver  </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">2000</span>
+</span><span data-line="21"><span style="color:#24292EFF;">        }</span>
+</span><span data-line="22"><span style="color:#24292EFF;">    }</span>
+</span><span data-line="23"><span style="color:#24292EFF;">]</span>
+</span><span data-line="24">
+</span><span data-line="25"><span style="color:#24292EFF;">context</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">modules </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> [</span>
+</span><span data-line="26"><span style="color:#24292EFF;">    { name </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> libpipewire-module-loopback</span>
+</span><span data-line="27"><span style="color:#24292EFF;">        args </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="28"><span style="color:#24292EFF;">            node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">description </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;Monitor 0 (Left)&quot;</span>
+</span><span data-line="29"><span style="color:#24292EFF;">            capture</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">props </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="30"><span style="color:#24292EFF;">                node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">name           </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;combined_left_capture&quot;</span>
+</span><span data-line="31"><span style="color:#24292EFF;">                target</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">object       </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;combined-monitors&quot;</span>
+</span><span data-line="32"><span style="color:#24292EFF;">                stream</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">capture</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">sink </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span>
+</span><span data-line="33"><span style="color:#24292EFF;">                audio</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">position      </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> [ FL ]</span>
+</span><span data-line="34"><span style="color:#24292EFF;">            }</span>
+</span><span data-line="35"><span style="color:#24292EFF;">            playback</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">props </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="36"><span style="color:#24292EFF;">                node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">name           </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;combined_left_playback&quot;</span>
+</span><span data-line="37"><span style="color:#24292EFF;">                target</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">object       </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;alsa_output.pci-0000_2d_00.1.pro-output-8&quot;</span>
+</span><span data-line="38"><span style="color:#24292EFF;">                node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">dont-fallback  </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span>
+</span><span data-line="39"><span style="color:#24292EFF;">                audio</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">position      </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> [ MONO ]</span>
+</span><span data-line="40"><span style="color:#24292EFF;">            }</span>
+</span><span data-line="41"><span style="color:#24292EFF;">        }</span>
+</span><span data-line="42"><span style="color:#24292EFF;">    }</span>
+</span><span data-line="43"><span style="color:#24292EFF;">    { name = libpipewire-module-loopback</span>
+</span><span data-line="44"><span style="color:#24292EFF;">        args = {</span>
+</span><span data-line="45"><span style="color:#24292EFF;">            node.description = &quot;Monitor 2 (Right)&quot;</span>
+</span><span data-line="46"><span style="color:#24292EFF;">            capture.props = {</span>
+</span><span data-line="47"><span style="color:#24292EFF;">                node.name           = &quot;combined_right_capture&quot;</span>
+</span><span data-line="48"><span style="color:#24292EFF;">                target.object       = &quot;combined-monitors&quot;</span>
+</span><span data-line="49"><span style="color:#24292EFF;">                stream.capture.sink = true</span>
+</span><span data-line="50"><span style="color:#24292EFF;">                audio.position      = [ FR ]</span>
+</span><span data-line="51"><span style="color:#24292EFF;">            }</span>
+</span><span data-line="52"><span style="color:#24292EFF;">            playback</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">props </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="53"><span style="color:#24292EFF;">                node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">name           </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;combined_right_playback&quot;</span>
+</span><span data-line="54"><span style="color:#24292EFF;">                target</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">object       </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;alsa_output.pci-0000_2d_00.1.pro-output-3&quot;</span>
+</span><span data-line="55"><span style="color:#24292EFF;">                node</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">dont-fallback  </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">true</span>
+</span><span data-line="56"><span style="color:#24292EFF;">                audio</span><span style="color:#212121;">.</span><span style="color:#24292EFF;">position      </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> [ MONO ]</span>
+</span><span data-line="57"><span style="color:#24292EFF;">            }</span>
+</span><span data-line="58"><span style="color:#24292EFF;">        }</span>
+</span><span data-line="59"><span style="color:#24292EFF;">    }</span>
+</span><span data-line="60"><span style="color:#24292EFF;">]</span>
+</span></code></pre>
+</details>
+<p>
+  And also…
+</p>
+<details>
+  <summary>
+    <p>
+      <code>~/.config/wireplumber/main.lua.d/99-nvidia-pro-audio.lua</code>:
+    </p>
+  </summary><pre data-code-block data-lang="lua"><code><span data-line="1"><span style="color:#C2C3C5;">-- Force NVidia HDMI card to pro-audio profile</span>
+</span><span data-line="2"><span style="color:#6F42C1;">print</span><span style="color:#24292EFF;">(</span><span style="color:#22863A;">&quot;MONITOR CONFIG: Forcing Nvidia Card to Pro Audio&quot;</span><span style="color:#24292EFF;">)</span>
+</span><span data-line="3">
+</span><span data-line="4"><span style="color:#24292EFF;">rule </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="5"><span style="color:#24292EFF;">  matches </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="6"><span style="color:#24292EFF;">    {</span>
+</span><span data-line="7"><span style="color:#24292EFF;">      { </span><span style="color:#22863A;">&quot;device.name&quot;</span><span style="color:#24292EFF;">, </span><span style="color:#22863A;">&quot;matches&quot;</span><span style="color:#24292EFF;">, </span><span style="color:#22863A;">&quot;alsa_card.pci-0000_2d_00.1&quot; </span><span style="color:#24292EFF;">},</span>
+</span><span data-line="8"><span style="color:#24292EFF;">    },</span>
+</span><span data-line="9"><span style="color:#24292EFF;">  },</span>
+</span><span data-line="10"><span style="color:#24292EFF;">  apply_properties </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> {</span>
+</span><span data-line="11"><span style="color:#24292EFF;">    [</span><span style="color:#22863A;">&quot;device.profile&quot;</span><span style="color:#24292EFF;">] </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#22863A;">&quot;pro-audio&quot;</span><span style="color:#24292EFF;">,</span>
+</span><span data-line="12"><span style="color:#24292EFF;">    [</span><span style="color:#22863A;">&quot;api.acp.auto-profile&quot;</span><span style="color:#24292EFF;">] </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">false</span><span style="color:#24292EFF;">,</span>
+</span><span data-line="13"><span style="color:#24292EFF;">    [</span><span style="color:#22863A;">&quot;api.acp.auto-port&quot;</span><span style="color:#24292EFF;">] </span><span style="color:#D32F2F;">=</span><span style="color:#24292EFF;"> </span><span style="color:#1976D2;">false</span><span style="color:#24292EFF;">,</span>
+</span><span data-line="14"><span style="color:#24292EFF;">  },</span>
+</span><span data-line="15"><span style="color:#24292EFF;">}</span>
+</span><span data-line="16">
+</span><span data-line="17"><span style="color:#1976D2;">table</span><span style="color:#24292EFF;">.</span><span style="color:#6F42C1;">insert</span><span style="color:#24292EFF;">(alsa_monitor.rules, rule)</span>
+</span></code></pre>
+</details>
+<ol start="2">
+  <li>
+    <p>
+      Restart your computer
+    </p>
+  </li>
+  <li>
+    <p>
+      Done!
+    </p>
+  </li>
+</ol>
+<p>
+  Useful commands for troubleshooting:
+</p>
+<pre data-code-block data-lang="bash"><code><span data-line="1"><span style="color:#C2C3C5;"># view the &quot;cables&quot; of the input/output devices from pipewire's world</span>
+</span><span data-line="2"><span style="color:#24292EFF;">pw-link -l</span>
+</span><span data-line="3">
+</span><span data-line="4"><span style="color:#C2C3C5;"># Clear local state of wireplumber</span>
+</span><span data-line="5"><span style="color:#24292EFF;">rm -rf </span><span style="color:#D32F2F;">~</span><span style="color:#24292EFF;">/.local/state/wireplumber/</span><span style="color:#D32F2F;">*</span>
+</span><span data-line="6">
+</span><span data-line="7"><span style="color:#C2C3C5;"># Restart pipewire/wireplumber to pick up new settings</span>
+</span><span data-line="8"><span style="color:#24292EFF;">systemctl --user restart pipewire wireplumber</span>
+</span></code></pre>]]></content>
+    <rights>© 2026 Kevin Jiang ⸱ licensed under CC BY 4.0</rights>
+  </entry>
   <entry>
     <id>
       https://kevinjiang.ca/til/how-to-have-multiple-versions-of-cuda-installed-on-linux/
