@@ -159,7 +159,9 @@ And also...
 
 <details>
 
-<summary>`~/.config/wireplumber/main.lua.d/99-nvidia-pro-audio.lua`:
+<summary>
+
+`~/.config/wireplumber/main.lua.d/99-nvidia-pro-audio.lua`:
 
 </summary>
 
