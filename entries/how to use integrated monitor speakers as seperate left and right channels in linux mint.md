@@ -1,20 +1,26 @@
 ---
-title: how to use integrated monitor speakers as seperate left and right channels in linux mint
+title:
+  how to use integrated monitor speakers as seperate left and right channels in
+  linux mint
 permalink: how-to-use-integrated-monitor-speakers-as-seperate-left-and-right-channels-in-linux-mint
 date: 2026-02-11T22:26:33-08:00
-tags: 
+tags:
 ---
 
+I've always wanted nice surround sound, but for some reason I could never bring
+myself to actually buy speakers for the better sound and bring (more) clutter to
+my desk.
 
+However Linux Mint by default only allows you to output to a single device at
+once, bleh. I have _4_ speakers just sitting there, and you tell me that I can
+only use 2?
 
-I've always wanted nice surround sound, but for some reason I could never bring myself to actually buy speakers for the better sound and bring (more) clutter to my desk.
+I've searched online at multiiple different forums and I even spent a good
+Friday night trying to get this to work a few months ago. But alas AI was not
+smart enough at that time. Now with Gemini 3 Flash it was suprisingly competent.
 
-However Linux Mint by default only allows you to output to a single device at once, bleh. I have *4* speakers just sitting there, and you tell me that I can only use 2?
-
-I've searched online at multiiple different forums and I even spent a good Friday night trying to get this to work a few months ago. But alas AI was not smart enough at that time. Now with Gemini 3 Flash it was suprisingly competent.
-
-The ideal state I am going for, is having the left monitor be a single "Front Left" speaker, and the right monitor be a single "Front Right" speaker.
-
+The ideal state I am going for, is having the left monitor be a single "Front
+Left" speaker, and the right monitor be a single "Front Right" speaker.
 
 ```
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::..
@@ -50,11 +56,11 @@ The ideal state I am going for, is having the left monitor be a single "Front Le
 ....:...............................................................................................
 ```
 
-> Bird's eye view of my desk, featuring a computer on the left, and 3 monitors angled at the user. The two monitors on the wings have built in speakers.
-
-
+> Bird's eye view of my desk, featuring a computer on the left, and 3 monitors
+> angled at the user. The two monitors on the wings have built in speakers.
 
 ### My machine:
+
 ```bash
 # Linux Mint 22.3 Cinnamon, plus:
 ~ ❯ pactl --version
@@ -73,13 +79,9 @@ Compiled with libwireplumber 0.4.17
 Linked with libwireplumber 0.4.17
 ```
 
-
-
-
 ## Instructions
 
 1. Create these files:
-
 
 <details>
 
@@ -152,8 +154,7 @@ context.modules = [
 ]
 ```
 
-</summary>
-
+</details>
 
 And also...
 
@@ -192,6 +193,7 @@ table.insert(alsa_monitor.rules, rule)
 3. Done!
 
 Useful commands for troubleshooting:
+
 ```bash
 # view the "cables" of the input/output devices from pipewire's world
 pw-link -l
@@ -202,4 +204,3 @@ rm -rf ~/.local/state/wireplumber/*
 # Restart pipewire/wireplumber to pick up new settings
 systemctl --user restart pipewire wireplumber
 ```
-
